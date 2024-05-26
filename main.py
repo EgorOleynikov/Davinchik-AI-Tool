@@ -1,4 +1,7 @@
-from telethon import TelegramClient
+import json
+import re
+
+from telethon import TelegramClient, events
 from telethon.errors import SessionPasswordNeededError
 
 from config import api_id, api_hash, phone_number, session_name, password
@@ -16,12 +19,26 @@ async def main():
             await client.sign_in(phone_number)
         except SessionPasswordNeededError:
             await client.sign_in(password=password)
-    # You can print all the dialogs/conversations that you are part of:
-    # You can send messages to yourself...
+
     # await client.send_message('@leomatchbot', "Get AI'ed!")
-    for message in client.iter_messages(chat):
-        print(message.sender_id, ':', message.text)
+    # for message in client.iter_messages(chat):
+    #     print(message.sender_id, ':', message.text)
+    @client.on(events.NewMessage())
+    async def first(event):
+        # print(repr(event.message.text))
+        if event.sender_id == 1234060895:
+            message_text = event.message.text
+            print(repr(message_text))
+            if not re.match(r'.*,\d{2}', message_text):
+                with open("./bullshit.json", "r", encoding='UTF-8') as bullshit_file:
+                    bullshit_object = json.load(bullshit_file)
+                    if message_text in bullshit_object:
+                        await client.send_message(event.sender_id, bullshit_object[message_text])
+
+            else:
+                print("New profile")
 
 
 with client:
     client.loop.run_until_complete(main())
+    client.run_until_disconnected()
