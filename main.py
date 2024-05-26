@@ -1,12 +1,9 @@
-from telethon import TelegramClient, events
+from telethon import TelegramClient
 from telethon.errors import SessionPasswordNeededError
 
+from config import api_id, api_hash, phone_number, session_name, password
+
 # Replace with your own values from my.telegram.org
-api_id = 20212621
-api_hash = '40895432442605983b9b3960cb6523ea'
-phone_number = '+79515171605'
-password = 'eZLxBp2v'  # Only if you have 2FA enabled
-session_name = 'session_test'
 client = TelegramClient(session=session_name, api_id=api_id, api_hash=api_hash, device_model="Desktop API login",
                         system_version="Python")
 
@@ -24,6 +21,7 @@ async def main():
     # await client.send_message('@leomatchbot', "Get AI'ed!")
     for message in client.iter_messages(chat):
         print(message.sender_id, ':', message.text)
+
 
 with client:
     client.loop.run_until_complete(main())
