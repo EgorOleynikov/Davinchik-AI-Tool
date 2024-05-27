@@ -29,7 +29,7 @@ async def main():
         if event.sender_id == 1234060895:
             message_text = event.message.text
             print(repr(message_text))
-            if not re.match(r'.*,\d{2}', message_text):
+            if not re.match(r'.*,\s\d{2},\s', message_text):
                 with open("./bullshit.json", "r", encoding='UTF-8') as bullshit_file:
                     bullshit_object = json.load(bullshit_file)
                     if message_text in bullshit_object:
