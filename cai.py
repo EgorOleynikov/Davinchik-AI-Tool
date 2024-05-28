@@ -1,32 +1,27 @@
-from characterai import aiocai
 import asyncio
+
+from characterai import aiocai
+
 from config import cai_bot_id, cai_token
 
 
 async def main():
-    client = aiocai.Client(cai_token)
 
-    me = await client.get_me()
+    chat_id = '9f944367-34d7-4116-a92f-fc5fc47cd1c7'
 
-    async with await client.connect() as chat:
-        last_chat = await chat.get_chat(
-            cai_bot_id
+    cai_client = aiocai.Client(cai_token)
+
+    me = await cai_client.get_me()
+
+    # histories = await client.get_histories(char=cai_bot_id)
+    # for x in histories:
+    #     print(x)
+
+    async with await cai_client.connect() as chat:
+        answer = await chat.send_message(
+            char=cai_bot_id, chat_id=chat_id, text="Алена, 16, 500 метров"
         )
 
-        # print(f'{answer.name}: {answer.text}')
-        #
-        # while True:
-        #     text = input('YOU: ')
-        #
-        #     message = await chat.send_message(
-        #         cai_bot_id, new.chat_id, text
-        #     )
-        #
-        #     print(f'{message.name}: {message.text}')
-
-        message = await chat.send_message(
-            last_chat, "Оля, 20, 1км"
-        )
-        print(f'{message.name}: {message.text}')
+        print(answer.text)
 
 asyncio.run(main())
