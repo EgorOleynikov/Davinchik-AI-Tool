@@ -1,7 +1,9 @@
 import asyncio
 import json
 import re
+import sys
 
+import keyboard
 from characterai import aiocai
 from telethon import TelegramClient, events
 from telethon.errors import SessionPasswordNeededError
@@ -32,28 +34,31 @@ async def main():
         def __init__(self, message_text):
             self.message_text = message_text
             self.message_id = None
+            self.response = None
 
         def __await__(self):
             return self.send_message().__await__()
 
         async def _send_message(self):
             async with await cai_client.connect() as chat:
-                answer = await chat.send_message(
+                response = await chat.send_message(
                     char=cai_bot_id, chat_id=cai_chat_id, text=self.message_text
                 )
-                self.message_id = answer.turn_key.turn_id
-                return answer
+                self.message_id = response.turn_key.turn_id
+                self.response = response
+                return response
 
         async def send_message(self):
             return await self._send_message()
 
         async def next_message(self):
             async with await cai_client.connect() as chat:
-                answer = await chat.next_message(
+                response = await chat.next_message(
                     char=cai_bot_id, chat_id=cai_chat_id, turn_id=self.message_id
                 )
-                self.message_id = answer.turn_key.turn_id
-                return answer
+                self.message_id = response.turn_key.turn_id
+                self.response = response
+                return response
 
     @client.on(events.NewMessage())
     async def first(event):
@@ -69,47 +74,54 @@ async def main():
 
             else:
                 async def regen():
-                    async def countdown(seconds):
-                        for i in range(seconds, 0, -1):
-                            print(f"Time left: {i} seconds")
-                            await asyncio.sleep(1)
-                        print("Time's up!")
+                    async def wait_for_keypress(timeout):
+                        loop = asyncio.get_event_loop()
+                        future = loop.create_future()
 
-                    async def get_user_input(prompt, timeout):
-                        print(prompt)
+                        def on_key_event(event):
+                            if not future.done():
+                                future.set_result(event.name)  # Capture the key name
+
+                        keyboard.on_press(on_key_event)
+
                         try:
-                            user_input = await asyncio.wait_for(asyncio.to_thread(input, ''), timeout=timeout)
-                            return user_input
+                            key_pressed = await asyncio.wait_for(future, timeout)
+                            return key_pressed
                         except asyncio.TimeoutError:
                             return None
+                        finally:
+                            keyboard.unhook_all()
 
-                    input_task = asyncio.create_task(get_user_input("Any input to generate again", timeout))
-                    countdown_task = asyncio.create_task(countdown(timeout))
+                    print(f'Press "s" to say something to the AI, "Space" to generate the message again.'
+                          f' "Escape" to stop the program. Timeout {timeout} seconds...\n')
+                    key_pressed = await wait_for_keypress(timeout)
 
-                    done, pending = await asyncio.wait(
-                        {countdown_task, input_task},
-                        return_when=asyncio.FIRST_COMPLETED
-                    )
+                    match key_pressed:
+                        case "s":  # debate
+                            print('Tell something to the AI, type "exit" to exit: \n')
+                            input_str = ""
+                            while input_str != "exit":
+                                input_str = await asyncio.to_thread(input, "You: ")
+                                if input_str == "exit":
+                                    break
+                                message_dm = CAIMessage(input_str)
+                                response_dm = await message_dm
+                                print(response_dm.text)
 
-                    # Cancel the remaining task (either countdown or input, whichever didn't complete first)
-                    for task in pending:
-                        task.cancel()
+                            await response_validate(message.response.text)
 
-                    # Check which task completed
-                    if input_task in done:
-                        user_input = await input_task
-                        if user_input is not None:
+                        case "space":  # regen
+                            "Generating over again..."
                             next_response = await message.next_message()
                             print(next_response.text)
                             await regen()
 
-                        else:
-                            print("Continue")
-                            await response_validate(response.text)
+                        case "escape":  # exit
+                            "Exiting..."
+                            sys.exit(0)
 
-                    else:
-                        print("Continue")
-                        await response_validate(response.text)
+                        case _:  # default
+                            await response_validate(message.response.text)
 
                 async def response_validate(text):
                     try:
@@ -117,8 +129,13 @@ async def main():
                         if re.match(r'yes', response_json["result"], re.IGNORECASE):
                             await client.send_message('@leomatchbot', "❤️")
 
-                        else:
+                        elif re.match(r'no', response_json["result"], re.IGNORECASE):
                             await client.send_message('@leomatchbot', "👎")
+
+                        else:
+                            next_response = await message.next_message()
+                            print(next_response.text)
+                            await regen()
 
                     except json.JSONDecodeError:
                         next_response = await message.next_message()
