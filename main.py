@@ -11,7 +11,11 @@ from config import api_id, api_hash, phone_number, password, cai_chat_id, cai_bo
 
 client = TelegramClient(session="session", api_id=api_id, api_hash=api_hash, device_model="Desktop API login",
                         system_version="Python")
-client.start(phone=phone_number, password=password)
+try:
+    client.start(phone=phone_number, password=password)
+except ValueError:
+    print("Invalid password")
+    sys.exit(0)
 
 
 async def cancel_all_tasks():
@@ -107,9 +111,9 @@ try:
                                 await response_respond(message.response.text)
 
                             case "space":  # regen
-                                "Generating over again..."
-                                next_response = await message.next_message()
-                                response_validate(next_response.text, False)
+                                print("Generating over again...")
+                                next_message = await message.next_message()
+                                response_validate(next_message.text, True)
                                 await regen()
 
                             case "esc":  # exit
@@ -153,7 +157,7 @@ try:
                             case "invalid":
                                 print("Invalid response")
                                 next_response = await message.next_message()
-                                response_validate(next_response.text, False)
+                                response_validate(next_response.text, True)
                                 await regen()
 
                     message = CAIMessage(message_text)
