@@ -20,4 +20,5 @@
     + Make an account on [character.ai](https://character.ai)  
     + Retrieve your token by running `caiGetMyToken` file. Put it inside the **config.py** as well
 
-[Under development]
+## Usage
+Start main.py and wait for an incoming message to initiate running 

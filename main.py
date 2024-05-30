@@ -6,11 +6,9 @@ import sys
 import keyboard
 from characterai import aiocai
 from telethon import TelegramClient, events
-from telethon.errors import SessionPasswordNeededError
 
 from config import api_id, api_hash, phone_number, password, cai_chat_id, cai_bot_id, cai_token, timeout
 
-# Replace with your own values from my.telegram.org
 client = TelegramClient(session="session", api_id=api_id, api_hash=api_hash, device_model="Desktop API login",
                         system_version="Python")
 client.start(phone=phone_number, password=password)
@@ -25,8 +23,6 @@ async def cancel_all_tasks():
 
 try:
     async def main():
-        # Getting information about yourself
-        # Check if 2FA is enabled
         cai_client = aiocai.Client(cai_token)
         print("Connection established, waiting for incoming messages...")
 
@@ -108,12 +104,12 @@ try:
                                     response_dm = await message_dm
                                     print(response_dm.text)
 
-                                await response_validate(message.response.text)
+                                await response_respond(message.response.text)
 
                             case "space":  # regen
                                 "Generating over again..."
                                 next_response = await message.next_message()
-                                print(next_response.text)
+                                response_validate(next_response.text, False)
                                 await regen()
 
                             case "esc":  # exit
@@ -122,32 +118,47 @@ try:
                                 sys.exit(0)
 
                             case _:  # default
-                                await response_validate(message.response.text)
+                                await response_respond(message.response.text)
 
-                    async def response_validate(text):
+                    def response_validate(text: str, p: True | False) -> str:  # gets raw message text, parses, returns
+                        # yes|no|invalid, prints on p argument True
                         try:
                             response_json = json.loads(text)
+                            print(f"Decision: {response_json["result"]}\nExplanation: {response_json["explanation"]}") if p else print()
                             if re.match(r'yes', response_json["result"], re.IGNORECASE):
+                                return "yes"
+
+                            elif re.match(r'no', response_json["result"], re.IGNORECASE):
+                                return "no"
+
+                            else:
+                                return "invalid"
+
+                        except json.JSONDecodeError:
+                            print(text)
+                            return "invalid"
+
+                    async def response_respond(text: str):  # gets raw message, validates, prints, answers, regens if
+                        # invalid
+                        response_json = response_validate(text, False)
+                        match response_json:
+                            case "yes":
                                 print("Approved")
                                 await client.send_message('@leomatchbot', "❤️")
 
-                            elif re.match(r'no', response_json["result"], re.IGNORECASE):
+                            case "no":
                                 print("Declined")
                                 await client.send_message('@leomatchbot', "👎")
 
-                            else:
+                            case "invalid":
+                                print("Invalid response")
                                 next_response = await message.next_message()
-                                print(next_response.text)
+                                response_validate(next_response.text, False)
                                 await regen()
-
-                        except json.JSONDecodeError:
-                            next_response = await message.next_message()
-                            print(next_response.text)
-                            await regen()
 
                     message = CAIMessage(message_text)
                     response = await message  # ask CAI
-                    print(response.text)
+                    response_validate(response.text, True)
                     await regen()
 
 
