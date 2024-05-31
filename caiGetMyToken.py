@@ -11,7 +11,7 @@ async def main():
 
     token = authUser(link, email)
 
-    print(f'YOUR TOKEN: {token}')
+    print(f'YOUR TOKEN:\n\n\n        ###      {token}        ###      \n\n\n')
 
     input("Press any key to continue...")
 
