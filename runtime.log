@@ -1,0 +1,1961 @@
+2024-06-03 11:45:53,509 - __main__ - INFO - starting...
+2024-06-03 11:45:53,509 - __main__ - INFO - no bullshit.ini found, downloading...
+2024-06-03 11:45:53,886 - __main__ - CRITICAL - config error
+2024-06-03 11:53:18,804 - __main__ - INFO - starting...
+2024-06-03 11:53:18,805 - __main__ - INFO - config loaded
+2024-06-03 11:53:18,837 - asyncio - DEBUG - Using selector: SelectSelector
+2024-06-03 11:53:18,838 - __main__ - INFO - telegram connected
+2024-06-03 11:53:18,838 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.51:443/TcpFull...
+2024-06-03 11:53:18,838 - telethon.network.mtprotosender - DEBUG - Connection attempt 1...
+2024-06-03 11:53:18,900 - telethon.network.mtprotosender - DEBUG - Connection success!
+2024-06-03 11:53:18,901 - telethon.network.mtprotosender - DEBUG - New auth_key attempt 1...
+2024-06-03 11:53:20,156 - telethon.network.mtprotosender - DEBUG - auth_key generation success!
+2024-06-03 11:53:20,156 - telethon.network.mtprotosender - DEBUG - Starting send loop
+2024-06-03 11:53:20,156 - telethon.network.mtprotosender - DEBUG - Starting receive loop
+2024-06-03 11:53:20,156 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.51:443/TcpFull complete!
+2024-06-03 11:53:20,161 - telethon.network.mtprotosender - DEBUG - Waiting for messages to send...
+2024-06-03 11:53:20,161 - telethon.extensions.messagepacker - DEBUG - Assigned msg_id = 7376197454932431064 to InvokeWithLayerRequest (17f5f19ef30)
+2024-06-03 11:53:20,161 - telethon.network.mtprotosender - DEBUG - Encrypting 1 message(s) in 88 bytes for sending
+2024-06-03 11:53:20,162 - telethon.network.mtprotosender - DEBUG - Encrypted messages put in a queue to be sent
+2024-06-03 11:53:20,162 - telethon.network.mtprotosender - DEBUG - Waiting for messages to send...
+2024-06-03 11:53:20,162 - telethon.network.mtprotosender - DEBUG - Receiving items from the network...
+2024-06-03 11:53:20,227 - telethon.network.mtprotosender - DEBUG - Handling bad salt for message 7376197454932431064
+2024-06-03 11:53:20,227 - telethon.network.mtprotosender - DEBUG - 1 message(s) will be resent
+2024-06-03 11:53:20,227 - telethon.network.mtprotosender - DEBUG - Receiving items from the network...
+2024-06-03 11:53:20,227 - telethon.extensions.messagepacker - DEBUG - Assigned msg_id = 7376197455198745568 to InvokeWithLayerRequest (17f5f19ef30)
+2024-06-03 11:53:20,227 - telethon.network.mtprotosender - DEBUG - Encrypting 1 message(s) in 88 bytes for sending
+2024-06-03 11:53:20,228 - telethon.network.mtprotosender - DEBUG - Encrypted messages put in a queue to be sent
+2024-06-03 11:53:20,228 - telethon.network.mtprotosender - DEBUG - Waiting for messages to send...
+2024-06-03 11:53:20,228 - telethon.extensions.messagepacker - DEBUG - Assigned msg_id = 7376197455202761492 to MsgsAck (17f5ef95d60)
+2024-06-03 11:53:20,228 - telethon.network.mtprotosender - DEBUG - Encrypting 1 message(s) in 36 bytes for sending
+2024-06-03 11:53:20,228 - telethon.network.mtprotosender - DEBUG - Encrypted messages put in a queue to be sent
+2024-06-03 11:53:20,228 - telethon.network.mtprotosender - DEBUG - Waiting for messages to send...
+2024-06-03 11:53:20,291 - telethon.network.mtprotosender - DEBUG - Handling container
+2024-06-03 11:53:20,291 - telethon.network.mtprotosender - DEBUG - Handling new session created
+2024-06-03 11:53:20,291 - telethon.network.mtprotosender - DEBUG - Handling acknowledge for [7376197455198745568]
+2024-06-03 11:53:20,291 - telethon.network.mtprotosender - DEBUG - Receiving items from the network...
+2024-06-03 11:53:20,339 - telethon.network.mtprotosender - DEBUG - Handling RPC result for message 7376197455198745568
+2024-06-03 11:53:20,339 - telethon.network.mtprotosender - DEBUG - Receiving items from the network...
+2024-06-03 11:53:20,339 - telethon.extensions.messagepacker - DEBUG - Assigned msg_id = 7376197455648113092 to GetUsersRequest (17f5f03f050)
+2024-06-03 11:53:20,339 - telethon.network.mtprotosender - DEBUG - Encrypting 1 message(s) in 32 bytes for sending
+2024-06-03 11:53:20,339 - telethon.network.mtprotosender - DEBUG - Encrypted messages put in a queue to be sent
+2024-06-03 11:53:20,339 - telethon.network.mtprotosender - DEBUG - Waiting for messages to send...
+2024-06-03 11:53:20,339 - telethon.extensions.messagepacker - DEBUG - Assigned msg_id = 7376197455648113096 to MsgsAck (17f5f065190)
+2024-06-03 11:53:20,339 - telethon.network.mtprotosender - DEBUG - Encrypting 1 message(s) in 60 bytes for sending
+2024-06-03 11:53:20,340 - telethon.network.mtprotosender - DEBUG - Encrypted messages put in a queue to be sent
+2024-06-03 11:53:20,340 - telethon.network.mtprotosender - DEBUG - Waiting for messages to send...
+2024-06-03 11:53:20,445 - telethon.network.mtprotosender - DEBUG - Handling RPC result for message 7376197455648113092
+2024-06-03 11:53:20,446 - telethon.network.mtprotosender - DEBUG - Receiving items from the network...
+2024-06-03 11:53:20,446 - telethon.extensions.messagepacker - DEBUG - Assigned msg_id = 7376197456074470360 to MsgsAck (17f5ed3bfb0)
+2024-06-03 11:53:20,446 - telethon.network.mtprotosender - DEBUG - Encrypting 1 message(s) in 36 bytes for sending
+2024-06-03 11:53:20,446 - telethon.network.mtprotosender - DEBUG - Encrypted messages put in a queue to be sent
+2024-06-03 11:53:20,446 - telethon.network.mtprotosender - DEBUG - Waiting for messages to send...
+2024-06-03 11:53:20,446 - telethon.extensions.messagepacker - DEBUG - Assigned msg_id = 7376197456074470364 to MsgsAck (17f5f19f920)
+2024-06-03 11:53:20,446 - telethon.network.mtprotosender - DEBUG - Encrypting 1 message(s) in 36 bytes for sending
+2024-06-03 11:53:20,446 - telethon.network.mtprotosender - DEBUG - Encrypted messages put in a queue to be sent
+2024-06-03 11:53:20,447 - telethon.network.mtprotosender - DEBUG - Waiting for messages to send...
+2024-06-03 11:53:20,447 - telethon.extensions.messagepacker - DEBUG - Assigned msg_id = 7376197456078458628 to GetUsersRequest (17f5f19f590)
+2024-06-03 11:53:20,447 - telethon.network.mtprotosender - DEBUG - Encrypting 1 message(s) in 32 bytes for sending
+2024-06-03 11:53:20,447 - telethon.network.mtprotosender - DEBUG - Encrypted messages put in a queue to be sent
+2024-06-03 11:53:20,447 - telethon.network.mtprotosender - DEBUG - Waiting for messages to send...
+2024-06-03 11:53:20,549 - telethon.network.mtprotosender - DEBUG - Handling RPC result for message 7376197456078458628
+2024-06-03 11:53:20,549 - telethon.network.mtprotosender - DEBUG - Receiving items from the network...
+2024-06-03 11:53:20,549 - telethon.extensions.messagepacker - DEBUG - Assigned msg_id = 7376197456484599908 to MsgsAck (17f5ed58dd0)
+2024-06-03 11:53:20,549 - telethon.network.mtprotosender - DEBUG - Encrypting 1 message(s) in 36 bytes for sending
+2024-06-03 11:53:20,550 - telethon.network.mtprotosender - DEBUG - Encrypted messages put in a queue to be sent
+2024-06-03 11:53:20,550 - telethon.network.mtprotosender - DEBUG - Waiting for messages to send...
+2024-06-03 11:53:20,550 - telethon.extensions.messagepacker - DEBUG - Assigned msg_id = 7376197456488595804 to MsgsAck (17f5eecc7d0)
+2024-06-03 11:53:20,550 - telethon.network.mtprotosender - DEBUG - Encrypting 1 message(s) in 36 bytes for sending
+2024-06-03 11:53:20,550 - telethon.network.mtprotosender - DEBUG - Encrypted messages put in a queue to be sent
+2024-06-03 11:53:20,550 - telethon.network.mtprotosender - DEBUG - Waiting for messages to send...
+2024-06-03 11:53:20,550 - telethon.extensions.messagepacker - DEBUG - Assigned msg_id = 7376197456488595808 to SendCodeRequest (17f5f03f050)
+2024-06-03 11:53:20,550 - telethon.network.mtprotosender - DEBUG - Encrypting 1 message(s) in 80 bytes for sending
+2024-06-03 11:53:20,551 - telethon.network.mtprotosender - DEBUG - Encrypted messages put in a queue to be sent
+2024-06-03 11:53:20,551 - telethon.network.mtprotosender - DEBUG - Waiting for messages to send...
+2024-06-03 11:53:21,333 - telethon.network.mtprotosender - DEBUG - Handling RPC result for message 7376197456488595808
+2024-06-03 11:53:21,333 - telethon.network.mtprotosender - DEBUG - Receiving items from the network...
+2024-06-03 11:54:03,188 - telethon.extensions.messagepacker - DEBUG - Assigned msg_id = 7376197639725219548 to GetUsersRequest (17f5f19efc0)
+2024-06-03 11:54:03,188 - telethon.network.mtprotosender - DEBUG - Encrypting 1 message(s) in 32 bytes for sending
+2024-06-03 11:54:03,189 - telethon.network.mtprotosender - DEBUG - Encrypted messages put in a queue to be sent
+2024-06-03 11:54:03,189 - telethon.network.mtprotosender - DEBUG - Waiting for messages to send...
+2024-06-03 11:54:03,189 - telethon.extensions.messagepacker - DEBUG - Assigned msg_id = 7376197639729214488 to MsgsAck (17f5f03f050)
+2024-06-03 11:54:03,189 - telethon.network.mtprotosender - DEBUG - Encrypting 1 message(s) in 36 bytes for sending
+2024-06-03 11:54:03,189 - telethon.network.mtprotosender - DEBUG - Encrypted messages put in a queue to be sent
+2024-06-03 11:54:03,189 - telethon.network.mtprotosender - DEBUG - Waiting for messages to send...
+2024-06-03 11:54:03,278 - telethon.network.mtprotosender - DEBUG - Handling RPC result for message 7376197639725219548
+2024-06-03 11:54:03,278 - telethon.network.mtprotosender - DEBUG - Receiving items from the network...
+2024-06-03 11:54:03,278 - telethon.extensions.messagepacker - DEBUG - Assigned msg_id = 7376197640087619600 to MsgsAck (17f5f03fa10)
+2024-06-03 11:54:03,278 - telethon.network.mtprotosender - DEBUG - Encrypting 1 message(s) in 36 bytes for sending
+2024-06-03 11:54:03,278 - telethon.network.mtprotosender - DEBUG - Encrypted messages put in a queue to be sent
+2024-06-03 11:54:03,278 - telethon.network.mtprotosender - DEBUG - Waiting for messages to send...
+2024-06-03 11:54:03,278 - telethon.extensions.messagepacker - DEBUG - Assigned msg_id = 7376197640087619604 to MsgsAck (17f5f1108f0)
+2024-06-03 11:54:03,278 - telethon.network.mtprotosender - DEBUG - Encrypting 1 message(s) in 36 bytes for sending
+2024-06-03 11:54:03,279 - telethon.network.mtprotosender - DEBUG - Encrypted messages put in a queue to be sent
+2024-06-03 11:54:03,279 - telethon.network.mtprotosender - DEBUG - Waiting for messages to send...
+2024-06-03 11:54:03,279 - telethon.extensions.messagepacker - DEBUG - Assigned msg_id = 7376197640091606912 to SignInRequest (17f5f03fa10)
+2024-06-03 11:54:03,279 - telethon.network.mtprotosender - DEBUG - Encrypting 1 message(s) in 64 bytes for sending
+2024-06-03 11:54:03,279 - telethon.network.mtprotosender - DEBUG - Encrypted messages put in a queue to be sent
+2024-06-03 11:54:03,279 - telethon.network.mtprotosender - DEBUG - Waiting for messages to send...
+2024-06-03 11:54:03,414 - telethon.network.mtprotosender - DEBUG - Handling RPC result for message 7376197640091606912
+2024-06-03 11:54:03,414 - telethon.network.mtprotosender - DEBUG - Receiving items from the network...
+2024-06-03 11:54:03,414 - telethon.extensions.messagepacker - DEBUG - Assigned msg_id = 7376197640629262744 to MsgsAck (17f5f111190)
+2024-06-03 11:54:03,414 - telethon.network.mtprotosender - DEBUG - Encrypting 1 message(s) in 36 bytes for sending
+2024-06-03 11:54:03,414 - telethon.network.mtprotosender - DEBUG - Encrypted messages put in a queue to be sent
+2024-06-03 11:54:03,414 - telethon.network.mtprotosender - DEBUG - Waiting for messages to send...
+2024-06-03 11:54:03,414 - telethon.extensions.messagepacker - DEBUG - Assigned msg_id = 7376197640629262748 to MsgsAck (17f5f19f5f0)
+2024-06-03 11:54:03,414 - telethon.network.mtprotosender - DEBUG - Encrypting 1 message(s) in 36 bytes for sending
+2024-06-03 11:54:03,415 - telethon.network.mtprotosender - DEBUG - Encrypted messages put in a queue to be sent
+2024-06-03 11:54:03,415 - telethon.network.mtprotosender - DEBUG - Waiting for messages to send...
+2024-06-03 11:54:03,415 - telethon.extensions.messagepacker - DEBUG - Assigned msg_id = 7376197640633257684 to GetUsersRequest (17f5f19f980)
+2024-06-03 11:54:03,415 - telethon.network.mtprotosender - DEBUG - Encrypting 1 message(s) in 32 bytes for sending
+2024-06-03 11:54:03,415 - telethon.network.mtprotosender - DEBUG - Encrypted messages put in a queue to be sent
+2024-06-03 11:54:03,415 - telethon.network.mtprotosender - DEBUG - Waiting for messages to send...
+2024-06-03 11:54:03,517 - telethon.network.mtprotosender - DEBUG - Handling RPC result for message 7376197640633257684
+2024-06-03 11:54:03,517 - telethon.network.mtprotosender - DEBUG - Receiving items from the network...
+2024-06-03 11:54:03,517 - telethon.extensions.messagepacker - DEBUG - Assigned msg_id = 7376197641040500460 to MsgsAck (17f5f111190)
+2024-06-03 11:54:03,517 - telethon.network.mtprotosender - DEBUG - Encrypting 1 message(s) in 36 bytes for sending
+2024-06-03 11:54:03,517 - telethon.network.mtprotosender - DEBUG - Encrypted messages put in a queue to be sent
+2024-06-03 11:54:03,517 - telethon.network.mtprotosender - DEBUG - Waiting for messages to send...
+2024-06-03 11:54:03,518 - telethon.extensions.messagepacker - DEBUG - Assigned msg_id = 7376197641040500464 to MsgsAck (17f5f19f830)
+2024-06-03 11:54:03,518 - telethon.network.mtprotosender - DEBUG - Encrypting 1 message(s) in 36 bytes for sending
+2024-06-03 11:54:03,518 - telethon.network.mtprotosender - DEBUG - Encrypted messages put in a queue to be sent
+2024-06-03 11:54:03,518 - telethon.network.mtprotosender - DEBUG - Waiting for messages to send...
+2024-06-03 11:54:03,518 - telethon.extensions.messagepacker - DEBUG - Assigned msg_id = 7376197641044496356 to GetPasswordRequest (17f5f111190)
+2024-06-03 11:54:03,518 - telethon.network.mtprotosender - DEBUG - Encrypting 1 message(s) in 20 bytes for sending
+2024-06-03 11:54:03,518 - telethon.network.mtprotosender - DEBUG - Encrypted messages put in a queue to be sent
+2024-06-03 11:54:03,518 - telethon.network.mtprotosender - DEBUG - Waiting for messages to send...
+2024-06-03 11:54:03,642 - telethon.network.mtprotosender - DEBUG - Handling RPC result for message 7376197641044496356
+2024-06-03 11:54:03,642 - telethon.network.mtprotosender - DEBUG - Receiving items from the network...
+2024-06-03 11:54:03,762 - telethon.extensions.messagepacker - DEBUG - Assigned msg_id = 7376197642020328340 to CheckPasswordRequest (17f5f19fd40)
+2024-06-03 11:54:03,763 - telethon.network.mtprotosender - DEBUG - Encrypting 1 message(s) in 328 bytes for sending
+2024-06-03 11:54:03,764 - telethon.network.mtprotosender - DEBUG - Encrypted messages put in a queue to be sent
+2024-06-03 11:54:03,764 - telethon.network.mtprotosender - DEBUG - Waiting for messages to send...
+2024-06-03 11:54:03,764 - telethon.extensions.messagepacker - DEBUG - Assigned msg_id = 7376197642028307736 to MsgsAck (17f5f111190)
+2024-06-03 11:54:03,764 - telethon.network.mtprotosender - DEBUG - Encrypting 1 message(s) in 36 bytes for sending
+2024-06-03 11:54:03,764 - telethon.network.mtprotosender - DEBUG - Encrypted messages put in a queue to be sent
+2024-06-03 11:54:03,764 - telethon.network.mtprotosender - DEBUG - Waiting for messages to send...
+2024-06-03 11:54:03,975 - telethon.network.mtprotosender - DEBUG - Handling RPC result for message 7376197642020328340
+2024-06-03 11:54:03,975 - telethon.network.mtprotosender - DEBUG - Receiving items from the network...
+2024-06-03 11:54:03,976 - telethon.extensions.messagepacker - DEBUG - Assigned msg_id = 7376197642878537952 to GetStateRequest (17f5f19fa70)
+2024-06-03 11:54:03,976 - telethon.network.mtprotosender - DEBUG - Encrypting 1 message(s) in 20 bytes for sending
+2024-06-03 11:54:03,977 - telethon.network.mtprotosender - DEBUG - Encrypted messages put in a queue to be sent
+2024-06-03 11:54:03,977 - telethon.network.mtprotosender - DEBUG - Waiting for messages to send...
+2024-06-03 11:54:03,977 - telethon.extensions.messagepacker - DEBUG - Assigned msg_id = 7376197642882528124 to MsgsAck (17f5f19f020)
+2024-06-03 11:54:03,977 - telethon.network.mtprotosender - DEBUG - Encrypting 1 message(s) in 36 bytes for sending
+2024-06-03 11:54:03,977 - telethon.network.mtprotosender - DEBUG - Encrypted messages put in a queue to be sent
+2024-06-03 11:54:03,977 - telethon.network.mtprotosender - DEBUG - Waiting for messages to send...
+2024-06-03 11:54:04,046 - telethon.network.mtprotosender - DEBUG - Handling RPC result for message 7376197642878537952
+2024-06-03 11:54:04,046 - telethon.network.mtprotosender - DEBUG - Receiving items from the network...
+2024-06-03 11:54:04,046 - __main__ - INFO - telegram logged in
+2024-06-03 11:54:04,046 - telethon.extensions.messagepacker - DEBUG - Assigned msg_id = 7376197643451603352 to GetUsersRequest (17f5f19fa70)
+2024-06-03 11:54:04,046 - telethon.network.mtprotosender - DEBUG - Encrypting 1 message(s) in 32 bytes for sending
+2024-06-03 11:54:04,047 - telethon.network.mtprotosender - DEBUG - Encrypted messages put in a queue to be sent
+2024-06-03 11:54:04,047 - telethon.network.mtprotosender - DEBUG - Waiting for messages to send...
+2024-06-03 11:54:04,047 - telethon.extensions.messagepacker - DEBUG - Assigned msg_id = 7376197643455597340 to MsgsAck (17f5f19fe30)
+2024-06-03 11:54:04,047 - telethon.network.mtprotosender - DEBUG - Encrypting 1 message(s) in 36 bytes for sending
+2024-06-03 11:54:04,047 - telethon.network.mtprotosender - DEBUG - Encrypted messages put in a queue to be sent
+2024-06-03 11:54:04,047 - telethon.network.mtprotosender - DEBUG - Waiting for messages to send...
+2024-06-03 11:54:04,114 - telethon.network.mtprotosender - DEBUG - Handling RPC result for message 7376197643451603352
+2024-06-03 11:54:04,114 - telethon.network.mtprotosender - DEBUG - Receiving items from the network...
+2024-06-03 11:54:04,114 - __main__ - INFO - character api connected
+2024-06-03 11:54:04,114 - telethon.extensions.messagepacker - DEBUG - Assigned msg_id = 7376197643725605428 to GetStateRequest (17f5f19f860)
+2024-06-03 11:54:04,114 - telethon.network.mtprotosender - DEBUG - Encrypting 1 message(s) in 20 bytes for sending
+2024-06-03 11:54:04,115 - telethon.network.mtprotosender - DEBUG - Encrypted messages put in a queue to be sent
+2024-06-03 11:54:04,115 - telethon.network.mtprotosender - DEBUG - Waiting for messages to send...
+2024-06-03 11:54:04,115 - telethon.extensions.messagepacker - DEBUG - Assigned msg_id = 7376197643729720532 to MsgsAck (17f5f19ee40)
+2024-06-03 11:54:04,115 - telethon.network.mtprotosender - DEBUG - Encrypting 1 message(s) in 36 bytes for sending
+2024-06-03 11:54:04,115 - telethon.network.mtprotosender - DEBUG - Encrypted messages put in a queue to be sent
+2024-06-03 11:54:04,115 - telethon.network.mtprotosender - DEBUG - Waiting for messages to send...
+2024-06-03 11:54:04,208 - telethon.network.mtprotosender - DEBUG - Handling RPC result for message 7376197643725605428
+2024-06-03 11:54:04,208 - telethon.network.mtprotosender - DEBUG - Receiving items from the network...
+2024-06-03 11:54:13,002 - telethon.network.mtprotosender - DEBUG - Handling gzipped data
+2024-06-03 11:54:13,002 - telethon.network.mtprotosender - DEBUG - Handling update Updates
+2024-06-03 11:54:13,002 - telethon.network.mtprotosender - DEBUG - Receiving items from the network...
+2024-06-03 11:54:13,845 - telethon.network.mtprotosender - DEBUG - Handling gzipped data
+2024-06-03 11:54:13,845 - telethon.network.mtprotosender - DEBUG - Handling update Updates
+2024-06-03 11:54:13,845 - telethon.network.mtprotosender - DEBUG - Receiving items from the network...
+2024-06-03 11:54:13,845 - __main__ - INFO - new message: ✨🔍
+2024-06-03 11:54:13,846 - __main__ - INFO - not a profile, checking out bullshit.ini...
+2024-06-03 11:54:13,846 - __main__ - WARNING - no match found in bullshit.ini
+2024-06-03 11:54:13,980 - telethon.network.mtprotosender - DEBUG - Handling update Updates
+2024-06-03 11:54:13,980 - telethon.network.mtprotosender - DEBUG - Receiving items from the network...
+2024-06-03 11:54:14,325 - telethon.network.mtprotosender - DEBUG - Handling gzipped data
+2024-06-03 11:54:14,325 - telethon.network.mtprotosender - DEBUG - Handling update Updates
+2024-06-03 11:54:14,325 - telethon.network.mtprotosender - DEBUG - Receiving items from the network...
+2024-06-03 11:54:14,325 - __main__ - INFO - new message: Валерия, 21, 📍3 км – 4 курс - юрист. Репет для школьников. Завышенные требования + психологические травмы
+А вообще я уебок
+2024-06-03 11:54:14,326 - __main__ - INFO - message is profile
+2024-06-03 11:54:14,326 - __main__ - INFO - sending message to AI
+2024-06-03 11:54:14,326 - __main__ - INFO - getting respond from AI
+2024-06-03 11:54:14,419 - websockets.client - DEBUG - = connection is CONNECTING
+2024-06-03 11:54:14,481 - websockets.client - DEBUG - > GET /ws/ HTTP/1.1
+2024-06-03 11:54:14,481 - websockets.client - DEBUG - > Host: neo.character.ai
+2024-06-03 11:54:14,481 - websockets.client - DEBUG - > Upgrade: websocket
+2024-06-03 11:54:14,481 - websockets.client - DEBUG - > Connection: Upgrade
+2024-06-03 11:54:14,481 - websockets.client - DEBUG - > Sec-WebSocket-Key: NSAFutJaZpcX09bCA2vc6w==
+2024-06-03 11:54:14,481 - websockets.client - DEBUG - > Sec-WebSocket-Version: 13
+2024-06-03 11:54:14,481 - websockets.client - DEBUG - > Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits
+2024-06-03 11:54:14,481 - websockets.client - DEBUG - > Cookie: HTTP_AUTHORIZATION="Token e566ab2c595366dc49570e5a4e195637a8f99797"
+2024-06-03 11:54:14,481 - websockets.client - DEBUG - > User-Agent: Python/3.12 websockets/12.0
+2024-06-03 11:54:14,493 - telethon.network.mtprotosender - DEBUG - Handling update Updates
+2024-06-03 11:54:14,493 - telethon.network.mtprotosender - DEBUG - Receiving items from the network...
+2024-06-03 11:54:14,862 - websockets.client - DEBUG - < HTTP/1.1 101 Switching Protocols
+2024-06-03 11:54:14,862 - websockets.client - DEBUG - < Date: Mon, 03 Jun 2024 08:54:15 GMT
+2024-06-03 11:54:14,862 - websockets.client - DEBUG - < Connection: upgrade
+2024-06-03 11:54:14,862 - websockets.client - DEBUG - < upgrade: websocket
+2024-06-03 11:54:14,862 - websockets.client - DEBUG - < sec-websocket-accept: KzmZ1LyEWro0hxbIV4t6mFTE3Y8=
+2024-06-03 11:54:14,862 - websockets.client - DEBUG - < sec-websocket-extensions: permessage-deflate
+2024-06-03 11:54:14,862 - websockets.client - DEBUG - < Via: 1.1 google
+2024-06-03 11:54:14,862 - websockets.client - DEBUG - < Set-Cookie: GCLB=CLzQ4dvYsd33ygEQAw; path=/; HttpOnly; expires=Tue, 04-Jun-2024 08:54:15 GMT
+2024-06-03 11:54:14,862 - websockets.client - DEBUG - < Alt-Svc: h3=":443"; ma=86400
+2024-06-03 11:54:14,862 - websockets.client - DEBUG - < CF-Cache-Status: DYNAMIC
+2024-06-03 11:54:14,862 - websockets.client - DEBUG - < Set-Cookie: __cf_bm=8E_p3tsEvck6CD9Ai5ZMu99qt_fo0DfNWOTo7y93JGE-1717404855-1.0.1.1-bnNIbEMli1iISfytHOnCPhy5Fxn3VZ.78PeRkPXSmyiRPbYdvFmtGF0S3JefKvDwQ2.fAO7AjKoszv2NfeCzpg; path=/; expires=Mon, 03-Jun-24 09:24:15 GMT; domain=.character.ai; HttpOnly; Secure; SameSite=None
+2024-06-03 11:54:14,862 - websockets.client - DEBUG - < Server: cloudflare
+2024-06-03 11:54:14,862 - websockets.client - DEBUG - < CF-RAY: 88de751a9f017b8b-DME
+2024-06-03 11:54:14,862 - websockets.client - DEBUG - = connection is OPEN
+2024-06-03 11:54:14,907 - websockets.client - DEBUG - = connection is CONNECTING
+2024-06-03 11:54:14,975 - websockets.client - DEBUG - > GET /ws/ HTTP/1.1
+2024-06-03 11:54:14,975 - websockets.client - DEBUG - > Host: neo.character.ai
+2024-06-03 11:54:14,975 - websockets.client - DEBUG - > Upgrade: websocket
+2024-06-03 11:54:14,975 - websockets.client - DEBUG - > Connection: Upgrade
+2024-06-03 11:54:14,975 - websockets.client - DEBUG - > Sec-WebSocket-Key: 79e6Lp24483Ifk3o67WGuw==
+2024-06-03 11:54:14,975 - websockets.client - DEBUG - > Sec-WebSocket-Version: 13
+2024-06-03 11:54:14,975 - websockets.client - DEBUG - > Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits
+2024-06-03 11:54:14,975 - websockets.client - DEBUG - > Cookie: HTTP_AUTHORIZATION="Token e566ab2c595366dc49570e5a4e195637a8f99797"
+2024-06-03 11:54:14,975 - websockets.client - DEBUG - > User-Agent: Python/3.12 websockets/12.0
+2024-06-03 11:54:15,322 - websockets.client - DEBUG - < HTTP/1.1 101 Switching Protocols
+2024-06-03 11:54:15,322 - websockets.client - DEBUG - < Date: Mon, 03 Jun 2024 08:54:16 GMT
+2024-06-03 11:54:15,322 - websockets.client - DEBUG - < Connection: upgrade
+2024-06-03 11:54:15,322 - websockets.client - DEBUG - < upgrade: websocket
+2024-06-03 11:54:15,322 - websockets.client - DEBUG - < sec-websocket-accept: ljXC5RfE3ofZ7quw7/ozwxyyYe8=
+2024-06-03 11:54:15,322 - websockets.client - DEBUG - < sec-websocket-extensions: permessage-deflate
+2024-06-03 11:54:15,322 - websockets.client - DEBUG - < Via: 1.1 google
+2024-06-03 11:54:15,322 - websockets.client - DEBUG - < Set-Cookie: GCLB=CJTKsJGT14DNehAD; path=/; HttpOnly; expires=Tue, 04-Jun-2024 08:54:16 GMT
+2024-06-03 11:54:15,322 - websockets.client - DEBUG - < Alt-Svc: h3=":443"; ma=86400
+2024-06-03 11:54:15,322 - websockets.client - DEBUG - < CF-Cache-Status: DYNAMIC
+2024-06-03 11:54:15,322 - websockets.client - DEBUG - < Set-Cookie: __cf_bm=_1qQzDEMM5lM3mbHQmj851enD1U2.vBd7.v8aFJVfcQ-1717404856-1.0.1.1-xBwt.MMR4jug8Lew83x2WgibS2WKQsJEpMIDCNBb7cr9hbyPg_VAtX.TkXrRxLTYNBGFYocDObjqIwqFgS_e2w; path=/; expires=Mon, 03-Jun-24 09:24:16 GMT; domain=.character.ai; HttpOnly; Secure; SameSite=None
+2024-06-03 11:54:15,322 - websockets.client - DEBUG - < Server: cloudflare
+2024-06-03 11:54:15,322 - websockets.client - DEBUG - < CF-RAY: 88de751dc88a9d8e-DME
+2024-06-03 11:54:15,322 - websockets.client - DEBUG - = connection is OPEN
+2024-06-03 11:54:15,322 - websockets.client - DEBUG - > TEXT '{"command": "create_and_generate_turn", "payloa...ge_rel_path": null}]}}}' [858 bytes]
+2024-06-03 11:54:15,590 - websockets.client - DEBUG - < TEXT '{"turn": {"turn_key": {"chat_id": "9f944367-34d... "command": "add_turn"}' [1191 bytes]
+2024-06-03 11:54:17,182 - websockets.client - DEBUG - < TEXT '{"turn": {"turn_key": {"chat_id": "9f944367-34d... "command": "add_turn"}' [547 bytes]
+2024-06-03 11:54:18,280 - websockets.client - DEBUG - < TEXT '{"turn": {"turn_key": {"chat_id": "9f944367-34d...ommand": "update_turn"}' [645 bytes]
+2024-06-03 11:54:18,863 - websockets.client - DEBUG - < TEXT '{"turn": {"turn_key": {"chat_id": "9f944367-34d...ommand": "update_turn"}' [715 bytes]
+2024-06-03 11:54:19,469 - websockets.client - DEBUG - < TEXT '{"turn": {"turn_key": {"chat_id": "9f944367-34d...ommand": "update_turn"}' [807 bytes]
+2024-06-03 11:54:20,201 - websockets.client - DEBUG - < TEXT '{"turn": {"turn_key": {"chat_id": "9f944367-34d...ommand": "update_turn"}' [928 bytes]
+2024-06-03 11:54:20,202 - websockets.client - DEBUG - < TEXT '{"turn": {"turn_key": {"chat_id": "9f944367-34d...ommand": "update_turn"}' [949 bytes]
+2024-06-03 11:54:20,228 - websockets.client - DEBUG - < TEXT '{"turn": {"turn_key": {"chat_id": "9f944367-34d...ommand": "update_turn"}' [1110 bytes]
+2024-06-03 11:54:20,230 - websockets.client - DEBUG - = connection is CLOSING
+2024-06-03 11:54:20,230 - websockets.client - DEBUG - > CLOSE 1000 (OK) [2 bytes]
+2024-06-03 11:54:20,434 - websockets.client - DEBUG - < CLOSE 1000 (OK) [2 bytes]
+2024-06-03 11:54:20,455 - telethon.extensions.messagepacker - DEBUG - Assigned msg_id = 7376197713806514240 to PingRequest (17f5c2d7890)
+2024-06-03 11:54:20,455 - telethon.network.mtprotosender - DEBUG - Encrypting 1 message(s) in 28 bytes for sending
+2024-06-03 11:54:20,455 - telethon.network.mtprotosender - DEBUG - Encrypted messages put in a queue to be sent
+2024-06-03 11:54:20,455 - telethon.network.mtprotosender - DEBUG - Waiting for messages to send...
+2024-06-03 11:54:20,455 - telethon.extensions.messagepacker - DEBUG - Assigned msg_id = 7376197713806514244 to MsgsAck (17f5f1e2c00)
+2024-06-03 11:54:20,455 - telethon.network.mtprotosender - DEBUG - Encrypting 1 message(s) in 76 bytes for sending
+2024-06-03 11:54:20,456 - telethon.network.mtprotosender - DEBUG - Encrypted messages put in a queue to be sent
+2024-06-03 11:54:20,456 - telethon.network.mtprotosender - DEBUG - Waiting for messages to send...
+2024-06-03 11:54:20,517 - telethon.network.mtprotosender - DEBUG - Handling container
+2024-06-03 11:54:20,517 - telethon.network.mtprotosender - DEBUG - Handling pong for message 7376197713806514240
+2024-06-03 11:54:20,517 - telethon.network.mtprotosender - DEBUG - Handling update UpdateShort
+2024-06-03 11:54:20,517 - telethon.network.mtprotosender - DEBUG - Receiving items from the network...
+2024-06-03 11:54:22,436 - websockets.client - DEBUG - = connection is CLOSED
+2024-06-03 11:54:22,436 - __main__ - INFO - validating response
+2024-06-03 11:54:22,473 - websockets.client - DEBUG - = connection is CONNECTING
+2024-06-03 11:54:22,550 - websockets.client - DEBUG - > GET /ws/ HTTP/1.1
+2024-06-03 11:54:22,550 - websockets.client - DEBUG - > Host: neo.character.ai
+2024-06-03 11:54:22,550 - websockets.client - DEBUG - > Upgrade: websocket
+2024-06-03 11:54:22,550 - websockets.client - DEBUG - > Connection: Upgrade
+2024-06-03 11:54:22,550 - websockets.client - DEBUG - > Sec-WebSocket-Key: JvccFGUcv/0V1e6FXm2Wgg==
+2024-06-03 11:54:22,550 - websockets.client - DEBUG - > Sec-WebSocket-Version: 13
+2024-06-03 11:54:22,550 - websockets.client - DEBUG - > Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits
+2024-06-03 11:54:22,550 - websockets.client - DEBUG - > Cookie: HTTP_AUTHORIZATION="Token e566ab2c595366dc49570e5a4e195637a8f99797"
+2024-06-03 11:54:22,550 - websockets.client - DEBUG - > User-Agent: Python/3.12 websockets/12.0
+2024-06-03 11:54:22,894 - websockets.client - DEBUG - < HTTP/1.1 101 Switching Protocols
+2024-06-03 11:54:22,894 - websockets.client - DEBUG - < Date: Mon, 03 Jun 2024 08:54:23 GMT
+2024-06-03 11:54:22,894 - websockets.client - DEBUG - < Connection: upgrade
+2024-06-03 11:54:22,894 - websockets.client - DEBUG - < upgrade: websocket
+2024-06-03 11:54:22,894 - websockets.client - DEBUG - < sec-websocket-accept: MzDgobll0+YD5KtZwGNPZieDJU8=
+2024-06-03 11:54:22,894 - websockets.client - DEBUG - < sec-websocket-extensions: permessage-deflate
+2024-06-03 11:54:22,894 - websockets.client - DEBUG - < Via: 1.1 google
+2024-06-03 11:54:22,894 - websockets.client - DEBUG - < Set-Cookie: GCLB=COfCw_3uzYL0MRAD; path=/; HttpOnly; expires=Tue, 04-Jun-2024 08:54:23 GMT
+2024-06-03 11:54:22,894 - websockets.client - DEBUG - < Alt-Svc: h3=":443"; ma=86400
+2024-06-03 11:54:22,894 - websockets.client - DEBUG - < CF-Cache-Status: DYNAMIC
+2024-06-03 11:54:22,894 - websockets.client - DEBUG - < Set-Cookie: __cf_bm=DDtRcqkXvacJ5Wd.GrLxXgY_yhsUbokeamkbKk.aV_k-1717404863-1.0.1.1-6cvNoSbB2iDd_9FP1l3MNNdHGd.FztgRxLC2dpZqVe1bAgBn0NKOVLXjr4l7oxdVeBGb0aTS6KFx4vK_0yXDbw; path=/; expires=Mon, 03-Jun-24 09:24:23 GMT; domain=.character.ai; HttpOnly; Secure; SameSite=None
+2024-06-03 11:54:22,894 - websockets.client - DEBUG - < Server: cloudflare
+2024-06-03 11:54:22,894 - websockets.client - DEBUG - < CF-RAY: 88de754d2bcb7597-DME
+2024-06-03 11:54:22,894 - websockets.client - DEBUG - = connection is OPEN
+2024-06-03 11:54:22,931 - websockets.client - DEBUG - = connection is CONNECTING
+2024-06-03 11:54:22,986 - websockets.client - DEBUG - > GET /ws/ HTTP/1.1
+2024-06-03 11:54:22,986 - websockets.client - DEBUG - > Host: neo.character.ai
+2024-06-03 11:54:22,986 - websockets.client - DEBUG - > Upgrade: websocket
+2024-06-03 11:54:22,986 - websockets.client - DEBUG - > Connection: Upgrade
+2024-06-03 11:54:22,986 - websockets.client - DEBUG - > Sec-WebSocket-Key: PhjM///IHgOeRYWjkbJXTg==
+2024-06-03 11:54:22,986 - websockets.client - DEBUG - > Sec-WebSocket-Version: 13
+2024-06-03 11:54:22,986 - websockets.client - DEBUG - > Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits
+2024-06-03 11:54:22,986 - websockets.client - DEBUG - > Cookie: HTTP_AUTHORIZATION="Token e566ab2c595366dc49570e5a4e195637a8f99797"
+2024-06-03 11:54:22,986 - websockets.client - DEBUG - > User-Agent: Python/3.12 websockets/12.0
+2024-06-03 11:54:23,308 - websockets.client - DEBUG - < HTTP/1.1 101 Switching Protocols
+2024-06-03 11:54:23,308 - websockets.client - DEBUG - < Date: Mon, 03 Jun 2024 08:54:24 GMT
+2024-06-03 11:54:23,308 - websockets.client - DEBUG - < Connection: upgrade
+2024-06-03 11:54:23,308 - websockets.client - DEBUG - < upgrade: websocket
+2024-06-03 11:54:23,308 - websockets.client - DEBUG - < sec-websocket-accept: 4rQ1af5z2ah26Zz/ojgRmooK4B4=
+2024-06-03 11:54:23,308 - websockets.client - DEBUG - < sec-websocket-extensions: permessage-deflate
+2024-06-03 11:54:23,308 - websockets.client - DEBUG - < Via: 1.1 google
+2024-06-03 11:54:23,308 - websockets.client - DEBUG - < Set-Cookie: GCLB=CM2B9MWPmvjXdRAD; path=/; HttpOnly; expires=Tue, 04-Jun-2024 08:54:24 GMT
+2024-06-03 11:54:23,308 - websockets.client - DEBUG - < Alt-Svc: h3=":443"; ma=86400
+2024-06-03 11:54:23,308 - websockets.client - DEBUG - < CF-Cache-Status: DYNAMIC
+2024-06-03 11:54:23,308 - websockets.client - DEBUG - < Set-Cookie: __cf_bm=pz4LKHM6msm_6yeBDEQd4OdL9c0fiHQbVAgFRYSMXBI-1717404864-1.0.1.1-WUcpk7v3GAXptYuRCmNt8M4fv_08g8dR0TPXYHGUqg5uUAvZmyQjOEujDQIcpq_PP9GgGaCvYDqokJhKZ_uEUA; path=/; expires=Mon, 03-Jun-24 09:24:24 GMT; domain=.character.ai; HttpOnly; Secure; SameSite=None
+2024-06-03 11:54:23,308 - websockets.client - DEBUG - < Server: cloudflare
+2024-06-03 11:54:23,308 - websockets.client - DEBUG - < CF-RAY: 88de754fbb899d5a-DME
+2024-06-03 11:54:23,308 - websockets.client - DEBUG - = connection is OPEN
+2024-06-03 11:54:23,308 - websockets.client - DEBUG - > TEXT '{"command": "generate_turn_candidate", "payload...6-a92f-fc5fc47cd1c7"}}}' [284 bytes]
+2024-06-03 11:54:25,240 - websockets.client - DEBUG - < TEXT '{"turn": {"turn_key": {"chat_id": "9f944367-34d...ommand": "update_turn"}' [651 bytes]
+2024-06-03 11:54:26,378 - websockets.client - DEBUG - < TEXT '{"turn": {"turn_key": {"chat_id": "9f944367-34d...ommand": "update_turn"}' [779 bytes]
+2024-06-03 11:54:26,997 - websockets.client - DEBUG - < TEXT '{"turn": {"turn_key": {"chat_id": "9f944367-34d...ommand": "update_turn"}' [1011 bytes]
+2024-06-03 11:54:27,620 - websockets.client - DEBUG - < TEXT '{"turn": {"turn_key": {"chat_id": "9f944367-34d...ommand": "update_turn"}' [1105 bytes]
+2024-06-03 11:54:28,212 - websockets.client - DEBUG - < TEXT '{"turn": {"turn_key": {"chat_id": "9f944367-34d...ommand": "update_turn"}' [1189 bytes]
+2024-06-03 11:54:28,780 - websockets.client - DEBUG - < TEXT '{"turn": {"turn_key": {"chat_id": "9f944367-34d...ommand": "update_turn"}' [1282 bytes]
+2024-06-03 11:54:29,406 - websockets.client - DEBUG - < TEXT '{"turn": {"turn_key": {"chat_id": "9f944367-34d...ommand": "update_turn"}' [1349 bytes]
+2024-06-03 11:54:29,407 - websockets.client - DEBUG - < TEXT '{"turn": {"turn_key": {"chat_id": "9f944367-34d...ommand": "update_turn"}' [1375 bytes]
+2024-06-03 11:54:29,445 - websockets.client - DEBUG - < TEXT '{"turn": {"turn_key": {"chat_id": "9f944367-34d...ommand": "update_turn"}' [1439 bytes]
+2024-06-03 11:54:29,445 - websockets.client - DEBUG - = connection is CLOSING
+2024-06-03 11:54:29,445 - websockets.client - DEBUG - > CLOSE 1000 (OK) [2 bytes]
+2024-06-03 11:54:29,636 - websockets.client - DEBUG - < CLOSE 1000 (OK) [2 bytes]
+2024-06-03 11:54:31,634 - websockets.client - DEBUG - = connection is CLOSED
+2024-06-03 11:54:31,634 - __main__ - INFO - validating response
+2024-06-03 11:54:31,670 - websockets.client - DEBUG - = connection is CONNECTING
+2024-06-03 11:54:31,733 - websockets.client - DEBUG - > GET /ws/ HTTP/1.1
+2024-06-03 11:54:31,733 - websockets.client - DEBUG - > Host: neo.character.ai
+2024-06-03 11:54:31,733 - websockets.client - DEBUG - > Upgrade: websocket
+2024-06-03 11:54:31,733 - websockets.client - DEBUG - > Connection: Upgrade
+2024-06-03 11:54:31,733 - websockets.client - DEBUG - > Sec-WebSocket-Key: Kmv1IJZHTz+xPrtrBQsZVw==
+2024-06-03 11:54:31,733 - websockets.client - DEBUG - > Sec-WebSocket-Version: 13
+2024-06-03 11:54:31,733 - websockets.client - DEBUG - > Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits
+2024-06-03 11:54:31,733 - websockets.client - DEBUG - > Cookie: HTTP_AUTHORIZATION="Token e566ab2c595366dc49570e5a4e195637a8f99797"
+2024-06-03 11:54:31,733 - websockets.client - DEBUG - > User-Agent: Python/3.12 websockets/12.0
+2024-06-03 11:54:31,872 - telethon.network.mtprotosender - DEBUG - Handling container
+2024-06-03 11:54:31,872 - telethon.network.mtprotosender - DEBUG - Handling update Updates
+2024-06-03 11:54:31,872 - telethon.network.mtprotosender - DEBUG - Handling update Updates
+2024-06-03 11:54:31,872 - telethon.network.mtprotosender - DEBUG - Receiving items from the network...
+2024-06-03 11:54:32,260 - websockets.client - DEBUG - < HTTP/1.1 101 Switching Protocols
+2024-06-03 11:54:32,260 - websockets.client - DEBUG - < Date: Mon, 03 Jun 2024 08:54:33 GMT
+2024-06-03 11:54:32,260 - websockets.client - DEBUG - < Connection: upgrade
+2024-06-03 11:54:32,260 - websockets.client - DEBUG - < sec-websocket-accept: 9RJGG+52oqyQIU2v8kiexG0S1PQ=
+2024-06-03 11:54:32,260 - websockets.client - DEBUG - < sec-websocket-extensions: permessage-deflate
+2024-06-03 11:54:32,260 - websockets.client - DEBUG - < Via: 1.1 google
+2024-06-03 11:54:32,260 - websockets.client - DEBUG - < Set-Cookie: GCLB=COLZusya37SCahAD; path=/; HttpOnly; expires=Tue, 04-Jun-2024 08:54:33 GMT
+2024-06-03 11:54:32,260 - websockets.client - DEBUG - < Upgrade: websocket
+2024-06-03 11:54:32,260 - websockets.client - DEBUG - < Alt-Svc: h3=":443"; ma=86400
+2024-06-03 11:54:32,260 - websockets.client - DEBUG - < CF-Cache-Status: DYNAMIC
+2024-06-03 11:54:32,260 - websockets.client - DEBUG - < Set-Cookie: __cf_bm=2dEClGqUyvUK.65S4vuduWhdujmU4Sx6QwG7xkifpFY-1717404873-1.0.1.1-JgXOHY0cRNoNowiLNtv07Nr6vcZwXUCCmoweSttc52mbU3cSaJOopPjKc2Gv1sxXR1Kxbz_.px9cgt5pqlU.pw; path=/; expires=Mon, 03-Jun-24 09:24:33 GMT; domain=.character.ai; HttpOnly; Secure; SameSite=None
+2024-06-03 11:54:32,260 - websockets.client - DEBUG - < Server: cloudflare
+2024-06-03 11:54:32,260 - websockets.client - DEBUG - < CF-RAY: 88de75877a4c9dc4-DME
+2024-06-03 11:54:32,260 - websockets.client - DEBUG - = connection is OPEN
+2024-06-03 11:54:32,327 - websockets.client - DEBUG - = connection is CONNECTING
+2024-06-03 11:54:32,402 - websockets.client - DEBUG - > GET /ws/ HTTP/1.1
+2024-06-03 11:54:32,402 - websockets.client - DEBUG - > Host: neo.character.ai
+2024-06-03 11:54:32,402 - websockets.client - DEBUG - > Upgrade: websocket
+2024-06-03 11:54:32,402 - websockets.client - DEBUG - > Connection: Upgrade
+2024-06-03 11:54:32,402 - websockets.client - DEBUG - > Sec-WebSocket-Key: HzqoTLM2YZXOI/eNVLaNyA==
+2024-06-03 11:54:32,402 - websockets.client - DEBUG - > Sec-WebSocket-Version: 13
+2024-06-03 11:54:32,402 - websockets.client - DEBUG - > Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits
+2024-06-03 11:54:32,402 - websockets.client - DEBUG - > Cookie: HTTP_AUTHORIZATION="Token e566ab2c595366dc49570e5a4e195637a8f99797"
+2024-06-03 11:54:32,402 - websockets.client - DEBUG - > User-Agent: Python/3.12 websockets/12.0
+2024-06-03 11:54:32,731 - websockets.client - DEBUG - < HTTP/1.1 101 Switching Protocols
+2024-06-03 11:54:32,731 - websockets.client - DEBUG - < Date: Mon, 03 Jun 2024 08:54:33 GMT
+2024-06-03 11:54:32,731 - websockets.client - DEBUG - < Connection: upgrade
+2024-06-03 11:54:32,731 - websockets.client - DEBUG - < upgrade: websocket
+2024-06-03 11:54:32,731 - websockets.client - DEBUG - < sec-websocket-accept: DGJXjIFHAT629r2Ww44f7EokFLk=
+2024-06-03 11:54:32,731 - websockets.client - DEBUG - < sec-websocket-extensions: permessage-deflate
+2024-06-03 11:54:32,731 - websockets.client - DEBUG - < Via: 1.1 google
+2024-06-03 11:54:32,731 - websockets.client - DEBUG - < Set-Cookie: GCLB=CMqBkcq7lounwwEQAw; path=/; HttpOnly; expires=Tue, 04-Jun-2024 08:54:33 GMT
+2024-06-03 11:54:32,731 - websockets.client - DEBUG - < Alt-Svc: h3=":443"; ma=86400
+2024-06-03 11:54:32,731 - websockets.client - DEBUG - < CF-Cache-Status: DYNAMIC
+2024-06-03 11:54:32,731 - websockets.client - DEBUG - < Set-Cookie: __cf_bm=2rrTDOHDzvH4W7F6ahbvcnCZERC3KkJqLnlMQu20YZ0-1717404873-1.0.1.1-ZpLGuPAVIFnWjO.RnzlPbs76cHeSumoSZLaWg2fB_FKGA9KRh9_qm.Oonrw4tbMwHWZtL5HA99TUcvZ8eAO1oA; path=/; expires=Mon, 03-Jun-24 09:24:33 GMT; domain=.character.ai; HttpOnly; Secure; SameSite=None
+2024-06-03 11:54:32,731 - websockets.client - DEBUG - < Server: cloudflare
+2024-06-03 11:54:32,731 - websockets.client - DEBUG - < CF-RAY: 88de758aff9582d7-ARN
+2024-06-03 11:54:32,731 - websockets.client - DEBUG - = connection is OPEN
+2024-06-03 11:54:32,731 - websockets.client - DEBUG - > TEXT '{"command": "generate_turn_candidate", "payload...6-a92f-fc5fc47cd1c7"}}}' [284 bytes]
+2024-06-03 11:54:33,815 - websockets.client - DEBUG - < TEXT '{"turn": {"turn_key": {"chat_id": "9f944367-34d...ommand": "update_turn"}' [647 bytes]
+2024-06-03 11:54:34,864 - websockets.client - DEBUG - % sending keepalive ping
+2024-06-03 11:54:34,864 - websockets.client - DEBUG - > PING 9c 81 68 df [binary, 4 bytes]
+2024-06-03 11:54:34,928 - websockets.client - DEBUG - < TEXT '{"turn": {"turn_key": {"chat_id": "9f944367-34d...ommand": "update_turn"}' [726 bytes]
+2024-06-03 11:54:35,043 - websockets.client - DEBUG - < PONG 9c 81 68 df [binary, 4 bytes]
+2024-06-03 11:54:35,043 - websockets.client - DEBUG - % received keepalive pong
+2024-06-03 11:54:35,457 - websockets.client - DEBUG - < TEXT '{"turn": {"turn_key": {"chat_id": "9f944367-34d...ommand": "update_turn"}' [829 bytes]
+2024-06-03 11:54:35,951 - websockets.client - DEBUG - < TEXT '{"turn": {"turn_key": {"chat_id": "9f944367-34d...ommand": "update_turn"}' [914 bytes]
+2024-06-03 11:54:36,499 - websockets.client - DEBUG - < TEXT '{"turn": {"turn_key": {"chat_id": "9f944367-34d...ommand": "update_turn"}' [1019 bytes]
+2024-06-03 11:54:36,499 - websockets.client - DEBUG - < TEXT '{"turn": {"turn_key": {"chat_id": "9f944367-34d...ommand": "update_turn"}' [1099 bytes]
+2024-06-03 11:54:37,304 - websockets.client - DEBUG - < TEXT '{"turn": {"turn_key": {"chat_id": "9f944367-34d...ommand": "update_turn"}' [1139 bytes]
+2024-06-03 11:54:37,355 - websockets.client - DEBUG - < TEXT '{"turn": {"turn_key": {"chat_id": "9f944367-34d...ommand": "update_turn"}' [1203 bytes]
+2024-06-03 11:54:37,355 - websockets.client - DEBUG - = connection is CLOSING
+2024-06-03 11:54:37,355 - websockets.client - DEBUG - > CLOSE 1000 (OK) [2 bytes]
+2024-06-03 11:54:37,544 - websockets.client - DEBUG - < CLOSE 1000 (OK) [2 bytes]
+2024-06-03 11:54:39,541 - websockets.client - DEBUG - = connection is CLOSED
+2024-06-03 11:54:39,542 - __main__ - INFO - validating response
+2024-06-03 11:54:39,542 - __main__ - INFO - regen
+2024-06-03 11:54:39,542 - __main__ - INFO - waiting for a key press
+2024-06-03 11:54:42,910 - websockets.client - DEBUG - % sending keepalive ping
+2024-06-03 11:54:42,910 - websockets.client - DEBUG - > PING 33 67 a7 f9 [binary, 4 bytes]
+2024-06-03 11:54:43,092 - websockets.client - DEBUG - < PONG 33 67 a7 f9 [binary, 4 bytes]
+2024-06-03 11:54:43,092 - websockets.client - DEBUG - % received keepalive pong
+2024-06-03 11:54:44,865 - websockets.client - DEBUG - < PING b2 68 76 51 [binary, 4 bytes]
+2024-06-03 11:54:44,865 - websockets.client - DEBUG - > PONG b2 68 76 51 [binary, 4 bytes]
+2024-06-03 11:54:46,617 - __main__ - INFO - no key, proceeding
+2024-06-03 11:54:46,617 - __main__ - INFO - sending a judgement
+2024-06-03 11:54:46,617 - __main__ - INFO - validating response
+2024-06-03 11:54:46,617 - telethon.extensions.messagepacker - DEBUG - Assigned msg_id = 7376197826124355112 to ResolveUsernameRequest (17f5f7e0f80)
+2024-06-03 11:54:46,617 - telethon.network.mtprotosender - DEBUG - Encrypting 1 message(s) in 32 bytes for sending
+2024-06-03 11:54:46,617 - telethon.network.mtprotosender - DEBUG - Encrypted messages put in a queue to be sent
+2024-06-03 11:54:46,618 - telethon.network.mtprotosender - DEBUG - Waiting for messages to send...
+2024-06-03 11:54:46,618 - telethon.extensions.messagepacker - DEBUG - Assigned msg_id = 7376197826128426348 to MsgsAck (17f5f7e0fb0)
+2024-06-03 11:54:46,618 - telethon.network.mtprotosender - DEBUG - Encrypting 1 message(s) in 76 bytes for sending
+2024-06-03 11:54:46,618 - telethon.network.mtprotosender - DEBUG - Encrypted messages put in a queue to be sent
+2024-06-03 11:54:46,618 - telethon.network.mtprotosender - DEBUG - Waiting for messages to send...
+2024-06-03 11:54:46,699 - telethon.network.mtprotosender - DEBUG - Handling RPC result for message 7376197826124355112
+2024-06-03 11:54:46,699 - telethon.network.mtprotosender - DEBUG - Receiving items from the network...
+2024-06-03 11:54:46,701 - telethon.extensions.messagepacker - DEBUG - Assigned msg_id = 7376197826459717548 to SendMessageRequest (17f5eecc7d0)
+2024-06-03 11:54:46,701 - telethon.network.mtprotosender - DEBUG - Encrypting 1 message(s) in 68 bytes for sending
+2024-06-03 11:54:46,702 - telethon.network.mtprotosender - DEBUG - Encrypted messages put in a queue to be sent
+2024-06-03 11:54:46,702 - telethon.network.mtprotosender - DEBUG - Waiting for messages to send...
+2024-06-03 11:54:46,702 - telethon.extensions.messagepacker - DEBUG - Assigned msg_id = 7376197826463702000 to MsgsAck (17f5eecd940)
+2024-06-03 11:54:46,702 - telethon.network.mtprotosender - DEBUG - Encrypting 1 message(s) in 36 bytes for sending
+2024-06-03 11:54:46,702 - telethon.network.mtprotosender - DEBUG - Encrypted messages put in a queue to be sent
+2024-06-03 11:54:46,702 - telethon.network.mtprotosender - DEBUG - Waiting for messages to send...
+2024-06-03 11:54:46,791 - telethon.network.mtprotosender - DEBUG - Handling RPC result for message 7376197826459717548
+2024-06-03 11:54:46,791 - telethon.network.mtprotosender - DEBUG - Receiving items from the network...
+2024-06-03 11:54:46,791 - __main__ - INFO - regen
+2024-06-03 11:54:46,791 - __main__ - INFO - waiting for a key press
+2024-06-03 11:54:47,486 - telethon.network.mtprotosender - DEBUG - Handling gzipped data
+2024-06-03 11:54:47,487 - telethon.network.mtprotosender - DEBUG - Handling update Updates
+2024-06-03 11:54:47,487 - telethon.network.mtprotosender - DEBUG - Receiving items from the network...
+2024-06-03 11:54:47,487 - __main__ - INFO - new message: Александра, 22, 📍1 км – inst: alexandra_.kalinina
+2024-06-03 11:54:47,487 - __main__ - INFO - message is profile
+2024-06-03 11:54:47,487 - __main__ - INFO - sending message to AI
+2024-06-03 11:54:47,487 - __main__ - INFO - getting respond from AI
+2024-06-03 11:54:47,487 - __main__ - INFO - new message: 
+2024-06-03 11:54:47,487 - __main__ - INFO - not a profile, checking out bullshit.ini...
+2024-06-03 11:54:47,487 - __main__ - WARNING - no match found in bullshit.ini
+2024-06-03 11:54:47,533 - websockets.client - DEBUG - = connection is CONNECTING
+2024-06-03 11:54:47,605 - websockets.client - DEBUG - > GET /ws/ HTTP/1.1
+2024-06-03 11:54:47,605 - websockets.client - DEBUG - > Host: neo.character.ai
+2024-06-03 11:54:47,606 - websockets.client - DEBUG - > Upgrade: websocket
+2024-06-03 11:54:47,606 - websockets.client - DEBUG - > Connection: Upgrade
+2024-06-03 11:54:47,606 - websockets.client - DEBUG - > Sec-WebSocket-Key: LPH/lT3K77hGhobbtpg/Wg==
+2024-06-03 11:54:47,606 - websockets.client - DEBUG - > Sec-WebSocket-Version: 13
+2024-06-03 11:54:47,606 - websockets.client - DEBUG - > Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits
+2024-06-03 11:54:47,606 - websockets.client - DEBUG - > Cookie: HTTP_AUTHORIZATION="Token e566ab2c595366dc49570e5a4e195637a8f99797"
+2024-06-03 11:54:47,606 - websockets.client - DEBUG - > User-Agent: Python/3.12 websockets/12.0
+2024-06-03 11:54:47,682 - telethon.network.mtprotosender - DEBUG - Handling update Updates
+2024-06-03 11:54:47,682 - telethon.network.mtprotosender - DEBUG - Receiving items from the network...
+2024-06-03 11:54:47,948 - websockets.client - DEBUG - < HTTP/1.1 101 Switching Protocols
+2024-06-03 11:54:47,948 - websockets.client - DEBUG - < Date: Mon, 03 Jun 2024 08:54:48 GMT
+2024-06-03 11:54:47,948 - websockets.client - DEBUG - < Connection: upgrade
+2024-06-03 11:54:47,948 - websockets.client - DEBUG - < upgrade: websocket
+2024-06-03 11:54:47,948 - websockets.client - DEBUG - < sec-websocket-accept: 0lzlCq9vPuANmhZJVWuJ2cB6FYA=
+2024-06-03 11:54:47,948 - websockets.client - DEBUG - < sec-websocket-extensions: permessage-deflate
+2024-06-03 11:54:47,948 - websockets.client - DEBUG - < Via: 1.1 google
+2024-06-03 11:54:47,948 - websockets.client - DEBUG - < Set-Cookie: GCLB=CIfVms_x0unupQEQAw; path=/; HttpOnly; expires=Tue, 04-Jun-2024 08:54:48 GMT
+2024-06-03 11:54:47,948 - websockets.client - DEBUG - < Alt-Svc: h3=":443"; ma=86400
+2024-06-03 11:54:47,948 - websockets.client - DEBUG - < CF-Cache-Status: DYNAMIC
+2024-06-03 11:54:47,948 - websockets.client - DEBUG - < Set-Cookie: __cf_bm=MRiKJmle92W14De9GWKR40DE1YgfF94j3QeczpEI1CQ-1717404888-1.0.1.1-k1BSrXIPWY7kaq2KpSttwtoKzXoLhsh8mLrFU0M7WJkAfgz2l6dodanRyj70glfkhOvXcNTnmralB58NdrlDOA; path=/; expires=Mon, 03-Jun-24 09:24:48 GMT; domain=.character.ai; HttpOnly; Secure; SameSite=None
+2024-06-03 11:54:47,948 - websockets.client - DEBUG - < Server: cloudflare
+2024-06-03 11:54:47,948 - websockets.client - DEBUG - < CF-RAY: 88de75e9baef9e19-DME
+2024-06-03 11:54:47,948 - websockets.client - DEBUG - = connection is OPEN
+2024-06-03 11:54:47,988 - websockets.client - DEBUG - = connection is CONNECTING
+2024-06-03 11:54:48,053 - websockets.client - DEBUG - > GET /ws/ HTTP/1.1
+2024-06-03 11:54:48,053 - websockets.client - DEBUG - > Host: neo.character.ai
+2024-06-03 11:54:48,053 - websockets.client - DEBUG - > Upgrade: websocket
+2024-06-03 11:54:48,053 - websockets.client - DEBUG - > Connection: Upgrade
+2024-06-03 11:54:48,053 - websockets.client - DEBUG - > Sec-WebSocket-Key: om1cp0v2vR8QWCbw5MVb1Q==
+2024-06-03 11:54:48,053 - websockets.client - DEBUG - > Sec-WebSocket-Version: 13
+2024-06-03 11:54:48,053 - websockets.client - DEBUG - > Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits
+2024-06-03 11:54:48,053 - websockets.client - DEBUG - > Cookie: HTTP_AUTHORIZATION="Token e566ab2c595366dc49570e5a4e195637a8f99797"
+2024-06-03 11:54:48,053 - websockets.client - DEBUG - > User-Agent: Python/3.12 websockets/12.0
+2024-06-03 11:54:48,376 - websockets.client - DEBUG - < HTTP/1.1 101 Switching Protocols
+2024-06-03 11:54:48,376 - websockets.client - DEBUG - < Date: Mon, 03 Jun 2024 08:54:49 GMT
+2024-06-03 11:54:48,376 - websockets.client - DEBUG - < Connection: upgrade
+2024-06-03 11:54:48,376 - websockets.client - DEBUG - < sec-websocket-accept: AK/X2TzSFUFgBfJeN9IAJ9ndnq0=
+2024-06-03 11:54:48,376 - websockets.client - DEBUG - < sec-websocket-extensions: permessage-deflate
+2024-06-03 11:54:48,376 - websockets.client - DEBUG - < Via: 1.1 google
+2024-06-03 11:54:48,376 - websockets.client - DEBUG - < Set-Cookie: GCLB=CLWzmab9-MqFCRAD; path=/; HttpOnly; expires=Tue, 04-Jun-2024 08:54:49 GMT
+2024-06-03 11:54:48,376 - websockets.client - DEBUG - < Upgrade: websocket
+2024-06-03 11:54:48,376 - websockets.client - DEBUG - < Alt-Svc: h3=":443"; ma=86400
+2024-06-03 11:54:48,376 - websockets.client - DEBUG - < CF-Cache-Status: DYNAMIC
+2024-06-03 11:54:48,376 - websockets.client - DEBUG - < Set-Cookie: __cf_bm=Rp_dm2qaBRsFOi1MceUBf2q585jZlAsb6KW3uUwCwSg-1717404889-1.0.1.1-QXYlJ4tYL.C3KRMtglBXBl0QmgywRJUwDUoLd72GlrjZxaXVlhQwrFTBVKD3Gy4UCie_Esbk8gIJSYsA5_PlDg; path=/; expires=Mon, 03-Jun-24 09:24:49 GMT; domain=.character.ai; HttpOnly; Secure; SameSite=None
+2024-06-03 11:54:48,376 - websockets.client - DEBUG - < Server: cloudflare
+2024-06-03 11:54:48,376 - websockets.client - DEBUG - < CF-RAY: 88de75ec6c327b23-DME
+2024-06-03 11:54:48,376 - websockets.client - DEBUG - = connection is OPEN
+2024-06-03 11:54:48,376 - websockets.client - DEBUG - > TEXT '{"command": "create_and_generate_turn", "payloa...ge_rel_path": null}]}}}' [394 bytes]
+2024-06-03 11:54:48,611 - websockets.client - DEBUG - < TEXT '{"turn": {"turn_key": {"chat_id": "9f944367-34d... "command": "add_turn"}' [727 bytes]
+2024-06-03 11:54:49,834 - websockets.client - DEBUG - < TEXT '{"turn": {"turn_key": {"chat_id": "9f944367-34d... "command": "add_turn"}' [538 bytes]
+2024-06-03 11:54:50,839 - websockets.client - DEBUG - < TEXT '{"turn": {"turn_key": {"chat_id": "9f944367-34d...ommand": "update_turn"}' [616 bytes]
+2024-06-03 11:54:51,386 - websockets.client - DEBUG - < TEXT '{"turn": {"turn_key": {"chat_id": "9f944367-34d...ommand": "update_turn"}' [716 bytes]
+2024-06-03 11:54:51,960 - websockets.client - DEBUG - < TEXT '{"turn": {"turn_key": {"chat_id": "9f944367-34d...ommand": "update_turn"}' [819 bytes]
+2024-06-03 11:54:52,269 - websockets.client - DEBUG - % sending keepalive ping
+2024-06-03 11:54:52,269 - websockets.client - DEBUG - > PING de 2e 26 b5 [binary, 4 bytes]
+2024-06-03 11:54:52,446 - websockets.client - DEBUG - < PONG de 2e 26 b5 [binary, 4 bytes]
+2024-06-03 11:54:52,446 - websockets.client - DEBUG - % received keepalive pong
+2024-06-03 11:54:52,521 - websockets.client - DEBUG - < TEXT '{"turn": {"turn_key": {"chat_id": "9f944367-34d...ommand": "update_turn"}' [910 bytes]
+2024-06-03 11:54:52,889 - websockets.client - DEBUG - < PING 9a b0 ce c1 [binary, 4 bytes]
+2024-06-03 11:54:52,889 - websockets.client - DEBUG - > PONG 9a b0 ce c1 [binary, 4 bytes]
+2024-06-03 11:54:53,050 - websockets.client - DEBUG - < TEXT '{"turn": {"turn_key": {"chat_id": "9f944367-34d...ommand": "update_turn"}' [994 bytes]
+2024-06-03 11:54:53,050 - websockets.client - DEBUG - < TEXT '{"turn": {"turn_key": {"chat_id": "9f944367-34d...ommand": "update_turn"}' [995 bytes]
+2024-06-03 11:54:53,078 - websockets.client - DEBUG - < TEXT '{"turn": {"turn_key": {"chat_id": "9f944367-34d...ommand": "update_turn"}' [1156 bytes]
+2024-06-03 11:54:53,078 - websockets.client - DEBUG - = connection is CLOSING
+2024-06-03 11:54:53,078 - websockets.client - DEBUG - > CLOSE 1000 (OK) [2 bytes]
+2024-06-03 11:54:53,263 - websockets.client - DEBUG - < CLOSE 1000 (OK) [2 bytes]
+2024-06-03 11:54:53,794 - __main__ - INFO - no key, proceeding
+2024-06-03 11:54:53,794 - __main__ - INFO - sending a judgement
+2024-06-03 11:54:53,794 - __main__ - INFO - validating response
+2024-06-03 11:54:53,794 - telethon.extensions.messagepacker - DEBUG - Assigned msg_id = 7376197856899327448 to SendMessageRequest (17f5f7e2a20)
+2024-06-03 11:54:53,794 - telethon.network.mtprotosender - DEBUG - Encrypting 1 message(s) in 68 bytes for sending
+2024-06-03 11:54:53,794 - telethon.network.mtprotosender - DEBUG - Encrypted messages put in a queue to be sent
+2024-06-03 11:54:53,794 - telethon.network.mtprotosender - DEBUG - Waiting for messages to send...
+2024-06-03 11:54:53,794 - telethon.extensions.messagepacker - DEBUG - Assigned msg_id = 7376197856899327452 to MsgsAck (17f5f7e16a0)
+2024-06-03 11:54:53,794 - telethon.network.mtprotosender - DEBUG - Encrypting 1 message(s) in 52 bytes for sending
+2024-06-03 11:54:53,795 - telethon.network.mtprotosender - DEBUG - Encrypted messages put in a queue to be sent
+2024-06-03 11:54:53,795 - telethon.network.mtprotosender - DEBUG - Waiting for messages to send...
+2024-06-03 11:54:53,964 - telethon.network.mtprotosender - DEBUG - Handling RPC result for message 7376197856899327448
+2024-06-03 11:54:53,964 - telethon.network.mtprotosender - DEBUG - Receiving items from the network...
+2024-06-03 11:54:53,964 - __main__ - INFO - regen
+2024-06-03 11:54:53,964 - __main__ - INFO - waiting for a key press
+2024-06-03 11:54:55,048 - websockets.client - DEBUG - % sending keepalive ping
+2024-06-03 11:54:55,048 - websockets.client - DEBUG - > PING '\x1f_\x1aE' [text, 4 bytes]
+2024-06-03 11:54:55,231 - websockets.client - DEBUG - < PONG '\x1f_\x1aE' [text, 4 bytes]
+2024-06-03 11:54:55,231 - websockets.client - DEBUG - % received keepalive pong
+2024-06-03 11:54:55,261 - websockets.client - DEBUG - = connection is CLOSED
+2024-06-03 11:54:55,261 - __main__ - INFO - validating response
+2024-06-03 11:54:55,261 - __main__ - INFO - regen
+2024-06-03 11:54:55,261 - __main__ - INFO - waiting for a key press
+2024-06-03 11:54:56,471 - telethon.network.mtprotosender - DEBUG - Handling gzipped data
+2024-06-03 11:54:56,471 - telethon.network.mtprotosender - DEBUG - Handling update Updates
+2024-06-03 11:54:56,471 - telethon.network.mtprotosender - DEBUG - Receiving items from the network...
+2024-06-03 11:54:56,473 - telethon.network.mtprotosender - DEBUG - Handling update Updates
+2024-06-03 11:54:56,473 - telethon.network.mtprotosender - DEBUG - Receiving items from the network...
+2024-06-03 11:54:56,473 - __main__ - INFO - new message: А, 20, 📍800м
+2024-06-03 11:54:56,473 - __main__ - INFO - message is profile
+2024-06-03 11:54:56,473 - __main__ - INFO - sending message to AI
+2024-06-03 11:54:56,474 - __main__ - INFO - getting respond from AI
+2024-06-03 11:54:56,500 - websockets.client - DEBUG - = connection is CONNECTING
+2024-06-03 11:54:56,567 - websockets.client - DEBUG - > GET /ws/ HTTP/1.1
+2024-06-03 11:54:56,567 - websockets.client - DEBUG - > Host: neo.character.ai
+2024-06-03 11:54:56,567 - websockets.client - DEBUG - > Upgrade: websocket
+2024-06-03 11:54:56,567 - websockets.client - DEBUG - > Connection: Upgrade
+2024-06-03 11:54:56,567 - websockets.client - DEBUG - > Sec-WebSocket-Key: Ba03JEjT8v4FF15UF5lg5A==
+2024-06-03 11:54:56,567 - websockets.client - DEBUG - > Sec-WebSocket-Version: 13
+2024-06-03 11:54:56,567 - websockets.client - DEBUG - > Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits
+2024-06-03 11:54:56,567 - websockets.client - DEBUG - > Cookie: HTTP_AUTHORIZATION="Token e566ab2c595366dc49570e5a4e195637a8f99797"
+2024-06-03 11:54:56,567 - websockets.client - DEBUG - > User-Agent: Python/3.12 websockets/12.0
+2024-06-03 11:54:56,628 - telethon.network.mtprotosender - DEBUG - Handling update Updates
+2024-06-03 11:54:56,628 - telethon.network.mtprotosender - DEBUG - Receiving items from the network...
+2024-06-03 11:54:56,907 - websockets.client - DEBUG - < HTTP/1.1 101 Switching Protocols
+2024-06-03 11:54:56,907 - websockets.client - DEBUG - < Date: Mon, 03 Jun 2024 08:54:57 GMT
+2024-06-03 11:54:56,907 - websockets.client - DEBUG - < Connection: upgrade
+2024-06-03 11:54:56,907 - websockets.client - DEBUG - < upgrade: websocket
+2024-06-03 11:54:56,907 - websockets.client - DEBUG - < sec-websocket-accept: E+za2/Vh0GyodGVxvcEpa2P9eQo=
+2024-06-03 11:54:56,907 - websockets.client - DEBUG - < sec-websocket-extensions: permessage-deflate
+2024-06-03 11:54:56,907 - websockets.client - DEBUG - < Via: 1.1 google
+2024-06-03 11:54:56,907 - websockets.client - DEBUG - < Set-Cookie: GCLB=CJWbrd22-8nCygEQAw; path=/; HttpOnly; expires=Tue, 04-Jun-2024 08:54:57 GMT
+2024-06-03 11:54:56,907 - websockets.client - DEBUG - < Alt-Svc: h3=":443"; ma=86400
+2024-06-03 11:54:56,907 - websockets.client - DEBUG - < CF-Cache-Status: DYNAMIC
+2024-06-03 11:54:56,907 - websockets.client - DEBUG - < Set-Cookie: __cf_bm=VGew6Rpvy3Rn9spZ07a6Ls16d3M6A0M0M_oyKTPXZsU-1717404897-1.0.1.1-T7sHjPgqM8KcJzDIwMDnt9LHCOEpT97eFKIyl1JpQ_qFY8LV5W.8JsZjS5SYwUKw20Ch1MLRs7Z9puOz8KWG3A; path=/; expires=Mon, 03-Jun-24 09:24:57 GMT; domain=.character.ai; HttpOnly; Secure; SameSite=None
+2024-06-03 11:54:56,907 - websockets.client - DEBUG - < Server: cloudflare
+2024-06-03 11:54:56,907 - websockets.client - DEBUG - < CF-RAY: 88de7621bbd79d59-DME
+2024-06-03 11:54:56,907 - websockets.client - DEBUG - = connection is OPEN
+2024-06-03 11:54:56,952 - websockets.client - DEBUG - = connection is CONNECTING
+2024-06-03 11:54:57,024 - websockets.client - DEBUG - > GET /ws/ HTTP/1.1
+2024-06-03 11:54:57,024 - websockets.client - DEBUG - > Host: neo.character.ai
+2024-06-03 11:54:57,024 - websockets.client - DEBUG - > Upgrade: websocket
+2024-06-03 11:54:57,024 - websockets.client - DEBUG - > Connection: Upgrade
+2024-06-03 11:54:57,024 - websockets.client - DEBUG - > Sec-WebSocket-Key: /0nNThq8d27SvwgNmcO//Q==
+2024-06-03 11:54:57,024 - websockets.client - DEBUG - > Sec-WebSocket-Version: 13
+2024-06-03 11:54:57,024 - websockets.client - DEBUG - > Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits
+2024-06-03 11:54:57,024 - websockets.client - DEBUG - > Cookie: HTTP_AUTHORIZATION="Token e566ab2c595366dc49570e5a4e195637a8f99797"
+2024-06-03 11:54:57,024 - websockets.client - DEBUG - > User-Agent: Python/3.12 websockets/12.0
+2024-06-03 11:54:57,360 - websockets.client - DEBUG - < HTTP/1.1 101 Switching Protocols
+2024-06-03 11:54:57,360 - websockets.client - DEBUG - < Date: Mon, 03 Jun 2024 08:54:58 GMT
+2024-06-03 11:54:57,360 - websockets.client - DEBUG - < Connection: upgrade
+2024-06-03 11:54:57,360 - websockets.client - DEBUG - < upgrade: websocket
+2024-06-03 11:54:57,360 - websockets.client - DEBUG - < sec-websocket-accept: Y5CkU3fhGU4QJpTNYYzBHY9MyDI=
+2024-06-03 11:54:57,360 - websockets.client - DEBUG - < sec-websocket-extensions: permessage-deflate
+2024-06-03 11:54:57,360 - websockets.client - DEBUG - < Via: 1.1 google
+2024-06-03 11:54:57,360 - websockets.client - DEBUG - < Set-Cookie: GCLB=CI-bgJXGvdaV3gEQAw; path=/; HttpOnly; expires=Tue, 04-Jun-2024 08:54:58 GMT
+2024-06-03 11:54:57,360 - websockets.client - DEBUG - < Alt-Svc: h3=":443"; ma=86400
+2024-06-03 11:54:57,360 - websockets.client - DEBUG - < CF-Cache-Status: DYNAMIC
+2024-06-03 11:54:57,360 - websockets.client - DEBUG - < Set-Cookie: __cf_bm=5FgTd9VFbLwH3uCv5pMvNreFK0XxuOFiQhlGQRP3fXs-1717404898-1.0.1.1-36M1728BTp4qEQ_Jx0OMprYNd7NTT5GMARrlrD7R89zr73SbFpthye1SZZ95PR_Slq7qlv8eTCaOa.H7oGxSYw; path=/; expires=Mon, 03-Jun-24 09:24:58 GMT; domain=.character.ai; HttpOnly; Secure; SameSite=None
+2024-06-03 11:54:57,360 - websockets.client - DEBUG - < Server: cloudflare
+2024-06-03 11:54:57,360 - websockets.client - DEBUG - < CF-RAY: 88de76249cf49d7a-DME
+2024-06-03 11:54:57,360 - websockets.client - DEBUG - = connection is OPEN
+2024-06-03 11:54:57,360 - websockets.client - DEBUG - > TEXT '{"command": "create_and_generate_turn", "payloa...ge_rel_path": null}]}}}' [302 bytes]
+2024-06-03 11:54:57,605 - websockets.client - DEBUG - < TEXT '{"turn": {"turn_key": {"chat_id": "9f944367-34d... "command": "add_turn"}' [635 bytes]
+2024-06-03 11:54:58,767 - websockets.client - DEBUG - < TEXT '{"turn": {"turn_key": {"chat_id": "9f944367-34d... "command": "add_turn"}' [537 bytes]
+2024-06-03 11:54:59,789 - websockets.client - DEBUG - < TEXT '{"turn": {"turn_key": {"chat_id": "9f944367-34d...ommand": "update_turn"}' [620 bytes]
+2024-06-03 11:55:00,291 - websockets.client - DEBUG - < TEXT '{"turn": {"turn_key": {"chat_id": "9f944367-34d...ommand": "update_turn"}' [725 bytes]
+2024-06-03 11:55:00,771 - websockets.client - DEBUG - < TEXT '{"turn": {"turn_key": {"chat_id": "9f944367-34d...ommand": "update_turn"}' [813 bytes]
+2024-06-03 11:55:00,971 - __main__ - INFO - no key, proceeding
+2024-06-03 11:55:00,971 - __main__ - INFO - sending a judgement
+2024-06-03 11:55:00,971 - __main__ - INFO - validating response
+2024-06-03 11:55:00,971 - telethon.extensions.messagepacker - DEBUG - Assigned msg_id = 7376197887672947476 to SendMessageRequest (17f5f8147d0)
+2024-06-03 11:55:00,971 - telethon.network.mtprotosender - DEBUG - Encrypting 1 message(s) in 68 bytes for sending
+2024-06-03 11:55:00,971 - telethon.network.mtprotosender - DEBUG - Encrypted messages put in a queue to be sent
+2024-06-03 11:55:00,971 - telethon.network.mtprotosender - DEBUG - Waiting for messages to send...
+2024-06-03 11:55:00,972 - telethon.extensions.messagepacker - DEBUG - Assigned msg_id = 7376197887672947480 to MsgsAck (17f5f8149b0)
+2024-06-03 11:55:00,972 - telethon.network.mtprotosender - DEBUG - Encrypting 1 message(s) in 60 bytes for sending
+2024-06-03 11:55:00,972 - telethon.network.mtprotosender - DEBUG - Encrypted messages put in a queue to be sent
+2024-06-03 11:55:00,972 - telethon.network.mtprotosender - DEBUG - Waiting for messages to send...
+2024-06-03 11:55:01,035 - telethon.network.mtprotosender - DEBUG - Handling container
+2024-06-03 11:55:01,035 - telethon.network.mtprotosender - DEBUG - Handling update Updates
+2024-06-03 11:55:01,035 - telethon.network.mtprotosender - DEBUG - Handling acknowledge for [7376197887672947476]
+2024-06-03 11:55:01,035 - telethon.network.mtprotosender - DEBUG - Receiving items from the network...
+2024-06-03 11:55:01,107 - telethon.network.mtprotosender - DEBUG - Handling RPC result for message 7376197887672947476
+2024-06-03 11:55:01,108 - telethon.network.mtprotosender - DEBUG - Receiving items from the network...
+2024-06-03 11:55:01,241 - websockets.client - DEBUG - < TEXT '{"turn": {"turn_key": {"chat_id": "9f944367-34d...ommand": "update_turn"}' [901 bytes]
+2024-06-03 11:55:01,241 - websockets.client - DEBUG - < TEXT '{"turn": {"turn_key": {"chat_id": "9f944367-34d...ommand": "update_turn"}' [926 bytes]
+2024-06-03 11:55:01,255 - websockets.client - DEBUG - < TEXT '{"turn": {"turn_key": {"chat_id": "9f944367-34d...ommand": "update_turn"}' [1087 bytes]
+2024-06-03 11:55:01,255 - websockets.client - DEBUG - = connection is CLOSING
+2024-06-03 11:55:01,255 - websockets.client - DEBUG - > CLOSE 1000 (OK) [2 bytes]
+2024-06-03 11:55:01,321 - telethon.network.mtprotosender - DEBUG - Handling gzipped data
+2024-06-03 11:55:01,321 - telethon.network.mtprotosender - DEBUG - Handling update Updates
+2024-06-03 11:55:01,321 - telethon.network.mtprotosender - DEBUG - Receiving items from the network...
+2024-06-03 11:55:01,321 - __main__ - INFO - new message: Настя, 19, 📍500м – Общение, прогулки
+2024-06-03 11:55:01,322 - __main__ - INFO - message is profile
+2024-06-03 11:55:01,322 - __main__ - INFO - sending message to AI
+2024-06-03 11:55:01,322 - __main__ - INFO - getting respond from AI
+2024-06-03 11:55:01,322 - __main__ - INFO - new message: 
+2024-06-03 11:55:01,323 - __main__ - INFO - not a profile, checking out bullshit.ini...
+2024-06-03 11:55:01,323 - __main__ - WARNING - no match found in bullshit.ini
+2024-06-03 11:55:01,353 - websockets.client - DEBUG - = connection is CONNECTING
+2024-06-03 11:55:01,412 - websockets.client - DEBUG - > GET /ws/ HTTP/1.1
+2024-06-03 11:55:01,412 - websockets.client - DEBUG - > Host: neo.character.ai
+2024-06-03 11:55:01,412 - websockets.client - DEBUG - > Upgrade: websocket
+2024-06-03 11:55:01,412 - websockets.client - DEBUG - > Connection: Upgrade
+2024-06-03 11:55:01,412 - websockets.client - DEBUG - > Sec-WebSocket-Key: l0LTK3GAsX717u66G/AN0A==
+2024-06-03 11:55:01,412 - websockets.client - DEBUG - > Sec-WebSocket-Version: 13
+2024-06-03 11:55:01,412 - websockets.client - DEBUG - > Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits
+2024-06-03 11:55:01,412 - websockets.client - DEBUG - > Cookie: HTTP_AUTHORIZATION="Token e566ab2c595366dc49570e5a4e195637a8f99797"
+2024-06-03 11:55:01,412 - websockets.client - DEBUG - > User-Agent: Python/3.12 websockets/12.0
+2024-06-03 11:55:01,453 - websockets.client - DEBUG - < CLOSE 1000 (OK) [2 bytes]
+2024-06-03 11:55:01,592 - telethon.network.mtprotosender - DEBUG - Handling update Updates
+2024-06-03 11:55:01,592 - telethon.network.mtprotosender - DEBUG - Receiving items from the network...
+2024-06-03 11:55:01,748 - websockets.client - DEBUG - < HTTP/1.1 101 Switching Protocols
+2024-06-03 11:55:01,748 - websockets.client - DEBUG - < Date: Mon, 03 Jun 2024 08:55:02 GMT
+2024-06-03 11:55:01,748 - websockets.client - DEBUG - < Connection: upgrade
+2024-06-03 11:55:01,748 - websockets.client - DEBUG - < upgrade: websocket
+2024-06-03 11:55:01,748 - websockets.client - DEBUG - < sec-websocket-accept: gMvWwP4dsfZHU3B+usk35fkgp+s=
+2024-06-03 11:55:01,748 - websockets.client - DEBUG - < sec-websocket-extensions: permessage-deflate
+2024-06-03 11:55:01,748 - websockets.client - DEBUG - < Via: 1.1 google
+2024-06-03 11:55:01,748 - websockets.client - DEBUG - < Set-Cookie: GCLB=CP7P-7b3gOT4chAD; path=/; HttpOnly; expires=Tue, 04-Jun-2024 08:55:02 GMT
+2024-06-03 11:55:01,748 - websockets.client - DEBUG - < Alt-Svc: h3=":443"; ma=86400
+2024-06-03 11:55:01,748 - websockets.client - DEBUG - < CF-Cache-Status: DYNAMIC
+2024-06-03 11:55:01,748 - websockets.client - DEBUG - < Set-Cookie: __cf_bm=s79sSp4KVLp2a.4wY1Fm0MCLm8V2QXLNbrAf1TWaYlI-1717404902-1.0.1.1-rmH4bGahLAIY3UdgFMYGedB2wAjTS4HPSKs.X9sSN05bxtytYwreNJNCsRof6ws8rw5EgVoyeSXawnJznyNHGg; path=/; expires=Mon, 03-Jun-24 09:25:02 GMT; domain=.character.ai; HttpOnly; Secure; SameSite=None
+2024-06-03 11:55:01,748 - websockets.client - DEBUG - < Server: cloudflare
+2024-06-03 11:55:01,748 - websockets.client - DEBUG - < CF-RAY: 88de763feefc9d88-DME
+2024-06-03 11:55:01,748 - websockets.client - DEBUG - = connection is OPEN
+2024-06-03 11:55:01,779 - websockets.client - DEBUG - = connection is CONNECTING
+2024-06-03 11:55:01,841 - websockets.client - DEBUG - > GET /ws/ HTTP/1.1
+2024-06-03 11:55:01,841 - websockets.client - DEBUG - > Host: neo.character.ai
+2024-06-03 11:55:01,841 - websockets.client - DEBUG - > Upgrade: websocket
+2024-06-03 11:55:01,841 - websockets.client - DEBUG - > Connection: Upgrade
+2024-06-03 11:55:01,842 - websockets.client - DEBUG - > Sec-WebSocket-Key: ifzx0lirhpTFu6zBLDEhPg==
+2024-06-03 11:55:01,842 - websockets.client - DEBUG - > Sec-WebSocket-Version: 13
+2024-06-03 11:55:01,842 - websockets.client - DEBUG - > Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits
+2024-06-03 11:55:01,842 - websockets.client - DEBUG - > Cookie: HTTP_AUTHORIZATION="Token e566ab2c595366dc49570e5a4e195637a8f99797"
+2024-06-03 11:55:01,842 - websockets.client - DEBUG - > User-Agent: Python/3.12 websockets/12.0
+2024-06-03 11:55:02,181 - websockets.client - DEBUG - < HTTP/1.1 101 Switching Protocols
+2024-06-03 11:55:02,181 - websockets.client - DEBUG - < Date: Mon, 03 Jun 2024 08:55:03 GMT
+2024-06-03 11:55:02,181 - websockets.client - DEBUG - < Connection: upgrade
+2024-06-03 11:55:02,181 - websockets.client - DEBUG - < upgrade: websocket
+2024-06-03 11:55:02,181 - websockets.client - DEBUG - < sec-websocket-accept: qAkfckDbBfBU/FPBClinSJTMouI=
+2024-06-03 11:55:02,181 - websockets.client - DEBUG - < sec-websocket-extensions: permessage-deflate
+2024-06-03 11:55:02,181 - websockets.client - DEBUG - < Via: 1.1 google
+2024-06-03 11:55:02,181 - websockets.client - DEBUG - < Set-Cookie: GCLB=CLLhn7r_nqrbZBAD; path=/; HttpOnly; expires=Tue, 04-Jun-2024 08:55:02 GMT
+2024-06-03 11:55:02,181 - websockets.client - DEBUG - < Alt-Svc: h3=":443"; ma=86400
+2024-06-03 11:55:02,181 - websockets.client - DEBUG - < CF-Cache-Status: DYNAMIC
+2024-06-03 11:55:02,181 - websockets.client - DEBUG - < Set-Cookie: __cf_bm=jShNAuQZjJlx69vCqaJjcsGyyHj.hPhuTKrEjXh9Uvk-1717404903-1.0.1.1-JubASVhs03mwpYxMOHImutbwKpt1ENikH5WQfUY1cYZX8cbHKp_QPzEWF3a6lqWXefF5Qbf8PgEx0f08NKiFbg; path=/; expires=Mon, 03-Jun-24 09:25:03 GMT; domain=.character.ai; HttpOnly; Secure; SameSite=None
+2024-06-03 11:55:02,181 - websockets.client - DEBUG - < Server: cloudflare
+2024-06-03 11:55:02,181 - websockets.client - DEBUG - < CF-RAY: 88de7642af52149c-DME
+2024-06-03 11:55:02,181 - websockets.client - DEBUG - = connection is OPEN
+2024-06-03 11:55:02,181 - websockets.client - DEBUG - > TEXT '{"command": "create_and_generate_turn", "payloa...ge_rel_path": null}]}}}' [426 bytes]
+2024-06-03 11:55:02,256 - websockets.client - DEBUG - < PING 3f 00 a2 67 [binary, 4 bytes]
+2024-06-03 11:55:02,256 - websockets.client - DEBUG - > PONG 3f 00 a2 67 [binary, 4 bytes]
+2024-06-03 11:55:02,256 - __main__ - INFO - no key, proceeding
+2024-06-03 11:55:02,256 - __main__ - INFO - sending a judgement
+2024-06-03 11:55:02,256 - __main__ - INFO - validating response
+2024-06-03 11:55:02,257 - telethon.extensions.messagepacker - DEBUG - Assigned msg_id = 7376197893406674220 to SendMessageRequest (17f5f8153d0)
+2024-06-03 11:55:02,257 - telethon.network.mtprotosender - DEBUG - Encrypting 1 message(s) in 68 bytes for sending
+2024-06-03 11:55:02,257 - telethon.network.mtprotosender - DEBUG - Encrypted messages put in a queue to be sent
+2024-06-03 11:55:02,257 - telethon.network.mtprotosender - DEBUG - Waiting for messages to send...
+2024-06-03 11:55:02,257 - telethon.extensions.messagepacker - DEBUG - Assigned msg_id = 7376197893406674224 to MsgsAck (17f5f815460)
+2024-06-03 11:55:02,257 - telethon.network.mtprotosender - DEBUG - Encrypting 1 message(s) in 76 bytes for sending
+2024-06-03 11:55:02,258 - telethon.network.mtprotosender - DEBUG - Encrypted messages put in a queue to be sent
+2024-06-03 11:55:02,258 - telethon.network.mtprotosender - DEBUG - Waiting for messages to send...
+2024-06-03 11:55:02,437 - websockets.client - DEBUG - < TEXT '{"turn": {"turn_key": {"chat_id": "9f944367-34d... "command": "add_turn"}' [759 bytes]
+2024-06-03 11:55:02,442 - telethon.network.mtprotosender - DEBUG - Handling RPC result for message 7376197893406674220
+2024-06-03 11:55:02,442 - telethon.network.mtprotosender - DEBUG - Receiving items from the network...
+2024-06-03 11:55:03,086 - websockets.client - DEBUG - % sending keepalive ping
+2024-06-03 11:55:03,086 - websockets.client - DEBUG - > PING 8a 81 aa 58 [binary, 4 bytes]
+2024-06-03 11:55:03,280 - websockets.client - DEBUG - < PONG 8a 81 aa 58 [binary, 4 bytes]
+2024-06-03 11:55:03,280 - websockets.client - DEBUG - % received keepalive pong
+2024-06-03 11:55:03,453 - websockets.client - DEBUG - = connection is CLOSED
+2024-06-03 11:55:03,453 - __main__ - INFO - validating response
+2024-06-03 11:55:03,453 - __main__ - INFO - regen
+2024-06-03 11:55:03,453 - __main__ - INFO - waiting for a key press
+2024-06-03 11:55:03,887 - telethon.network.mtprotosender - DEBUG - Handling gzipped data
+2024-06-03 11:55:03,887 - telethon.network.mtprotosender - DEBUG - Handling update Updates
+2024-06-03 11:55:03,887 - telethon.network.mtprotosender - DEBUG - Receiving items from the network...
+2024-06-03 11:55:03,888 - __main__ - INFO - new message: Дарья, 21, 📍500м – Фотограф-любитель. JDM головного мозга. Сфоткаю твою некруху в своем стиле.
+Inst: o_alien_
+Заходи, там красиво)
+.
+One Love Тарантино. Старые вестерны. Heavy metalhard rock 80s🤌
+2024-06-03 11:55:03,888 - __main__ - INFO - message is profile
+2024-06-03 11:55:03,888 - __main__ - INFO - sending message to AI
+2024-06-03 11:55:03,888 - __main__ - INFO - getting respond from AI
+2024-06-03 11:55:03,888 - __main__ - INFO - new message: 
+2024-06-03 11:55:03,888 - __main__ - INFO - not a profile, checking out bullshit.ini...
+2024-06-03 11:55:03,888 - __main__ - WARNING - no match found in bullshit.ini
+2024-06-03 11:55:03,897 - websockets.client - DEBUG - < TEXT '{"turn": {"turn_key": {"chat_id": "9f944367-34d... "command": "add_turn"}' [540 bytes]
+2024-06-03 11:55:03,922 - websockets.client - DEBUG - = connection is CONNECTING
+2024-06-03 11:55:03,983 - websockets.client - DEBUG - > GET /ws/ HTTP/1.1
+2024-06-03 11:55:03,983 - websockets.client - DEBUG - > Host: neo.character.ai
+2024-06-03 11:55:03,983 - websockets.client - DEBUG - > Upgrade: websocket
+2024-06-03 11:55:03,983 - websockets.client - DEBUG - > Connection: Upgrade
+2024-06-03 11:55:03,983 - websockets.client - DEBUG - > Sec-WebSocket-Key: cNljnHgwI6Eqnh5iI2JzfA==
+2024-06-03 11:55:03,983 - websockets.client - DEBUG - > Sec-WebSocket-Version: 13
+2024-06-03 11:55:03,983 - websockets.client - DEBUG - > Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits
+2024-06-03 11:55:03,983 - websockets.client - DEBUG - > Cookie: HTTP_AUTHORIZATION="Token e566ab2c595366dc49570e5a4e195637a8f99797"
+2024-06-03 11:55:03,983 - websockets.client - DEBUG - > User-Agent: Python/3.12 websockets/12.0
+2024-06-03 11:55:04,144 - telethon.network.mtprotosender - DEBUG - Handling update Updates
+2024-06-03 11:55:04,144 - telethon.network.mtprotosender - DEBUG - Receiving items from the network...
+2024-06-03 11:55:04,320 - websockets.client - DEBUG - < HTTP/1.1 101 Switching Protocols
+2024-06-03 11:55:04,320 - websockets.client - DEBUG - < Date: Mon, 03 Jun 2024 08:55:05 GMT
+2024-06-03 11:55:04,320 - websockets.client - DEBUG - < Connection: upgrade
+2024-06-03 11:55:04,320 - websockets.client - DEBUG - < upgrade: websocket
+2024-06-03 11:55:04,320 - websockets.client - DEBUG - < sec-websocket-accept: ROJDpZLUmmN04s/AeUZMnAYeTdo=
+2024-06-03 11:55:04,320 - websockets.client - DEBUG - < sec-websocket-extensions: permessage-deflate
+2024-06-03 11:55:04,320 - websockets.client - DEBUG - < Via: 1.1 google
+2024-06-03 11:55:04,320 - websockets.client - DEBUG - < Set-Cookie: GCLB=COf2yJv7kbODtgEQAw; path=/; HttpOnly; expires=Tue, 04-Jun-2024 08:55:05 GMT
+2024-06-03 11:55:04,320 - websockets.client - DEBUG - < Alt-Svc: h3=":443"; ma=86400
+2024-06-03 11:55:04,320 - websockets.client - DEBUG - < CF-Cache-Status: DYNAMIC
+2024-06-03 11:55:04,320 - websockets.client - DEBUG - < Set-Cookie: __cf_bm=0IlrGktVhKgQJaXMWF9srvRmdMN.0cTZ_Rzp4a8pY9c-1717404905-1.0.1.1-9J4bLZp3QY6eRlN1qyAs8ufpKk4dsVoQGULbvmqnKHC2kRPJdeytNlmVOn15jK3P9U1hK.oVbv57qxZew1BGWA; path=/; expires=Mon, 03-Jun-24 09:25:05 GMT; domain=.character.ai; HttpOnly; Secure; SameSite=None
+2024-06-03 11:55:04,320 - websockets.client - DEBUG - < Server: cloudflare
+2024-06-03 11:55:04,320 - websockets.client - DEBUG - < CF-RAY: 88de764ffa029d24-DME
+2024-06-03 11:55:04,320 - websockets.client - DEBUG - = connection is OPEN
+2024-06-03 11:55:04,353 - websockets.client - DEBUG - = connection is CONNECTING
+2024-06-03 11:55:04,426 - websockets.client - DEBUG - > GET /ws/ HTTP/1.1
+2024-06-03 11:55:04,426 - websockets.client - DEBUG - > Host: neo.character.ai
+2024-06-03 11:55:04,426 - websockets.client - DEBUG - > Upgrade: websocket
+2024-06-03 11:55:04,426 - websockets.client - DEBUG - > Connection: Upgrade
+2024-06-03 11:55:04,426 - websockets.client - DEBUG - > Sec-WebSocket-Key: xj9a0zlJ6QUaxUslDS4XyA==
+2024-06-03 11:55:04,426 - websockets.client - DEBUG - > Sec-WebSocket-Version: 13
+2024-06-03 11:55:04,426 - websockets.client - DEBUG - > Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits
+2024-06-03 11:55:04,426 - websockets.client - DEBUG - > Cookie: HTTP_AUTHORIZATION="Token e566ab2c595366dc49570e5a4e195637a8f99797"
+2024-06-03 11:55:04,426 - websockets.client - DEBUG - > User-Agent: Python/3.12 websockets/12.0
+2024-06-03 11:55:04,777 - websockets.client - DEBUG - < HTTP/1.1 101 Switching Protocols
+2024-06-03 11:55:04,777 - websockets.client - DEBUG - < Date: Mon, 03 Jun 2024 08:55:05 GMT
+2024-06-03 11:55:04,777 - websockets.client - DEBUG - < Connection: upgrade
+2024-06-03 11:55:04,777 - websockets.client - DEBUG - < upgrade: websocket
+2024-06-03 11:55:04,777 - websockets.client - DEBUG - < sec-websocket-accept: W+9ne2x/ORURSWOGqqRr4b7OFD0=
+2024-06-03 11:55:04,777 - websockets.client - DEBUG - < sec-websocket-extensions: permessage-deflate
+2024-06-03 11:55:04,777 - websockets.client - DEBUG - < Via: 1.1 google
+2024-06-03 11:55:04,777 - websockets.client - DEBUG - < Set-Cookie: GCLB=CPj95I_A68ul1gEQAw; path=/; HttpOnly; expires=Tue, 04-Jun-2024 08:55:05 GMT
+2024-06-03 11:55:04,777 - websockets.client - DEBUG - < Alt-Svc: h3=":443"; ma=86400
+2024-06-03 11:55:04,777 - websockets.client - DEBUG - < CF-Cache-Status: DYNAMIC
+2024-06-03 11:55:04,777 - websockets.client - DEBUG - < Set-Cookie: __cf_bm=k9TmVx700P7s4D2dgv7hAKb_GYIomsbCBkMtNCa.Cqc-1717404905-1.0.1.1-AH.Lh1jThQ24wBWvlsuuSy0dfrWtuQgDHoGR4en9yqfTgVwYaY5Ib6heEqlTglCK3fZ8cdEZ3F2X0HM4tK05Fw; path=/; expires=Mon, 03-Jun-24 09:25:05 GMT; domain=.character.ai; HttpOnly; Secure; SameSite=None
+2024-06-03 11:55:04,777 - websockets.client - DEBUG - < Server: cloudflare
+2024-06-03 11:55:04,777 - websockets.client - DEBUG - < CF-RAY: 88de7652eac49d2c-DME
+2024-06-03 11:55:04,777 - websockets.client - DEBUG - = connection is OPEN
+2024-06-03 11:55:04,777 - websockets.client - DEBUG - > TEXT '{"command": "create_and_generate_turn", "payloa...ge_rel_path": null}]}}}' [1015 bytes]
+2024-06-03 11:55:05,024 - websockets.client - DEBUG - < TEXT '{"turn": {"turn_key": {"chat_id": "9f944367-34d...ommand": "update_turn"}' [638 bytes]
+2024-06-03 11:55:05,025 - websockets.client - DEBUG - = connection is CLOSING
+2024-06-03 11:55:05,025 - websockets.client - DEBUG - > CLOSE 1000 (OK) [2 bytes]
+2024-06-03 11:55:05,039 - websockets.client - DEBUG - < TEXT '{"turn": {"turn_key": {"chat_id": "9f944367-34d... "command": "add_turn"}' [1348 bytes]
+2024-06-03 11:55:05,225 - websockets.client - DEBUG - < CLOSE 1000 (OK) [2 bytes]
+2024-06-03 11:55:06,902 - websockets.client - DEBUG - < TEXT '{"turn": {"turn_key": {"chat_id": "9f944367-34d...ommand": "update_turn"}' [732 bytes]
+2024-06-03 11:55:07,090 - websockets.client - DEBUG - < TEXT '{"turn": {"turn_key": {"chat_id": "9f944367-34d...ommand": "update_turn"}' [834 bytes]
+2024-06-03 11:55:07,223 - websockets.client - DEBUG - = connection is CLOSED
+2024-06-03 11:55:07,223 - telethon.client.updates - ERROR - Unhandled exception on first
+Traceback (most recent call last):
+  File "C:\Users\tirazh\AppData\Local\Programs\Python\Python312\Lib\site-packages\telethon\client\updates.py", line 570, in _dispatch_update
+    await callback(event)
+  File "C:\Users\tirazh\PycharmProjects\Davinchik-AI-Tool\main.py", line 264, in first
+    response = await message  # ask CAI
+               ^^^^^^^^^^^^^
+  File "C:\Users\tirazh\PycharmProjects\Davinchik-AI-Tool\main.py", line 132, in send_message
+    return await self._send_message()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tirazh\PycharmProjects\Davinchik-AI-Tool\main.py", line 124, in _send_message
+    response = await chat.send_message(
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tirazh\AppData\Local\Programs\Python\Python312\Lib\site-packages\characterai\aiocai\methods\chat2.py", line 363, in send_message
+    response = json.loads(await self.ws.recv())
+                          ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tirazh\AppData\Local\Programs\Python\Python312\Lib\site-packages\websockets\legacy\protocol.py", line 533, in recv
+    raise RuntimeError(
+RuntimeError: cannot call recv while another coroutine is already waiting for the next message
+2024-06-03 11:55:07,250 - telethon.client.updates - ERROR - Unhandled exception on first
+Traceback (most recent call last):
+  File "C:\Users\tirazh\AppData\Local\Programs\Python\Python312\Lib\site-packages\telethon\client\updates.py", line 570, in _dispatch_update
+    await callback(event)
+  File "C:\Users\tirazh\PycharmProjects\Davinchik-AI-Tool\main.py", line 264, in first
+    response = await message  # ask CAI
+               ^^^^^^^^^^^^^
+  File "C:\Users\tirazh\PycharmProjects\Davinchik-AI-Tool\main.py", line 132, in send_message
+    return await self._send_message()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tirazh\PycharmProjects\Davinchik-AI-Tool\main.py", line 124, in _send_message
+    response = await chat.send_message(
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tirazh\AppData\Local\Programs\Python\Python312\Lib\site-packages\characterai\aiocai\methods\chat2.py", line 363, in send_message
+    response = json.loads(await self.ws.recv())
+                          ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tirazh\AppData\Local\Programs\Python\Python312\Lib\site-packages\websockets\legacy\protocol.py", line 568, in recv
+    await self.ensure_open()
+  File "C:\Users\tirazh\AppData\Local\Programs\Python\Python312\Lib\site-packages\websockets\legacy\protocol.py", line 948, in ensure_open
+    raise self.connection_closed_exc()
+websockets.exceptions.ConnectionClosedOK: sent 1000 (OK); then received 1000 (OK)
+2024-06-03 11:55:07,763 - websockets.client - DEBUG - < TEXT '{"turn": {"turn_key": {"chat_id": "9f944367-34d...ommand": "update_turn"}' [918 bytes]
+2024-06-03 11:55:07,965 - websockets.client - DEBUG - % sending keepalive ping
+2024-06-03 11:55:07,965 - websockets.client - DEBUG - > PING 15 66 21 83 [binary, 4 bytes]
+2024-06-03 11:55:08,179 - websockets.client - DEBUG - < PONG 15 66 21 83 [binary, 4 bytes]
+2024-06-03 11:55:08,179 - websockets.client - DEBUG - % received keepalive pong
+2024-06-03 11:55:08,402 - websockets.client - DEBUG - < TEXT '{"turn": {"turn_key": {"chat_id": "9f944367-34d...ommand": "update_turn"}' [1010 bytes]
+2024-06-03 11:55:08,402 - websockets.client - DEBUG - < TEXT '{"turn": {"turn_key": {"chat_id": "9f944367-34d...ommand": "update_turn"}' [1011 bytes]
+2024-06-03 11:55:08,427 - websockets.client - DEBUG - < TEXT '{"turn": {"turn_key": {"chat_id": "9f944367-34d...ommand": "update_turn"}' [1172 bytes]
+2024-06-03 11:55:10,453 - __main__ - INFO - closing program
+2024-06-03 11:55:10,453 - telethon.network.mtprotosender - INFO - Disconnecting from 149.154.167.51:443/TcpFull...
+2024-06-03 11:55:10,453 - telethon.network.mtprotosender - DEBUG - Closing current connection...
+2024-06-03 11:55:10,453 - telethon.network.mtprotosender - DEBUG - Cancelling 0 pending message(s)...
+2024-06-03 11:55:10,453 - telethon.network.mtprotosender - INFO - Disconnection from 149.154.167.51:443/TcpFull complete!
+2024-06-03 11:55:10,454 - telethon.network.mtprotosender - INFO - Not disconnecting (already have no connection)
+2024-06-03 11:55:10,454 - websockets.client - DEBUG - x closing TCP connection
+2024-06-03 11:55:10,454 - websockets.client - DEBUG - x closing TCP connection
+2024-06-03 11:55:10,454 - websockets.client - DEBUG - x closing TCP connection
+2024-06-03 11:55:10,454 - websockets.client - DEBUG - x closing TCP connection
+2024-06-03 11:55:10,454 - websockets.client - DEBUG - x closing TCP connection
+2024-06-03 11:55:10,455 - websockets.client - DEBUG - x closing TCP connection
+2024-06-03 11:55:10,455 - websockets.client - DEBUG - x closing TCP connection
+2024-06-03 11:55:10,455 - websockets.client - DEBUG - x closing TCP connection
+2024-06-03 11:55:10,479 - websockets.client - DEBUG - = connection is CLOSED
+2024-06-03 11:55:10,479 - websockets.client - DEBUG - = connection is CLOSED
+2024-06-03 11:55:10,479 - websockets.client - DEBUG - = connection is CLOSED
+2024-06-03 11:55:10,479 - websockets.client - DEBUG - = connection is CLOSED
+2024-06-03 11:55:10,479 - websockets.client - DEBUG - = connection is CLOSED
+2024-06-03 11:55:10,486 - websockets.client - DEBUG - = connection is CLOSED
+2024-06-03 11:55:10,488 - websockets.client - DEBUG - = connection is CLOSED
+2024-06-03 11:55:10,488 - websockets.client - DEBUG - = connection is CLOSED
+2024-06-03 11:55:10,498 - telethon.network.mtprotosender - INFO - Not disconnecting (already have no connection)
+2024-06-03 13:47:53,240 - __main__ - INFO - starting...
+2024-06-03 13:47:53,249 - __main__ - INFO - config loaded
+2024-06-03 13:47:53,251 - asyncio - DEBUG - Using selector: SelectSelector
+2024-06-03 13:47:53,252 - __main__ - INFO - telegram connected
+2024-06-03 13:47:53,252 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.51:443/TcpFull...
+2024-06-03 13:47:53,252 - telethon.network.mtprotosender - DEBUG - Connection attempt 1...
+2024-06-03 13:47:53,315 - telethon.network.mtprotosender - DEBUG - Connection success!
+2024-06-03 13:47:53,315 - telethon.network.mtprotosender - DEBUG - Starting send loop
+2024-06-03 13:47:53,315 - telethon.network.mtprotosender - DEBUG - Starting receive loop
+2024-06-03 13:47:53,315 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.51:443/TcpFull complete!
+2024-06-03 13:47:53,321 - telethon.network.mtprotosender - DEBUG - Waiting for messages to send...
+2024-06-03 13:47:53,321 - telethon.extensions.messagepacker - DEBUG - Assigned msg_id = 7376226970589088560 to InvokeWithLayerRequest (2347ed03080)
+2024-06-03 13:47:53,321 - telethon.network.mtprotosender - DEBUG - Encrypting 1 message(s) in 88 bytes for sending
+2024-06-03 13:47:53,322 - telethon.network.mtprotosender - DEBUG - Encrypted messages put in a queue to be sent
+2024-06-03 13:47:53,322 - telethon.network.mtprotosender - DEBUG - Waiting for messages to send...
+2024-06-03 13:47:53,322 - telethon.network.mtprotosender - DEBUG - Receiving items from the network...
+2024-06-03 13:47:53,386 - telethon.network.mtprotosender - DEBUG - Handling bad salt for message 7376226970589088560
+2024-06-03 13:47:53,386 - telethon.network.mtprotosender - DEBUG - 1 message(s) will be resent
+2024-06-03 13:47:53,386 - telethon.network.mtprotosender - DEBUG - Receiving items from the network...
+2024-06-03 13:47:53,386 - telethon.extensions.messagepacker - DEBUG - Assigned msg_id = 7376226970848870396 to InvokeWithLayerRequest (2347ed03080)
+2024-06-03 13:47:53,386 - telethon.network.mtprotosender - DEBUG - Encrypting 1 message(s) in 88 bytes for sending
+2024-06-03 13:47:53,386 - telethon.network.mtprotosender - DEBUG - Encrypted messages put in a queue to be sent
+2024-06-03 13:47:53,386 - telethon.network.mtprotosender - DEBUG - Waiting for messages to send...
+2024-06-03 13:47:53,386 - telethon.extensions.messagepacker - DEBUG - Assigned msg_id = 7376226970848870400 to MsgsAck (2347ed030b0)
+2024-06-03 13:47:53,386 - telethon.network.mtprotosender - DEBUG - Encrypting 1 message(s) in 36 bytes for sending
+2024-06-03 13:47:53,387 - telethon.network.mtprotosender - DEBUG - Encrypted messages put in a queue to be sent
+2024-06-03 13:47:53,387 - telethon.network.mtprotosender - DEBUG - Waiting for messages to send...
+2024-06-03 13:47:53,450 - telethon.network.mtprotosender - DEBUG - Handling container
+2024-06-03 13:47:53,450 - telethon.network.mtprotosender - DEBUG - Handling new session created
+2024-06-03 13:47:53,450 - telethon.network.mtprotosender - DEBUG - Handling acknowledge for [7376226970848870396]
+2024-06-03 13:47:53,450 - telethon.network.mtprotosender - DEBUG - Receiving items from the network...
+2024-06-03 13:47:53,686 - telethon.network.mtprotosender - DEBUG - Handling RPC result for message 7376226970848870396
+2024-06-03 13:47:53,687 - telethon.network.mtprotosender - DEBUG - Receiving items from the network...
+2024-06-03 13:47:53,687 - telethon.extensions.messagepacker - DEBUG - Assigned msg_id = 7376226972051982044 to GetUsersRequest (2347ed03470)
+2024-06-03 13:47:53,687 - telethon.network.mtprotosender - DEBUG - Encrypting 1 message(s) in 32 bytes for sending
+2024-06-03 13:47:53,687 - telethon.network.mtprotosender - DEBUG - Encrypted messages put in a queue to be sent
+2024-06-03 13:47:53,687 - telethon.network.mtprotosender - DEBUG - Waiting for messages to send...
+2024-06-03 13:47:53,687 - telethon.extensions.messagepacker - DEBUG - Assigned msg_id = 7376226972051982048 to MsgsAck (2347eb81220)
+2024-06-03 13:47:53,687 - telethon.network.mtprotosender - DEBUG - Encrypting 1 message(s) in 60 bytes for sending
+2024-06-03 13:47:53,687 - telethon.network.mtprotosender - DEBUG - Encrypted messages put in a queue to be sent
+2024-06-03 13:47:53,687 - telethon.network.mtprotosender - DEBUG - Waiting for messages to send...
+2024-06-03 13:47:53,942 - telethon.network.mtprotosender - DEBUG - Handling RPC result for message 7376226972051982044
+2024-06-03 13:47:53,942 - telethon.network.mtprotosender - DEBUG - Receiving items from the network...
+2024-06-03 13:47:53,943 - telethon.extensions.messagepacker - DEBUG - Assigned msg_id = 7376226973078571436 to GetStateRequest (2347cc7faa0)
+2024-06-03 13:47:53,943 - telethon.network.mtprotosender - DEBUG - Encrypting 1 message(s) in 20 bytes for sending
+2024-06-03 13:47:53,943 - telethon.network.mtprotosender - DEBUG - Encrypted messages put in a queue to be sent
+2024-06-03 13:47:53,943 - telethon.network.mtprotosender - DEBUG - Waiting for messages to send...
+2024-06-03 13:47:53,943 - telethon.extensions.messagepacker - DEBUG - Assigned msg_id = 7376226973078571440 to MsgsAck (2347ed03980)
+2024-06-03 13:47:53,943 - telethon.network.mtprotosender - DEBUG - Encrypting 1 message(s) in 36 bytes for sending
+2024-06-03 13:47:53,944 - telethon.network.mtprotosender - DEBUG - Encrypted messages put in a queue to be sent
+2024-06-03 13:47:53,944 - telethon.network.mtprotosender - DEBUG - Waiting for messages to send...
+2024-06-03 13:47:54,119 - telethon.network.mtprotosender - DEBUG - Handling RPC result for message 7376226973078571436
+2024-06-03 13:47:54,119 - telethon.network.mtprotosender - DEBUG - Receiving items from the network...
+2024-06-03 13:47:54,119 - telethon.extensions.messagepacker - DEBUG - Assigned msg_id = 7376226974075474504 to GetUsersRequest (2347ed037a0)
+2024-06-03 13:47:54,119 - telethon.network.mtprotosender - DEBUG - Encrypting 1 message(s) in 32 bytes for sending
+2024-06-03 13:47:54,119 - telethon.network.mtprotosender - DEBUG - Encrypted messages put in a queue to be sent
+2024-06-03 13:47:54,119 - telethon.network.mtprotosender - DEBUG - Waiting for messages to send...
+2024-06-03 13:47:54,120 - telethon.extensions.messagepacker - DEBUG - Assigned msg_id = 7376226974079469444 to MsgsAck (2347ed02330)
+2024-06-03 13:47:54,120 - telethon.network.mtprotosender - DEBUG - Encrypting 1 message(s) in 36 bytes for sending
+2024-06-03 13:47:54,120 - telethon.network.mtprotosender - DEBUG - Encrypted messages put in a queue to be sent
+2024-06-03 13:47:54,120 - telethon.network.mtprotosender - DEBUG - Waiting for messages to send...
+2024-06-03 13:47:54,235 - telethon.network.mtprotosender - DEBUG - Handling RPC result for message 7376226974075474504
+2024-06-03 13:47:54,236 - telethon.network.mtprotosender - DEBUG - Receiving items from the network...
+2024-06-03 13:47:54,236 - __main__ - INFO - telegram logged in
+2024-06-03 13:47:54,236 - telethon.extensions.messagepacker - DEBUG - Assigned msg_id = 7376226974544857740 to GetUsersRequest (2347ed03c80)
+2024-06-03 13:47:54,236 - telethon.network.mtprotosender - DEBUG - Encrypting 1 message(s) in 32 bytes for sending
+2024-06-03 13:47:54,237 - telethon.network.mtprotosender - DEBUG - Encrypted messages put in a queue to be sent
+2024-06-03 13:47:54,237 - telethon.network.mtprotosender - DEBUG - Waiting for messages to send...
+2024-06-03 13:47:54,237 - telethon.extensions.messagepacker - DEBUG - Assigned msg_id = 7376226974548846008 to MsgsAck (2347eb22660)
+2024-06-03 13:47:54,237 - telethon.network.mtprotosender - DEBUG - Encrypting 1 message(s) in 36 bytes for sending
+2024-06-03 13:47:54,237 - telethon.network.mtprotosender - DEBUG - Encrypted messages put in a queue to be sent
+2024-06-03 13:47:54,237 - telethon.network.mtprotosender - DEBUG - Waiting for messages to send...
+2024-06-03 13:47:54,366 - telethon.network.mtprotosender - DEBUG - Handling RPC result for message 7376226974544857740
+2024-06-03 13:47:54,366 - telethon.network.mtprotosender - DEBUG - Receiving items from the network...
+2024-06-03 13:47:54,366 - telethon.extensions.messagepacker - DEBUG - Assigned msg_id = 7376226975064255476 to GetStateRequest (2347e43e8d0)
+2024-06-03 13:47:54,366 - telethon.network.mtprotosender - DEBUG - Encrypting 1 message(s) in 20 bytes for sending
+2024-06-03 13:47:54,366 - telethon.network.mtprotosender - DEBUG - Encrypted messages put in a queue to be sent
+2024-06-03 13:47:54,366 - telethon.network.mtprotosender - DEBUG - Waiting for messages to send...
+2024-06-03 13:47:54,367 - telethon.extensions.messagepacker - DEBUG - Assigned msg_id = 7376226975064255480 to MsgsAck (2347ea59070)
+2024-06-03 13:47:54,367 - telethon.network.mtprotosender - DEBUG - Encrypting 1 message(s) in 36 bytes for sending
+2024-06-03 13:47:54,367 - telethon.network.mtprotosender - DEBUG - Encrypted messages put in a queue to be sent
+2024-06-03 13:47:54,367 - telethon.network.mtprotosender - DEBUG - Waiting for messages to send...
+2024-06-03 13:47:54,486 - telethon.network.mtprotosender - DEBUG - Handling RPC result for message 7376226975064255476
+2024-06-03 13:47:54,486 - telethon.network.mtprotosender - DEBUG - Receiving items from the network...
+2024-06-03 13:48:18,939 - telethon.network.mtprotosender - INFO - Disconnecting from 149.154.167.51:443/TcpFull...
+2024-06-03 13:48:18,939 - telethon.network.mtprotosender - DEBUG - Closing current connection...
+2024-06-03 13:48:18,940 - telethon.network.mtprotosender - DEBUG - Handling update UpdateShort
+2024-06-03 13:48:18,940 - telethon.network.mtprotosender - DEBUG - Cancelling 0 pending message(s)...
+2024-06-03 13:48:18,940 - telethon.network.mtprotosender - INFO - Disconnection from 149.154.167.51:443/TcpFull complete!
+2024-06-03 13:48:18,945 - telethon.network.mtprotosender - INFO - Not disconnecting (already have no connection)
+2024-06-03 13:48:18,951 - telethon.network.mtprotosender - INFO - Not disconnecting (already have no connection)
+2024-06-03 13:48:22,922 - __main__ - INFO - starting...
+2024-06-03 13:48:22,923 - __main__ - INFO - config loaded
+2024-06-03 13:48:22,924 - asyncio - DEBUG - Using selector: SelectSelector
+2024-06-03 13:48:22,925 - __main__ - INFO - telegram connected
+2024-06-03 13:48:22,925 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.51:443/TcpFull...
+2024-06-03 13:48:22,925 - telethon.network.mtprotosender - DEBUG - Connection attempt 1...
+2024-06-03 13:48:22,987 - telethon.network.mtprotosender - DEBUG - Connection success!
+2024-06-03 13:48:22,987 - telethon.network.mtprotosender - DEBUG - Starting send loop
+2024-06-03 13:48:22,987 - telethon.network.mtprotosender - DEBUG - Starting receive loop
+2024-06-03 13:48:22,987 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.51:443/TcpFull complete!
+2024-06-03 13:48:22,996 - telethon.network.mtprotosender - DEBUG - Waiting for messages to send...
+2024-06-03 13:48:22,996 - telethon.extensions.messagepacker - DEBUG - Assigned msg_id = 7376227097844828908 to InvokeWithLayerRequest (24b99cded50)
+2024-06-03 13:48:22,996 - telethon.network.mtprotosender - DEBUG - Encrypting 1 message(s) in 88 bytes for sending
+2024-06-03 13:48:22,997 - telethon.network.mtprotosender - DEBUG - Encrypted messages put in a queue to be sent
+2024-06-03 13:48:22,997 - telethon.network.mtprotosender - DEBUG - Waiting for messages to send...
+2024-06-03 13:48:22,997 - telethon.network.mtprotosender - DEBUG - Receiving items from the network...
+2024-06-03 13:48:23,059 - telethon.network.mtprotosender - DEBUG - Handling bad salt for message 7376227097844828908
+2024-06-03 13:48:23,059 - telethon.network.mtprotosender - DEBUG - 1 message(s) will be resent
+2024-06-03 13:48:23,059 - telethon.network.mtprotosender - DEBUG - Receiving items from the network...
+2024-06-03 13:48:23,059 - telethon.extensions.messagepacker - DEBUG - Assigned msg_id = 7376227098390698380 to InvokeWithLayerRequest (24b99cded50)
+2024-06-03 13:48:23,060 - telethon.network.mtprotosender - DEBUG - Encrypting 1 message(s) in 88 bytes for sending
+2024-06-03 13:48:23,060 - telethon.network.mtprotosender - DEBUG - Encrypted messages put in a queue to be sent
+2024-06-03 13:48:23,060 - telethon.network.mtprotosender - DEBUG - Waiting for messages to send...
+2024-06-03 13:48:23,060 - telethon.extensions.messagepacker - DEBUG - Assigned msg_id = 7376227098393582292 to MsgsAck (24b99cdedb0)
+2024-06-03 13:48:23,060 - telethon.network.mtprotosender - DEBUG - Encrypting 1 message(s) in 36 bytes for sending
+2024-06-03 13:48:23,060 - telethon.network.mtprotosender - DEBUG - Encrypted messages put in a queue to be sent
+2024-06-03 13:48:23,060 - telethon.network.mtprotosender - DEBUG - Waiting for messages to send...
+2024-06-03 13:48:23,123 - telethon.network.mtprotosender - DEBUG - Handling container
+2024-06-03 13:48:23,123 - telethon.network.mtprotosender - DEBUG - Handling new session created
+2024-06-03 13:48:23,123 - telethon.network.mtprotosender - DEBUG - Handling acknowledge for [7376227098390698380]
+2024-06-03 13:48:23,123 - telethon.network.mtprotosender - DEBUG - Receiving items from the network...
+2024-06-03 13:48:23,401 - telethon.network.mtprotosender - DEBUG - Handling RPC result for message 7376227098390698380
+2024-06-03 13:48:23,401 - telethon.network.mtprotosender - DEBUG - Receiving items from the network...
+2024-06-03 13:48:23,402 - telethon.extensions.messagepacker - DEBUG - Assigned msg_id = 7376227099760929056 to GetUsersRequest (24b99cdf4d0)
+2024-06-03 13:48:23,402 - telethon.network.mtprotosender - DEBUG - Encrypting 1 message(s) in 32 bytes for sending
+2024-06-03 13:48:23,402 - telethon.network.mtprotosender - DEBUG - Encrypted messages put in a queue to be sent
+2024-06-03 13:48:23,402 - telethon.network.mtprotosender - DEBUG - Waiting for messages to send...
+2024-06-03 13:48:23,402 - telethon.extensions.messagepacker - DEBUG - Assigned msg_id = 7376227099760929060 to MsgsAck (24b998b3b30)
+2024-06-03 13:48:23,402 - telethon.network.mtprotosender - DEBUG - Encrypting 1 message(s) in 60 bytes for sending
+2024-06-03 13:48:23,402 - telethon.network.mtprotosender - DEBUG - Encrypted messages put in a queue to be sent
+2024-06-03 13:48:23,403 - telethon.network.mtprotosender - DEBUG - Waiting for messages to send...
+2024-06-03 13:48:23,688 - telethon.network.mtprotosender - DEBUG - Handling RPC result for message 7376227099760929056
+2024-06-03 13:48:23,688 - telethon.network.mtprotosender - DEBUG - Receiving items from the network...
+2024-06-03 13:48:23,689 - telethon.extensions.messagepacker - DEBUG - Assigned msg_id = 7376227100909723228 to GetStateRequest (24b99cdf4d0)
+2024-06-03 13:48:23,689 - telethon.network.mtprotosender - DEBUG - Encrypting 1 message(s) in 20 bytes for sending
+2024-06-03 13:48:23,689 - telethon.network.mtprotosender - DEBUG - Encrypted messages put in a queue to be sent
+2024-06-03 13:48:23,689 - telethon.network.mtprotosender - DEBUG - Waiting for messages to send...
+2024-06-03 13:48:23,689 - telethon.extensions.messagepacker - DEBUG - Assigned msg_id = 7376227100909723232 to MsgsAck (24b99cdf530)
+2024-06-03 13:48:23,689 - telethon.network.mtprotosender - DEBUG - Encrypting 1 message(s) in 36 bytes for sending
+2024-06-03 13:48:23,689 - telethon.network.mtprotosender - DEBUG - Encrypted messages put in a queue to be sent
+2024-06-03 13:48:23,689 - telethon.network.mtprotosender - DEBUG - Waiting for messages to send...
+2024-06-03 13:48:23,915 - telethon.network.mtprotosender - DEBUG - Handling RPC result for message 7376227100909723228
+2024-06-03 13:48:23,915 - telethon.network.mtprotosender - DEBUG - Receiving items from the network...
+2024-06-03 13:48:23,915 - telethon.extensions.messagepacker - DEBUG - Assigned msg_id = 7376227101813652940 to GetUsersRequest (24b99cdf3e0)
+2024-06-03 13:48:23,915 - telethon.network.mtprotosender - DEBUG - Encrypting 1 message(s) in 32 bytes for sending
+2024-06-03 13:48:23,915 - telethon.network.mtprotosender - DEBUG - Encrypted messages put in a queue to be sent
+2024-06-03 13:48:23,915 - telethon.network.mtprotosender - DEBUG - Waiting for messages to send...
+2024-06-03 13:48:23,915 - telethon.extensions.messagepacker - DEBUG - Assigned msg_id = 7376227101813652944 to MsgsAck (24b99cdf680)
+2024-06-03 13:48:23,915 - telethon.network.mtprotosender - DEBUG - Encrypting 1 message(s) in 36 bytes for sending
+2024-06-03 13:48:23,916 - telethon.network.mtprotosender - DEBUG - Encrypted messages put in a queue to be sent
+2024-06-03 13:48:23,916 - telethon.network.mtprotosender - DEBUG - Waiting for messages to send...
+2024-06-03 13:48:24,132 - telethon.network.mtprotosender - DEBUG - Handling RPC result for message 7376227101813652940
+2024-06-03 13:48:24,133 - telethon.network.mtprotosender - DEBUG - Receiving items from the network...
+2024-06-03 13:48:24,133 - __main__ - INFO - telegram logged in
+2024-06-03 13:48:24,133 - telethon.extensions.messagepacker - DEBUG - Assigned msg_id = 7376227102980065892 to GetUsersRequest (24b99cdf2f0)
+2024-06-03 13:48:24,133 - telethon.network.mtprotosender - DEBUG - Encrypting 1 message(s) in 32 bytes for sending
+2024-06-03 13:48:24,133 - telethon.network.mtprotosender - DEBUG - Encrypted messages put in a queue to be sent
+2024-06-03 13:48:24,133 - telethon.network.mtprotosender - DEBUG - Waiting for messages to send...
+2024-06-03 13:48:24,133 - telethon.extensions.messagepacker - DEBUG - Assigned msg_id = 7376227102980065896 to MsgsAck (24b971cac30)
+2024-06-03 13:48:24,133 - telethon.network.mtprotosender - DEBUG - Encrypting 1 message(s) in 36 bytes for sending
+2024-06-03 13:48:24,134 - telethon.network.mtprotosender - DEBUG - Encrypted messages put in a queue to be sent
+2024-06-03 13:48:24,134 - telethon.network.mtprotosender - DEBUG - Waiting for messages to send...
+2024-06-03 13:48:24,433 - telethon.network.mtprotosender - DEBUG - Handling RPC result for message 7376227102980065892
+2024-06-03 13:48:24,433 - telethon.network.mtprotosender - DEBUG - Receiving items from the network...
+2024-06-03 13:48:24,433 - __main__ - INFO - character api connected
+2024-06-03 13:48:24,433 - telethon.extensions.messagepacker - DEBUG - Assigned msg_id = 7376227104181271144 to GetStateRequest (24b99cdef00)
+2024-06-03 13:48:24,433 - telethon.network.mtprotosender - DEBUG - Encrypting 1 message(s) in 20 bytes for sending
+2024-06-03 13:48:24,433 - telethon.network.mtprotosender - DEBUG - Encrypted messages put in a queue to be sent
+2024-06-03 13:48:24,433 - telethon.network.mtprotosender - DEBUG - Waiting for messages to send...
+2024-06-03 13:48:24,433 - telethon.extensions.messagepacker - DEBUG - Assigned msg_id = 7376227104181271148 to MsgsAck (24b99cdf8f0)
+2024-06-03 13:48:24,434 - telethon.network.mtprotosender - DEBUG - Encrypting 1 message(s) in 36 bytes for sending
+2024-06-03 13:48:24,434 - telethon.network.mtprotosender - DEBUG - Encrypted messages put in a queue to be sent
+2024-06-03 13:48:24,434 - telethon.network.mtprotosender - DEBUG - Waiting for messages to send...
+2024-06-03 13:48:24,638 - telethon.network.mtprotosender - DEBUG - Handling RPC result for message 7376227104181271144
+2024-06-03 13:48:24,638 - telethon.network.mtprotosender - DEBUG - Receiving items from the network...
+2024-06-03 13:50:08,610 - __main__ - INFO - starting...
+2024-06-03 13:50:08,611 - __main__ - INFO - config loaded
+2024-06-03 13:50:08,613 - __main__ - INFO - telegram connected
+2024-06-03 13:50:08,613 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.51:443/TcpFull...
+2024-06-03 13:50:08,674 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.51:443/TcpFull complete!
+2024-06-03 13:50:09,144 - __main__ - INFO - telegram logged in
+2024-06-03 13:50:09,273 - __main__ - INFO - character api connected
+2024-06-03 13:50:30,207 - __main__ - INFO - new message: ✨🔍
+2024-06-03 13:50:30,207 - __main__ - INFO - not a profile, checking out bullshit.ini...
+2024-06-03 13:50:30,207 - __main__ - WARNING - no match found in bullshit.ini
+2024-06-03 13:50:30,367 - __main__ - INFO - new message: Юля, 20, 📍1 км
+2024-06-03 13:50:30,367 - __main__ - INFO - message is profile
+2024-06-03 13:50:30,367 - __main__ - INFO - sending message to AI
+2024-06-03 13:50:30,367 - __main__ - INFO - getting respond from AI
+2024-06-03 13:50:38,138 - __main__ - INFO - validating response, state: True
+2024-06-03 13:50:38,138 - __main__ - INFO - mark as no
+2024-06-03 13:50:38,138 - __main__ - INFO - regen
+2024-06-03 13:50:38,138 - __main__ - INFO - waiting for a key press
+2024-06-03 13:50:45,211 - __main__ - INFO - no key pressed, proceeding
+2024-06-03 13:50:45,211 - __main__ - INFO - sending a judgement
+2024-06-03 13:50:45,211 - __main__ - INFO - validating response, state: False
+2024-06-03 13:50:45,211 - __main__ - INFO - mark as no
+2024-06-03 13:50:45,873 - __main__ - INFO - new message: Лисонька 💍, 18, 📍500м – Рост 168, если у вас есть тату то вы уже заняли место в моей душе, если нет то тоже  , мяу вообщем
+2024-06-03 13:50:45,873 - __main__ - INFO - message is profile
+2024-06-03 13:50:45,873 - __main__ - INFO - sending message to AI
+2024-06-03 13:50:45,873 - __main__ - INFO - getting respond from AI
+2024-06-03 13:50:45,873 - __main__ - INFO - new message: 
+2024-06-03 13:50:45,873 - __main__ - INFO - not a profile, checking out bullshit.ini...
+2024-06-03 13:50:45,873 - __main__ - WARNING - no match found in bullshit.ini
+2024-06-03 13:50:45,873 - __main__ - INFO - new message: 
+2024-06-03 13:50:45,873 - __main__ - INFO - not a profile, checking out bullshit.ini...
+2024-06-03 13:50:45,873 - __main__ - WARNING - no match found in bullshit.ini
+2024-06-03 13:50:56,083 - __main__ - INFO - validating response, state: True
+2024-06-03 13:50:56,083 - __main__ - INFO - bad format, trying again
+2024-06-03 13:51:15,359 - __main__ - INFO - validating response, state: True
+2024-06-03 13:51:15,359 - __main__ - INFO - bad format, trying again
+2024-06-03 13:51:24,522 - __main__ - INFO - validating response, state: True
+2024-06-03 13:51:24,522 - __main__ - INFO - bad format, trying again
+2024-06-03 13:51:32,867 - __main__ - INFO - validating response, state: True
+2024-06-03 13:51:32,867 - __main__ - INFO - bad format, trying again
+2024-06-03 13:51:40,515 - __main__ - INFO - validating response, state: True
+2024-06-03 13:51:40,515 - __main__ - INFO - mark as no
+2024-06-03 13:51:40,515 - __main__ - INFO - regen
+2024-06-03 13:51:40,515 - __main__ - INFO - waiting for a key press
+2024-06-03 13:51:47,517 - __main__ - INFO - no key pressed, proceeding
+2024-06-03 13:51:47,517 - __main__ - INFO - sending a judgement
+2024-06-03 13:51:47,517 - __main__ - INFO - validating response, state: False
+2024-06-03 13:51:47,517 - __main__ - INFO - mark as no
+2024-06-03 13:51:47,681 - __main__ - INFO - regen
+2024-06-03 13:51:47,681 - __main__ - INFO - waiting for a key press
+2024-06-03 13:51:47,984 - __main__ - INFO - new message: Дарья, 21, 📍500м – Фотограф-любитель. JDM головного мозга. Сфоткаю твою некруху в своем стиле.
+Inst: o_alien_
+Заходи, там красиво)
+.
+One Love Тарантино. Старые вестерны. Heavy metalhard rock 80s🤌
+2024-06-03 13:51:47,984 - __main__ - INFO - message is profile
+2024-06-03 13:51:47,984 - __main__ - INFO - sending message to AI
+2024-06-03 13:51:47,984 - __main__ - INFO - getting respond from AI
+2024-06-03 13:51:47,985 - __main__ - INFO - new message: 
+2024-06-03 13:51:47,985 - __main__ - INFO - not a profile, checking out bullshit.ini...
+2024-06-03 13:51:47,985 - __main__ - WARNING - no match found in bullshit.ini
+2024-06-03 13:51:54,692 - __main__ - INFO - no key pressed, proceeding
+2024-06-03 13:51:54,692 - __main__ - INFO - sending a judgement
+2024-06-03 13:51:54,692 - __main__ - INFO - validating response, state: False
+2024-06-03 13:51:54,692 - __main__ - INFO - mark as no
+2024-06-03 13:51:54,815 - __main__ - INFO - regen
+2024-06-03 13:51:54,815 - __main__ - INFO - waiting for a key press
+2024-06-03 13:51:56,476 - __main__ - INFO - new message: Татьяна, 20, 📍2 км – Людей на ночь не ищу ✨
+2024-06-03 13:51:56,476 - __main__ - INFO - message is profile
+2024-06-03 13:51:56,476 - __main__ - INFO - sending message to AI
+2024-06-03 13:51:56,476 - __main__ - INFO - getting respond from AI
+2024-06-03 13:53:31,589 - __main__ - INFO - starting...
+2024-06-03 13:53:31,591 - __main__ - INFO - config loaded
+2024-06-03 13:53:31,598 - __main__ - INFO - telegram connected
+2024-06-03 13:53:31,599 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.51:443/TcpFull...
+2024-06-03 13:53:31,663 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.51:443/TcpFull complete!
+2024-06-03 13:53:32,615 - __main__ - INFO - telegram logged in
+2024-06-03 13:53:32,805 - __main__ - INFO - character api connected
+2024-06-03 13:55:50,095 - __main__ - INFO - new message: викитория🤍, 20, 📍3 км
+2024-06-03 13:55:50,095 - __main__ - INFO - message is profile
+2024-06-03 13:55:50,095 - __main__ - INFO - sending message to AI
+2024-06-03 13:55:50,095 - __main__ - INFO - getting respond from AI
+2024-06-03 13:55:59,257 - __main__ - INFO - validating response, state: True
+2024-06-03 13:55:59,257 - __main__ - INFO - mark as yes
+2024-06-03 13:55:59,258 - __main__ - INFO - regen
+2024-06-03 13:55:59,258 - __main__ - INFO - waiting for a key press
+2024-06-03 13:56:06,341 - __main__ - INFO - no key pressed, proceeding
+2024-06-03 13:56:06,341 - __main__ - INFO - sending a judgement
+2024-06-03 13:56:06,341 - __main__ - INFO - validating response, state: False
+2024-06-03 13:56:06,341 - __main__ - INFO - mark as yes
+2024-06-03 13:56:17,342 - telethon.network.mtprotosender - INFO - Disconnecting from 149.154.167.51:443/TcpFull...
+2024-06-03 13:56:17,344 - telethon.network.mtprotosender - INFO - Disconnection from 149.154.167.51:443/TcpFull complete!
+2024-06-03 13:56:17,348 - telethon.network.mtprotosender - INFO - Not disconnecting (already have no connection)
+2024-06-03 13:56:17,354 - telethon.network.mtprotosender - INFO - Not disconnecting (already have no connection)
+2024-06-03 13:57:42,024 - __main__ - INFO - starting...
+2024-06-03 13:57:42,026 - __main__ - INFO - config loaded
+2024-06-03 13:57:42,030 - __main__ - INFO - telegram connected
+2024-06-03 13:57:42,031 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.51:443/TcpFull...
+2024-06-03 13:57:42,095 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.51:443/TcpFull complete!
+2024-06-03 13:57:42,572 - __main__ - INFO - telegram logged in
+2024-06-03 13:57:42,643 - __main__ - INFO - character api connected
+2024-06-03 13:57:45,413 - __main__ - INFO - new message: Даша, 21, 📍2 км
+2024-06-03 13:57:45,413 - __main__ - INFO - message is profile
+2024-06-03 13:57:45,413 - __main__ - INFO - sending message to AI
+2024-06-03 13:57:45,413 - __main__ - INFO - getting respond from AI
+2024-06-03 13:59:02,754 - __main__ - INFO - new message: 
+2024-06-03 13:59:02,754 - __main__ - INFO - not a profile, checking out bullshit.ini...
+2024-06-03 13:59:02,754 - __main__ - WARNING - no match found in bullshit.ini
+2024-06-03 13:59:02,754 - telethon.network.mtprotosender - INFO - Disconnecting from 149.154.167.51:443/TcpFull...
+2024-06-03 13:59:02,755 - telethon.client.updates - ERROR - Unhandled exception on first
+Traceback (most recent call last):
+  File "C:\Users\tirazh\AppData\Local\Programs\Python\Python312\Lib\site-packages\websockets\legacy\client.py", line 647, in __await_impl_timeout__
+    return await self.__await_impl__()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tirazh\AppData\Local\Programs\Python\Python312\Lib\site-packages\websockets\legacy\client.py", line 651, in __await_impl__
+    _transport, _protocol = await self._create_connection()
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tirazh\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 1078, in create_connection
+    infos = await self._ensure_resolved(
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tirazh\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 1454, in _ensure_resolved
+    return await loop.getaddrinfo(host, port, family=family, type=type,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tirazh\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 899, in getaddrinfo
+    return await self.run_in_executor(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+asyncio.exceptions.CancelledError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\tirazh\AppData\Local\Programs\Python\Python312\Lib\site-packages\telethon\client\updates.py", line 570, in _dispatch_update
+    await callback(event)
+  File "C:\Users\tirazh\PycharmProjects\Davinchik-AI-Tool\main.py", line 269, in first
+    response = await message  # ask CAI
+               ^^^^^^^^^^^^^
+  File "C:\Users\tirazh\PycharmProjects\Davinchik-AI-Tool\main.py", line 132, in send_message
+    return await self._send_message()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tirazh\PycharmProjects\Davinchik-AI-Tool\main.py", line 123, in _send_message
+    async with await cai_client.connect() as chat:
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tirazh\AppData\Local\Programs\Python\Python312\Lib\site-packages\characterai\aiocai\methods\chat2.py", line 440, in __call__
+    return await self.__aenter__(self.token)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tirazh\AppData\Local\Programs\Python\Python312\Lib\site-packages\characterai\aiocai\methods\chat2.py", line 447, in __aenter__
+    self.ws = await websockets.connect(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tirazh\AppData\Local\Programs\Python\Python312\Lib\site-packages\websockets\legacy\client.py", line 646, in __await_impl_timeout__
+    async with asyncio_timeout(self.open_timeout):
+  File "C:\Users\tirazh\AppData\Local\Programs\Python\Python312\Lib\asyncio\timeouts.py", line 115, in __aexit__
+    raise TimeoutError from exc_val
+TimeoutError
+2024-06-03 13:59:02,799 - telethon.network.mtprotosender - INFO - Disconnection from 149.154.167.51:443/TcpFull complete!
+2024-06-03 13:59:02,804 - telethon.network.mtprotosender - INFO - Not disconnecting (already have no connection)
+2024-06-03 13:59:02,811 - telethon.network.mtprotosender - INFO - Not disconnecting (already have no connection)
+2024-06-03 13:59:05,502 - __main__ - INFO - starting...
+2024-06-03 13:59:05,502 - __main__ - INFO - config loaded
+2024-06-03 13:59:05,504 - __main__ - INFO - telegram connected
+2024-06-03 13:59:05,505 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.51:443/TcpFull...
+2024-06-03 13:59:05,565 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.51:443/TcpFull complete!
+2024-06-03 13:59:06,119 - __main__ - INFO - telegram logged in
+2024-06-03 13:59:06,287 - __main__ - INFO - character api connected
+2024-06-03 13:59:11,466 - __main__ - INFO - new message: Полина, 20, 📍2 км – FWB, ONS
+2024-06-03 13:59:11,466 - __main__ - INFO - message is profile
+2024-06-03 13:59:11,466 - __main__ - INFO - sending message to AI
+2024-06-03 13:59:11,466 - __main__ - INFO - getting respond from AI
+2024-06-03 13:59:19,371 - __main__ - INFO - validating response, state: True
+2024-06-03 13:59:19,371 - __main__ - INFO - bad format, trying again
+2024-06-03 13:59:26,303 - __main__ - INFO - validating response, state: True
+2024-06-03 13:59:26,303 - __main__ - INFO - mark as no
+2024-06-03 13:59:26,303 - __main__ - INFO - regen
+2024-06-03 13:59:26,303 - __main__ - INFO - waiting for a key press
+2024-06-03 13:59:33,391 - __main__ - INFO - no key pressed, proceeding
+2024-06-03 13:59:33,391 - __main__ - INFO - sending a judgement
+2024-06-03 13:59:33,391 - __main__ - INFO - validating response, state: False
+2024-06-03 13:59:33,391 - __main__ - INFO - mark as no
+2024-06-03 13:59:33,652 - __main__ - INFO - regen
+2024-06-03 13:59:33,652 - __main__ - INFO - waiting for a key press
+2024-06-03 13:59:33,855 - __main__ - INFO - new message: Анастасия, 21, 📍3 км
+2024-06-03 13:59:33,855 - __main__ - INFO - message is profile
+2024-06-03 13:59:33,855 - __main__ - INFO - sending message to AI
+2024-06-03 13:59:33,855 - __main__ - INFO - getting respond from AI
+2024-06-03 13:59:40,656 - __main__ - INFO - no key pressed, proceeding
+2024-06-03 13:59:40,656 - __main__ - INFO - sending a judgement
+2024-06-03 13:59:40,656 - __main__ - INFO - validating response, state: False
+2024-06-03 13:59:40,656 - __main__ - INFO - mark as no
+2024-06-03 13:59:41,145 - __main__ - INFO - new message: Рина, 20, 📍2 км
+2024-06-03 13:59:41,145 - __main__ - INFO - message is profile
+2024-06-03 13:59:41,146 - __main__ - INFO - sending message to AI
+2024-06-03 13:59:41,146 - __main__ - INFO - getting respond from AI
+2024-06-03 13:59:41,737 - __main__ - INFO - validating response, state: True
+2024-06-03 13:59:41,737 - __main__ - INFO - bad format, trying again
+2024-06-03 13:59:48,925 - __main__ - INFO - validating response, state: True
+2024-06-03 13:59:48,925 - __main__ - INFO - bad format, trying again
+2024-06-03 13:59:57,144 - __main__ - INFO - validating response, state: True
+2024-06-03 13:59:57,144 - __main__ - INFO - bad format, trying again
+2024-06-03 14:00:05,471 - __main__ - INFO - validating response, state: True
+2024-06-03 14:00:05,471 - __main__ - INFO - mark as yes
+2024-06-03 14:00:05,471 - __main__ - INFO - regen
+2024-06-03 14:00:05,471 - __main__ - INFO - waiting for a key press
+2024-06-03 14:00:09,369 - __main__ - INFO - trying again
+2024-06-03 14:00:18,005 - __main__ - INFO - validating response, state: True
+2024-06-03 14:00:18,005 - __main__ - INFO - bad format, trying again
+2024-06-03 14:00:26,025 - __main__ - INFO - validating response, state: True
+2024-06-03 14:00:26,025 - __main__ - INFO - bad format, trying again
+2024-06-03 14:00:33,632 - __main__ - INFO - validating response, state: True
+2024-06-03 14:00:33,632 - __main__ - INFO - bad format, trying again
+2024-06-03 14:00:41,679 - __main__ - INFO - validating response, state: True
+2024-06-03 14:00:41,679 - __main__ - INFO - bad format, trying again
+2024-06-03 14:00:49,756 - __main__ - INFO - validating response, state: True
+2024-06-03 14:00:49,756 - __main__ - INFO - mark as yes
+2024-06-03 14:00:49,756 - __main__ - INFO - regen
+2024-06-03 14:00:49,756 - __main__ - INFO - waiting for a key press
+2024-06-03 14:00:52,795 - __main__ - INFO - trying again
+2024-06-03 14:01:00,610 - __main__ - INFO - validating response, state: True
+2024-06-03 14:01:00,610 - __main__ - INFO - bad format, trying again
+2024-06-03 14:01:08,318 - __main__ - INFO - validating response, state: True
+2024-06-03 14:01:08,318 - __main__ - INFO - bad format, trying again
+2024-06-03 14:01:16,218 - __main__ - INFO - validating response, state: True
+2024-06-03 14:01:16,218 - __main__ - INFO - bad format, trying again
+2024-06-03 14:01:23,736 - __main__ - INFO - validating response, state: True
+2024-06-03 14:01:23,736 - __main__ - INFO - bad format, trying again
+2024-06-03 14:01:31,953 - __main__ - INFO - validating response, state: True
+2024-06-03 14:01:31,953 - __main__ - INFO - mark as yes
+2024-06-03 14:01:31,953 - __main__ - INFO - regen
+2024-06-03 14:01:31,953 - __main__ - INFO - waiting for a key press
+2024-06-03 14:01:34,243 - __main__ - INFO - chatting with AI
+2024-06-03 14:02:24,812 - __main__ - INFO - new message
+2024-06-03 14:02:54,820 - __main__ - INFO - exiting chat
+2024-06-03 14:03:02,450 - __main__ - INFO - validating response, state: True
+2024-06-03 14:03:02,450 - __main__ - INFO - bad format, trying again
+2024-06-03 14:03:11,062 - __main__ - INFO - validating response, state: True
+2024-06-03 14:03:11,062 - __main__ - INFO - mark as yes
+2024-06-03 14:03:11,062 - __main__ - INFO - regen
+2024-06-03 14:03:11,062 - __main__ - INFO - waiting for a key press
+2024-06-03 14:03:13,350 - __main__ - INFO - trying again
+2024-06-03 14:03:21,545 - __main__ - INFO - validating response, state: True
+2024-06-03 14:03:21,545 - __main__ - INFO - bad format, trying again
+2024-06-03 14:03:29,505 - __main__ - INFO - validating response, state: True
+2024-06-03 14:03:29,505 - __main__ - INFO - bad format, trying again
+2024-06-03 14:03:37,582 - __main__ - INFO - validating response, state: True
+2024-06-03 14:03:37,582 - __main__ - INFO - bad format, trying again
+2024-06-03 14:03:44,846 - __main__ - INFO - validating response, state: True
+2024-06-03 14:03:44,847 - __main__ - INFO - bad format, trying again
+2024-06-03 14:03:51,832 - __main__ - INFO - validating response, state: True
+2024-06-03 14:03:51,832 - __main__ - INFO - bad format, trying again
+2024-06-03 14:04:00,790 - __main__ - INFO - validating response, state: True
+2024-06-03 14:04:00,790 - __main__ - INFO - bad format, trying again
+2024-06-03 14:04:07,715 - __main__ - INFO - validating response, state: True
+2024-06-03 14:04:07,715 - __main__ - INFO - bad format, trying again
+2024-06-03 14:04:15,899 - __main__ - INFO - validating response, state: True
+2024-06-03 14:04:15,899 - __main__ - INFO - bad format, trying again
+2024-06-03 14:04:23,720 - __main__ - INFO - validating response, state: True
+2024-06-03 14:04:23,720 - __main__ - INFO - bad format, trying again
+2024-06-03 14:04:32,240 - __main__ - INFO - validating response, state: True
+2024-06-03 14:04:32,240 - __main__ - INFO - bad format, trying again
+2024-06-03 14:04:41,050 - __main__ - INFO - validating response, state: True
+2024-06-03 14:04:41,050 - __main__ - INFO - mark as yes
+2024-06-03 14:04:41,050 - __main__ - INFO - regen
+2024-06-03 14:04:41,050 - __main__ - INFO - waiting for a key press
+2024-06-03 14:04:43,243 - __main__ - INFO - chatting with AI
+2024-06-03 14:05:37,636 - __main__ - INFO - new message
+2024-06-03 14:05:52,540 - __main__ - INFO - exiting chat
+2024-06-03 14:06:00,100 - __main__ - INFO - validating response, state: True
+2024-06-03 14:06:00,100 - __main__ - INFO - bad format, trying again
+2024-06-03 14:06:07,561 - __main__ - INFO - validating response, state: True
+2024-06-03 14:06:07,561 - __main__ - INFO - bad format, trying again
+2024-06-03 14:06:15,183 - __main__ - INFO - validating response, state: True
+2024-06-03 14:06:15,183 - __main__ - INFO - mark as yes
+2024-06-03 14:06:15,183 - __main__ - INFO - regen
+2024-06-03 14:06:15,183 - __main__ - INFO - waiting for a key press
+2024-06-03 14:06:22,182 - __main__ - INFO - no key pressed, proceeding
+2024-06-03 14:06:22,182 - __main__ - INFO - sending a judgement
+2024-06-03 14:06:22,182 - __main__ - INFO - validating response, state: False
+2024-06-03 14:06:22,182 - __main__ - INFO - mark as yes
+2024-06-03 14:06:22,381 - __main__ - INFO - regen
+2024-06-03 14:06:22,381 - __main__ - INFO - waiting for a key press
+2024-06-03 14:06:23,359 - __main__ - INFO - new message: Ариша, 20, 📍600м
+2024-06-03 14:06:23,359 - __main__ - INFO - message is profile
+2024-06-03 14:06:23,359 - __main__ - INFO - sending message to AI
+2024-06-03 14:06:23,359 - __main__ - INFO - getting respond from AI
+2024-06-03 14:06:29,390 - __main__ - INFO - no key pressed, proceeding
+2024-06-03 14:06:29,390 - __main__ - INFO - sending a judgement
+2024-06-03 14:06:29,390 - __main__ - INFO - validating response, state: False
+2024-06-03 14:06:29,390 - __main__ - INFO - mark as yes
+2024-06-03 14:06:29,476 - __main__ - INFO - regen
+2024-06-03 14:06:29,476 - __main__ - INFO - waiting for a key press
+2024-06-03 14:06:29,973 - __main__ - INFO - new message: your love, 22, 📍600м
+2024-06-03 14:06:29,973 - __main__ - INFO - message is profile
+2024-06-03 14:06:29,973 - __main__ - INFO - sending message to AI
+2024-06-03 14:06:29,973 - __main__ - INFO - getting respond from AI
+2024-06-03 14:06:30,071 - __main__ - INFO - no key pressed, proceeding
+2024-06-03 14:06:30,071 - __main__ - INFO - sending a judgement
+2024-06-03 14:06:30,071 - __main__ - INFO - validating response, state: False
+2024-06-03 14:06:30,071 - __main__ - INFO - mark as yes
+2024-06-03 14:06:30,161 - __main__ - INFO - regen
+2024-06-03 14:06:30,161 - __main__ - INFO - waiting for a key press
+2024-06-03 14:06:30,813 - __main__ - INFO - validating response, state: True
+2024-06-03 14:06:30,813 - __main__ - INFO - bad format, trying again
+2024-06-03 14:06:30,935 - __main__ - INFO - new message: Elizaveta, 20, 📍2 км
+2024-06-03 14:06:30,935 - __main__ - INFO - message is profile
+2024-06-03 14:06:30,935 - __main__ - INFO - sending message to AI
+2024-06-03 14:06:30,935 - __main__ - INFO - getting respond from AI
+2024-06-03 14:06:34,774 - telethon.client.updates - ERROR - Unhandled exception on first
+Traceback (most recent call last):
+  File "C:\Users\tirazh\AppData\Local\Programs\Python\Python312\Lib\site-packages\telethon\client\updates.py", line 570, in _dispatch_update
+    await callback(event)
+  File "C:\Users\tirazh\PycharmProjects\Davinchik-AI-Tool\main.py", line 267, in first
+    response = await message  # ask CAI
+               ^^^^^^^^^^^^^
+  File "C:\Users\tirazh\PycharmProjects\Davinchik-AI-Tool\main.py", line 132, in send_message
+    return await self._send_message()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tirazh\PycharmProjects\Davinchik-AI-Tool\main.py", line 124, in _send_message
+    response = await chat.send_message(
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tirazh\AppData\Local\Programs\Python\Python312\Lib\site-packages\characterai\aiocai\methods\chat2.py", line 363, in send_message
+    response = json.loads(await self.ws.recv())
+                          ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tirazh\AppData\Local\Programs\Python\Python312\Lib\site-packages\websockets\legacy\protocol.py", line 533, in recv
+    raise RuntimeError(
+RuntimeError: cannot call recv while another coroutine is already waiting for the next message
+2024-06-03 14:06:34,784 - telethon.client.updates - ERROR - Unhandled exception on first
+Traceback (most recent call last):
+  File "C:\Users\tirazh\AppData\Local\Programs\Python\Python312\Lib\site-packages\telethon\client\updates.py", line 570, in _dispatch_update
+    await callback(event)
+  File "C:\Users\tirazh\PycharmProjects\Davinchik-AI-Tool\main.py", line 267, in first
+    response = await message  # ask CAI
+               ^^^^^^^^^^^^^
+  File "C:\Users\tirazh\PycharmProjects\Davinchik-AI-Tool\main.py", line 132, in send_message
+    return await self._send_message()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tirazh\PycharmProjects\Davinchik-AI-Tool\main.py", line 124, in _send_message
+    response = await chat.send_message(
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tirazh\AppData\Local\Programs\Python\Python312\Lib\site-packages\characterai\aiocai\methods\chat2.py", line 363, in send_message
+    response = json.loads(await self.ws.recv())
+                          ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tirazh\AppData\Local\Programs\Python\Python312\Lib\site-packages\websockets\legacy\protocol.py", line 568, in recv
+    await self.ensure_open()
+  File "C:\Users\tirazh\AppData\Local\Programs\Python\Python312\Lib\site-packages\websockets\legacy\protocol.py", line 948, in ensure_open
+    raise self.connection_closed_exc()
+websockets.exceptions.ConnectionClosedOK: sent 1000 (OK); then received 1000 (OK)
+2024-06-03 14:06:34,784 - telethon.client.updates - ERROR - Unhandled exception on first
+Traceback (most recent call last):
+  File "C:\Users\tirazh\AppData\Local\Programs\Python\Python312\Lib\site-packages\telethon\client\updates.py", line 570, in _dispatch_update
+    await callback(event)
+  File "C:\Users\tirazh\PycharmProjects\Davinchik-AI-Tool\main.py", line 268, in first
+    await response_validate(response.text, True)
+  File "C:\Users\tirazh\PycharmProjects\Davinchik-AI-Tool\main.py", line 247, in response_validate
+    next_response = await message.next_message()
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tirazh\PycharmProjects\Davinchik-AI-Tool\main.py", line 136, in next_message
+    response = await chat.next_message(
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tirazh\AppData\Local\Programs\Python\Python312\Lib\site-packages\characterai\aiocai\methods\chat2.py", line 224, in next_message
+    response = json.loads(await self.ws.recv())
+                          ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tirazh\AppData\Local\Programs\Python\Python312\Lib\site-packages\websockets\legacy\protocol.py", line 568, in recv
+    await self.ensure_open()
+  File "C:\Users\tirazh\AppData\Local\Programs\Python\Python312\Lib\site-packages\websockets\legacy\protocol.py", line 948, in ensure_open
+    raise self.connection_closed_exc()
+websockets.exceptions.ConnectionClosedOK: sent 1000 (OK); then received 1000 (OK)
+2024-06-03 14:06:37,164 - __main__ - INFO - no key pressed, proceeding
+2024-06-03 14:06:37,164 - __main__ - INFO - sending a judgement
+2024-06-03 14:06:37,164 - __main__ - INFO - validating response, state: False
+2024-06-03 14:06:37,164 - __main__ - INFO - mark as yes
+2024-06-03 14:06:37,275 - __main__ - INFO - regen
+2024-06-03 14:06:37,275 - __main__ - INFO - waiting for a key press
+2024-06-03 14:06:37,603 - __main__ - INFO - new message: Даша, 18, 📍1 км – Занимаюсь фото, учусь (неважно где, меня найдут;)
+Могу снять фильм, написать роман-эпопею о бегемотах, поставить спектакль, построить дом
+По натуре романтик, по жизни техник
+В свободное время пишу тексты для всего. Его нет, работаю в редакции 
+Могу плыть через Дон, если очень надо для съёмок. Мы с тобой сойдёмся, если тебя оценит мой начальник. На самом деле позитивная, добрая и активная 😁
+Интересно было бы пообщаться
+2024-06-03 14:06:37,603 - __main__ - INFO - message is profile
+2024-06-03 14:06:37,603 - __main__ - INFO - sending message to AI
+2024-06-03 14:06:37,603 - __main__ - INFO - getting respond from AI
+2024-06-03 14:06:44,291 - __main__ - INFO - no key pressed, proceeding
+2024-06-03 14:06:44,291 - __main__ - INFO - sending a judgement
+2024-06-03 14:06:44,291 - __main__ - INFO - validating response, state: False
+2024-06-03 14:06:44,291 - __main__ - INFO - mark as yes
+2024-06-03 14:06:44,389 - __main__ - INFO - regen
+2024-06-03 14:06:44,389 - __main__ - INFO - waiting for a key press
+2024-06-03 14:06:44,585 - __main__ - INFO - new message: Даша, 20, 📍2 км – Знакомства 🥰
+2024-06-03 14:06:44,585 - __main__ - INFO - message is profile
+2024-06-03 14:06:44,585 - __main__ - INFO - sending message to AI
+2024-06-03 14:06:44,585 - __main__ - INFO - getting respond from AI
+2024-06-03 14:06:45,922 - __main__ - INFO - validating response, state: True
+2024-06-03 14:06:45,922 - __main__ - INFO - mark as yes
+2024-06-03 14:06:45,922 - __main__ - INFO - regen
+2024-06-03 14:06:45,922 - __main__ - INFO - waiting for a key press
+2024-06-03 14:06:51,398 - __main__ - INFO - no key pressed, proceeding
+2024-06-03 14:06:51,398 - __main__ - INFO - sending a judgement
+2024-06-03 14:06:51,398 - __main__ - INFO - validating response, state: False
+2024-06-03 14:06:51,398 - __main__ - INFO - mark as yes
+2024-06-03 14:06:51,567 - __main__ - INFO - regen
+2024-06-03 14:06:51,568 - __main__ - INFO - waiting for a key press
+2024-06-03 14:06:52,127 - __main__ - INFO - new message: Диана, 18, 📍1 км – (16) учусь в рск, общение
+2024-06-03 14:06:52,127 - __main__ - INFO - message is profile
+2024-06-03 14:06:52,127 - __main__ - INFO - sending message to AI
+2024-06-03 14:06:52,127 - __main__ - INFO - getting respond from AI
+2024-06-03 14:06:52,175 - __main__ - INFO - validating response, state: True
+2024-06-03 14:06:52,175 - __main__ - INFO - mark as no
+2024-06-03 14:06:52,175 - __main__ - INFO - regen
+2024-06-03 14:06:52,175 - __main__ - INFO - waiting for a key press
+2024-06-03 14:06:52,941 - __main__ - INFO - no key pressed, proceeding
+2024-06-03 14:06:52,941 - __main__ - INFO - sending a judgement
+2024-06-03 14:06:52,941 - __main__ - INFO - validating response, state: False
+2024-06-03 14:06:52,941 - __main__ - INFO - mark as yes
+2024-06-03 14:06:53,442 - __main__ - INFO - new message: Кристина, 21, 📍2 км – Нефора бы, а там как получится
+2024-06-03 14:06:53,442 - __main__ - INFO - message is profile
+2024-06-03 14:06:53,442 - __main__ - INFO - sending message to AI
+2024-06-03 14:06:53,442 - __main__ - INFO - getting respond from AI
+2024-06-03 14:06:56,825 - telethon.client.updates - ERROR - Unhandled exception on first
+Traceback (most recent call last):
+  File "C:\Users\tirazh\AppData\Local\Programs\Python\Python312\Lib\site-packages\telethon\client\updates.py", line 570, in _dispatch_update
+    await callback(event)
+  File "C:\Users\tirazh\PycharmProjects\Davinchik-AI-Tool\main.py", line 267, in first
+    response = await message  # ask CAI
+               ^^^^^^^^^^^^^
+  File "C:\Users\tirazh\PycharmProjects\Davinchik-AI-Tool\main.py", line 132, in send_message
+    return await self._send_message()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tirazh\PycharmProjects\Davinchik-AI-Tool\main.py", line 124, in _send_message
+    response = await chat.send_message(
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tirazh\AppData\Local\Programs\Python\Python312\Lib\site-packages\characterai\aiocai\methods\chat2.py", line 363, in send_message
+    response = json.loads(await self.ws.recv())
+                          ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tirazh\AppData\Local\Programs\Python\Python312\Lib\site-packages\websockets\legacy\protocol.py", line 533, in recv
+    raise RuntimeError(
+RuntimeError: cannot call recv while another coroutine is already waiting for the next message
+2024-06-03 14:06:56,825 - telethon.client.updates - ERROR - Unhandled exception on first
+Traceback (most recent call last):
+  File "C:\Users\tirazh\AppData\Local\Programs\Python\Python312\Lib\site-packages\telethon\client\updates.py", line 570, in _dispatch_update
+    await callback(event)
+  File "C:\Users\tirazh\PycharmProjects\Davinchik-AI-Tool\main.py", line 267, in first
+    response = await message  # ask CAI
+               ^^^^^^^^^^^^^
+  File "C:\Users\tirazh\PycharmProjects\Davinchik-AI-Tool\main.py", line 132, in send_message
+    return await self._send_message()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tirazh\PycharmProjects\Davinchik-AI-Tool\main.py", line 124, in _send_message
+    response = await chat.send_message(
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tirazh\AppData\Local\Programs\Python\Python312\Lib\site-packages\characterai\aiocai\methods\chat2.py", line 363, in send_message
+    response = json.loads(await self.ws.recv())
+                          ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tirazh\AppData\Local\Programs\Python\Python312\Lib\site-packages\websockets\legacy\protocol.py", line 568, in recv
+    await self.ensure_open()
+  File "C:\Users\tirazh\AppData\Local\Programs\Python\Python312\Lib\site-packages\websockets\legacy\protocol.py", line 948, in ensure_open
+    raise self.connection_closed_exc()
+websockets.exceptions.ConnectionClosedOK: sent 1000 (OK); then received 1000 (OK)
+2024-06-03 14:06:58,580 - __main__ - INFO - no key pressed, proceeding
+2024-06-03 14:06:58,580 - __main__ - INFO - sending a judgement
+2024-06-03 14:06:58,580 - __main__ - INFO - validating response, state: False
+2024-06-03 14:06:58,580 - __main__ - INFO - mark as yes
+2024-06-03 14:06:58,689 - __main__ - INFO - regen
+2024-06-03 14:06:58,689 - __main__ - INFO - waiting for a key press
+2024-06-03 14:06:58,935 - __main__ - INFO - new message: Вероника, 19, 📍700м
+2024-06-03 14:06:58,935 - __main__ - INFO - message is profile
+2024-06-03 14:06:58,935 - __main__ - INFO - sending message to AI
+2024-06-03 14:06:58,935 - __main__ - INFO - getting respond from AI
+2024-06-03 14:06:59,177 - __main__ - INFO - no key pressed, proceeding
+2024-06-03 14:06:59,177 - __main__ - INFO - sending a judgement
+2024-06-03 14:06:59,177 - __main__ - INFO - validating response, state: False
+2024-06-03 14:06:59,177 - __main__ - INFO - mark as no
+2024-06-03 14:06:59,568 - __main__ - INFO - new message: Даша, 20, 📍1 км
+2024-06-03 14:06:59,568 - __main__ - INFO - message is profile
+2024-06-03 14:06:59,568 - __main__ - INFO - sending message to AI
+2024-06-03 14:06:59,568 - __main__ - INFO - getting respond from AI
+2024-06-03 14:07:05,695 - __main__ - INFO - no key pressed, proceeding
+2024-06-03 14:07:05,695 - __main__ - INFO - sending a judgement
+2024-06-03 14:07:05,695 - __main__ - INFO - validating response, state: False
+2024-06-03 14:07:05,695 - __main__ - INFO - mark as yes
+2024-06-03 14:07:05,803 - __main__ - INFO - regen
+2024-06-03 14:07:05,803 - __main__ - INFO - waiting for a key press
+2024-06-03 14:07:06,299 - __main__ - INFO - new message: Алина🦕, 21, 📍1 км
+2024-06-03 14:07:06,299 - __main__ - INFO - message is profile
+2024-06-03 14:07:06,299 - __main__ - INFO - sending message to AI
+2024-06-03 14:07:06,299 - __main__ - INFO - getting respond from AI
+2024-06-03 14:07:09,646 - telethon.client.updates - ERROR - Unhandled exception on first
+Traceback (most recent call last):
+  File "C:\Users\tirazh\AppData\Local\Programs\Python\Python312\Lib\site-packages\telethon\client\updates.py", line 570, in _dispatch_update
+    await callback(event)
+  File "C:\Users\tirazh\PycharmProjects\Davinchik-AI-Tool\main.py", line 267, in first
+    response = await message  # ask CAI
+               ^^^^^^^^^^^^^
+  File "C:\Users\tirazh\PycharmProjects\Davinchik-AI-Tool\main.py", line 132, in send_message
+    return await self._send_message()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tirazh\PycharmProjects\Davinchik-AI-Tool\main.py", line 124, in _send_message
+    response = await chat.send_message(
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tirazh\AppData\Local\Programs\Python\Python312\Lib\site-packages\characterai\aiocai\methods\chat2.py", line 363, in send_message
+    response = json.loads(await self.ws.recv())
+                          ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tirazh\AppData\Local\Programs\Python\Python312\Lib\site-packages\websockets\legacy\protocol.py", line 533, in recv
+    raise RuntimeError(
+RuntimeError: cannot call recv while another coroutine is already waiting for the next message
+2024-06-03 14:07:09,647 - telethon.client.updates - ERROR - Unhandled exception on first
+Traceback (most recent call last):
+  File "C:\Users\tirazh\AppData\Local\Programs\Python\Python312\Lib\site-packages\telethon\client\updates.py", line 570, in _dispatch_update
+    await callback(event)
+  File "C:\Users\tirazh\PycharmProjects\Davinchik-AI-Tool\main.py", line 267, in first
+    response = await message  # ask CAI
+               ^^^^^^^^^^^^^
+  File "C:\Users\tirazh\PycharmProjects\Davinchik-AI-Tool\main.py", line 132, in send_message
+    return await self._send_message()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tirazh\PycharmProjects\Davinchik-AI-Tool\main.py", line 124, in _send_message
+    response = await chat.send_message(
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tirazh\AppData\Local\Programs\Python\Python312\Lib\site-packages\characterai\aiocai\methods\chat2.py", line 363, in send_message
+    response = json.loads(await self.ws.recv())
+                          ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tirazh\AppData\Local\Programs\Python\Python312\Lib\site-packages\websockets\legacy\protocol.py", line 568, in recv
+    await self.ensure_open()
+  File "C:\Users\tirazh\AppData\Local\Programs\Python\Python312\Lib\site-packages\websockets\legacy\protocol.py", line 948, in ensure_open
+    raise self.connection_closed_exc()
+websockets.exceptions.ConnectionClosedOK: sent 1000 (OK); then received 1000 (OK)
+2024-06-03 14:07:09,937 - telethon.network.mtprotosender - INFO - Disconnecting from 149.154.167.51:443/TcpFull...
+2024-06-03 14:07:09,938 - telethon.network.mtprotosender - INFO - Disconnection from 149.154.167.51:443/TcpFull complete!
+2024-06-03 14:07:09,938 - telethon.network.mtprotosender - INFO - Not disconnecting (already have no connection)
+2024-06-03 14:07:09,950 - telethon.network.mtprotosender - INFO - Not disconnecting (already have no connection)
+2024-06-03 15:47:53,858 - __main__ - INFO - starting...
+2024-06-03 15:47:53,860 - __main__ - INFO - config loaded
+2024-06-03 15:47:53,867 - __main__ - INFO - telegram connected
+2024-06-03 15:47:53,868 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.51:443/TcpFull...
+2024-06-03 15:47:53,929 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.51:443/TcpFull complete!
+2024-06-03 15:47:54,303 - __main__ - INFO - telegram logged in
+2024-06-03 15:47:54,303 - __main__ - INFO - character api connected
+2024-06-03 15:48:06,627 - __main__ - INFO - new message: ✨🔍
+2024-06-03 15:48:06,627 - __main__ - INFO - not a profile, checking out bullshit.ini...
+2024-06-03 15:48:06,627 - __main__ - WARNING - no match found in bullshit.ini
+2024-06-03 15:48:06,923 - __main__ - INFO - new message: Виктория, 20, 📍2 км – мне 21
+2024-06-03 15:48:06,923 - __main__ - INFO - message is profile
+2024-06-03 15:48:06,923 - __main__ - INFO - sending message to AI
+2024-06-03 15:48:06,923 - __main__ - INFO - getting respond from AI
+2024-06-03 15:48:16,256 - __main__ - INFO - validating response, state: True
+2024-06-03 15:48:16,256 - __main__ - INFO - mark as no
+2024-06-03 15:48:16,256 - __main__ - INFO - regen
+2024-06-03 15:48:16,256 - __main__ - INFO - waiting for a key press
+2024-06-03 15:48:23,347 - __main__ - INFO - no key pressed, proceeding
+2024-06-03 15:48:23,347 - __main__ - INFO - sending a judgement
+2024-06-03 15:48:23,347 - __main__ - INFO - validating response, state: False
+2024-06-03 15:48:23,347 - __main__ - INFO - mark as no
+2024-06-03 15:48:24,209 - __main__ - INFO - new message: 𝐍𝐨 𝐧𝐚𝐦𝐞, 22, 📍1 км
+2024-06-03 15:48:24,210 - __main__ - INFO - message is profile
+2024-06-03 15:48:24,210 - __main__ - INFO - sending message to AI
+2024-06-03 15:48:24,210 - __main__ - INFO - getting respond from AI
+2024-06-03 15:48:34,355 - __main__ - INFO - validating response, state: True
+2024-06-03 15:48:34,355 - __main__ - INFO - bad format, trying again
+2024-06-03 15:48:44,682 - __main__ - INFO - validating response, state: True
+2024-06-03 15:48:44,682 - __main__ - INFO - mark as no
+2024-06-03 15:48:44,682 - __main__ - INFO - regen
+2024-06-03 15:48:44,682 - __main__ - INFO - waiting for a key press
+2024-06-03 15:48:51,694 - __main__ - INFO - no key pressed, proceeding
+2024-06-03 15:48:51,694 - __main__ - INFO - sending a judgement
+2024-06-03 15:48:51,694 - __main__ - INFO - validating response, state: False
+2024-06-03 15:48:51,694 - __main__ - INFO - mark as no
+2024-06-03 15:48:51,787 - __main__ - INFO - regen
+2024-06-03 15:48:51,787 - __main__ - INFO - waiting for a key press
+2024-06-03 15:48:52,165 - __main__ - INFO - new message: Karina, 21, 📍900м – ¯\_(ツ)_¯
+2024-06-03 15:48:52,166 - __main__ - INFO - message is profile
+2024-06-03 15:48:52,166 - __main__ - INFO - sending message to AI
+2024-06-03 15:48:52,166 - __main__ - INFO - getting respond from AI
+2024-06-03 15:48:58,792 - __main__ - INFO - no key pressed, proceeding
+2024-06-03 15:48:58,792 - __main__ - INFO - sending a judgement
+2024-06-03 15:48:58,792 - __main__ - INFO - validating response, state: False
+2024-06-03 15:48:58,792 - __main__ - INFO - mark as no
+2024-06-03 15:49:00,263 - __main__ - INFO - new message: Лизка, 20, 📍1 км – 🫤🫤🫤
+2024-06-03 15:49:00,264 - __main__ - INFO - message is profile
+2024-06-03 15:49:00,264 - __main__ - INFO - sending message to AI
+2024-06-03 15:49:00,264 - __main__ - INFO - getting respond from AI
+2024-06-03 15:49:02,370 - __main__ - INFO - validating response, state: True
+2024-06-03 15:49:02,370 - __main__ - INFO - bad format, trying again
+2024-06-03 15:49:11,707 - __main__ - INFO - validating response, state: True
+2024-06-03 15:49:11,707 - __main__ - INFO - bad format, trying again
+2024-06-03 15:49:22,006 - __main__ - INFO - validating response, state: True
+2024-06-03 15:49:22,007 - __main__ - INFO - bad format, trying again
+2024-06-03 15:49:30,739 - __main__ - INFO - validating response, state: True
+2024-06-03 15:49:30,740 - __main__ - INFO - bad format, trying again
+2024-06-03 15:49:39,387 - __main__ - INFO - validating response, state: True
+2024-06-03 15:49:39,387 - __main__ - INFO - bad format, trying again
+2024-06-03 15:49:49,761 - __main__ - INFO - validating response, state: True
+2024-06-03 15:49:49,761 - __main__ - INFO - bad format, trying again
+2024-06-03 15:49:51,412 - telethon.client.updates - INFO - Got difference for channel 1219944174 updates
+2024-06-03 15:49:59,173 - __main__ - INFO - validating response, state: True
+2024-06-03 15:49:59,173 - __main__ - INFO - mark as yes
+2024-06-03 15:49:59,174 - __main__ - INFO - regen
+2024-06-03 15:49:59,174 - __main__ - INFO - waiting for a key press
+2024-06-03 15:50:06,183 - __main__ - INFO - no key pressed, proceeding
+2024-06-03 15:50:06,183 - __main__ - INFO - sending a judgement
+2024-06-03 15:50:06,183 - __main__ - INFO - validating response, state: False
+2024-06-03 15:50:06,183 - __main__ - INFO - mark as yes
+2024-06-03 15:50:06,577 - __main__ - INFO - regen
+2024-06-03 15:50:06,578 - __main__ - INFO - waiting for a key press
+2024-06-03 15:50:07,502 - __main__ - INFO - new message: Анастэйша❤️‍🔥, 21, 📍2 км
+2024-06-03 15:50:07,502 - __main__ - INFO - message is profile
+2024-06-03 15:50:07,503 - __main__ - INFO - sending message to AI
+2024-06-03 15:50:07,503 - __main__ - INFO - getting respond from AI
+2024-06-03 15:50:11,576 - telethon.network.mtprotosender - INFO - Disconnecting from 149.154.167.51:443/TcpFull...
+2024-06-03 15:50:11,576 - telethon.network.mtprotosender - INFO - Disconnection from 149.154.167.51:443/TcpFull complete!
+2024-06-03 15:50:11,576 - telethon.network.mtprotosender - INFO - Not disconnecting (already have no connection)
+2024-06-03 15:50:13,781 - telethon.network.mtprotosender - INFO - Not disconnecting (already have no connection)
+2024-06-03 15:56:31,649 - __main__ - INFO - starting...
+2024-06-03 15:56:31,650 - __main__ - INFO - config loaded
+2024-06-03 15:56:31,659 - __main__ - INFO - telegram connected
+2024-06-03 15:56:31,659 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.51:443/TcpFull...
+2024-06-03 15:56:31,720 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.51:443/TcpFull complete!
+2024-06-03 15:56:32,088 - __main__ - INFO - telegram logged in
+2024-06-03 15:56:32,088 - __main__ - INFO - character api connected
+2024-06-03 15:56:36,958 - __main__ - INFO - new message: Алина🦕, 21, 📍1 км
+2024-06-03 15:56:36,959 - __main__ - INFO - message is profile
+2024-06-03 15:56:36,959 - __main__ - INFO - sending message to AI
+2024-06-03 15:56:36,959 - __main__ - INFO - getting respond from AI
+2024-06-03 15:56:37,509 - telethon.client.updates - ERROR - Unhandled exception on first
+Traceback (most recent call last):
+  File "C:\Users\tirazh\AppData\Local\Programs\Python\Python312\Lib\site-packages\characterai\aiocai\methods\chat2.py", line 447, in __aenter__
+    self.ws = await websockets.connect(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tirazh\AppData\Local\Programs\Python\Python312\Lib\site-packages\websockets\legacy\client.py", line 647, in __await_impl_timeout__
+    return await self.__await_impl__()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tirazh\AppData\Local\Programs\Python\Python312\Lib\site-packages\websockets\legacy\client.py", line 654, in __await_impl__
+    await protocol.handshake(
+  File "C:\Users\tirazh\AppData\Local\Programs\Python\Python312\Lib\site-packages\websockets\legacy\client.py", line 325, in handshake
+    raise InvalidStatusCode(status_code, response_headers)
+websockets.exceptions.InvalidStatusCode: server rejected WebSocket connection: HTTP 403
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\tirazh\AppData\Local\Programs\Python\Python312\Lib\site-packages\telethon\client\updates.py", line 570, in _dispatch_update
+    await callback(event)
+  File "C:\Users\tirazh\PycharmProjects\Davinchik-AI-Tool\main.py", line 268, in first
+    response = await message  # ask CAI
+               ^^^^^^^^^^^^^
+  File "C:\Users\tirazh\PycharmProjects\Davinchik-AI-Tool\main.py", line 131, in send_message
+    return await self._send_message()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tirazh\PycharmProjects\Davinchik-AI-Tool\main.py", line 122, in _send_message
+    async with await cai_client.connect() as chat:
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tirazh\AppData\Local\Programs\Python\Python312\Lib\site-packages\characterai\aiocai\methods\chat2.py", line 440, in __call__
+    return await self.__aenter__(self.token)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tirazh\AppData\Local\Programs\Python\Python312\Lib\site-packages\characterai\aiocai\methods\chat2.py", line 455, in __aenter__
+    raise ServerError('Wrong token')
+characterai.errors.ServerError: Wrong token
+2024-06-03 15:57:27,079 - telethon.network.mtprotosender - INFO - Disconnecting from 149.154.167.51:443/TcpFull...
+2024-06-03 15:57:27,081 - telethon.network.mtprotosender - INFO - Disconnection from 149.154.167.51:443/TcpFull complete!
+2024-06-03 15:57:27,086 - telethon.network.mtprotosender - INFO - Not disconnecting (already have no connection)
+2024-06-03 15:57:27,092 - telethon.network.mtprotosender - INFO - Not disconnecting (already have no connection)
+2024-06-03 16:01:25,255 - __main__ - INFO - starting...
+2024-06-03 16:01:25,256 - __main__ - INFO - config loaded
+2024-06-03 16:01:25,263 - __main__ - INFO - telegram connected
+2024-06-03 16:01:25,264 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.51:443/TcpFull...
+2024-06-03 16:01:25,325 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.51:443/TcpFull complete!
+2024-06-03 16:01:25,848 - __main__ - INFO - telegram logged in
+2024-06-03 16:01:25,849 - __main__ - INFO - character api connected
+2024-06-03 16:01:32,135 - __main__ - INFO - new message: 🇬🇪 Ника Давидовна, 22, 📍2 км
+2024-06-03 16:01:32,135 - __main__ - INFO - message is profile
+2024-06-03 16:01:32,136 - __main__ - INFO - sending message to AI
+2024-06-03 16:01:32,136 - __main__ - INFO - getting respond from AI
+2024-06-03 16:01:32,622 - telethon.client.updates - ERROR - Unhandled exception on first
+Traceback (most recent call last):
+  File "C:\Users\tirazh\AppData\Local\Programs\Python\Python312\Lib\site-packages\characterai\aiocai\methods\chat2.py", line 447, in __aenter__
+    self.ws = await websockets.connect(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tirazh\AppData\Local\Programs\Python\Python312\Lib\site-packages\websockets\legacy\client.py", line 647, in __await_impl_timeout__
+    return await self.__await_impl__()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tirazh\AppData\Local\Programs\Python\Python312\Lib\site-packages\websockets\legacy\client.py", line 654, in __await_impl__
+    await protocol.handshake(
+  File "C:\Users\tirazh\AppData\Local\Programs\Python\Python312\Lib\site-packages\websockets\legacy\client.py", line 325, in handshake
+    raise InvalidStatusCode(status_code, response_headers)
+websockets.exceptions.InvalidStatusCode: server rejected WebSocket connection: HTTP 403
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\tirazh\AppData\Local\Programs\Python\Python312\Lib\site-packages\telethon\client\updates.py", line 570, in _dispatch_update
+    await callback(event)
+  File "C:\Users\tirazh\PycharmProjects\Davinchik-AI-Tool\main.py", line 275, in first
+    response = await message  # ask CAI
+               ^^^^^^^^^^^^^
+  File "C:\Users\tirazh\PycharmProjects\Davinchik-AI-Tool\main.py", line 138, in send_message
+    return await self._send_message()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tirazh\PycharmProjects\Davinchik-AI-Tool\main.py", line 129, in _send_message
+    async with await cai_client.connect() as chat:
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tirazh\AppData\Local\Programs\Python\Python312\Lib\site-packages\characterai\aiocai\methods\chat2.py", line 440, in __call__
+    return await self.__aenter__(self.token)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tirazh\AppData\Local\Programs\Python\Python312\Lib\site-packages\characterai\aiocai\methods\chat2.py", line 455, in __aenter__
+    raise ServerError('Wrong token')
+characterai.errors.ServerError: Wrong token
+2024-06-03 16:03:52,786 - __main__ - INFO - starting...
+2024-06-03 16:03:52,788 - __main__ - INFO - config loaded
+2024-06-03 16:03:52,798 - __main__ - INFO - telegram connected
+2024-06-03 16:03:52,800 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.51:443/TcpFull...
+2024-06-03 16:03:52,864 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.51:443/TcpFull complete!
+2024-06-03 16:03:53,281 - __main__ - INFO - telegram logged in
+2024-06-03 16:21:29,529 - __main__ - INFO - starting...
+2024-06-03 16:21:29,531 - __main__ - INFO - config loaded
+2024-06-03 16:21:29,540 - __main__ - INFO - telegram connected
+2024-06-03 16:21:29,541 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.51:443/TcpFull...
+2024-06-03 16:21:29,604 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.51:443/TcpFull complete!
+2024-06-03 16:21:30,020 - __main__ - INFO - telegram logged in
+2024-06-03 16:21:32,173 - __main__ - INFO - character api connected
+2024-06-03 16:21:39,711 - __main__ - INFO - starting...
+2024-06-03 16:21:39,712 - __main__ - INFO - config loaded
+2024-06-03 16:21:39,715 - __main__ - INFO - telegram connected
+2024-06-03 16:21:39,715 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.51:443/TcpFull...
+2024-06-03 16:21:39,775 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.51:443/TcpFull complete!
+2024-06-03 16:21:40,267 - __main__ - INFO - telegram logged in
+2024-06-03 16:21:40,269 - __main__ - INFO - character api connected
+2024-06-03 16:21:47,320 - __main__ - INFO - new message: A, 19, 📍2 км – лайкай только если согласенсогласна пойти завтра со мной в клуб или караоке)
+2024-06-03 16:21:47,320 - __main__ - INFO - message is profile
+2024-06-03 16:21:47,320 - __main__ - INFO - sending message to AI
+2024-06-03 16:21:47,320 - __main__ - INFO - getting respond from AI
+2024-06-03 16:21:47,797 - telethon.client.updates - ERROR - Unhandled exception on first
+Traceback (most recent call last):
+  File "C:\Users\tirazh\AppData\Local\Programs\Python\Python312\Lib\site-packages\characterai\aiocai\methods\chat2.py", line 447, in __aenter__
+    self.ws = await websockets.connect(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tirazh\AppData\Local\Programs\Python\Python312\Lib\site-packages\websockets\legacy\client.py", line 647, in __await_impl_timeout__
+    return await self.__await_impl__()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tirazh\AppData\Local\Programs\Python\Python312\Lib\site-packages\websockets\legacy\client.py", line 654, in __await_impl__
+    await protocol.handshake(
+  File "C:\Users\tirazh\AppData\Local\Programs\Python\Python312\Lib\site-packages\websockets\legacy\client.py", line 325, in handshake
+    raise InvalidStatusCode(status_code, response_headers)
+websockets.exceptions.InvalidStatusCode: server rejected WebSocket connection: HTTP 403
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\tirazh\AppData\Local\Programs\Python\Python312\Lib\site-packages\telethon\client\updates.py", line 570, in _dispatch_update
+    await callback(event)
+  File "C:\Users\tirazh\PycharmProjects\Davinchik-AI-Tool\main.py", line 279, in first
+    response = await message  # ask CAI
+               ^^^^^^^^^^^^^
+  File "C:\Users\tirazh\PycharmProjects\Davinchik-AI-Tool\main.py", line 142, in send_message
+    return await self._send_message()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tirazh\PycharmProjects\Davinchik-AI-Tool\main.py", line 133, in _send_message
+    async with await cai_client.connect() as chat:
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tirazh\AppData\Local\Programs\Python\Python312\Lib\site-packages\characterai\aiocai\methods\chat2.py", line 440, in __call__
+    return await self.__aenter__(self.token)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tirazh\AppData\Local\Programs\Python\Python312\Lib\site-packages\characterai\aiocai\methods\chat2.py", line 455, in __aenter__
+    raise ServerError('Wrong token')
+characterai.errors.ServerError: Wrong token
+2024-06-03 16:31:59,760 - __main__ - INFO - starting...
+2024-06-03 16:31:59,761 - __main__ - INFO - config loaded
+2024-06-03 16:31:59,778 - __main__ - INFO - telegram connected
+2024-06-03 16:31:59,778 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.51:443/TcpFull...
+2024-06-03 16:31:59,839 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.51:443/TcpFull complete!
+2024-06-03 16:32:00,259 - __main__ - INFO - telegram logged in
+2024-06-03 16:32:00,262 - __main__ - INFO - character api connected
+2024-06-03 16:32:38,937 - __main__ - INFO - starting...
+2024-06-03 16:32:38,939 - __main__ - INFO - config loaded
+2024-06-03 16:32:38,945 - __main__ - INFO - telegram connected
+2024-06-03 16:32:38,945 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.51:443/TcpFull...
+2024-06-03 16:32:39,007 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.51:443/TcpFull complete!
+2024-06-03 16:32:39,549 - __main__ - INFO - telegram logged in
+2024-06-03 16:33:14,925 - telethon.network.mtprotosender - INFO - Disconnecting from 149.154.167.51:443/TcpFull...
+2024-06-03 16:33:14,925 - telethon.network.mtprotosender - INFO - Disconnection from 149.154.167.51:443/TcpFull complete!
+2024-06-03 16:33:14,930 - telethon.network.mtprotosender - INFO - Not disconnecting (already have no connection)
+2024-06-03 16:33:14,936 - telethon.network.mtprotosender - INFO - Not disconnecting (already have no connection)
+2024-06-03 17:41:38,455 - __main__ - INFO - starting...
+2024-06-03 17:41:38,457 - __main__ - INFO - config loaded
+2024-06-03 17:41:38,465 - __main__ - INFO - telegram connected
+2024-06-03 17:41:38,465 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.51:443/TcpFull...
+2024-06-03 17:41:38,527 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.51:443/TcpFull complete!
+2024-06-03 17:41:38,961 - __main__ - INFO - telegram logged in
+2024-06-03 17:42:05,287 - telethon.network.mtprotosender - INFO - Disconnecting from 149.154.167.51:443/TcpFull...
+2024-06-03 17:42:05,288 - telethon.network.mtprotosender - INFO - Disconnection from 149.154.167.51:443/TcpFull complete!
+2024-06-03 17:42:05,292 - telethon.network.mtprotosender - INFO - Not disconnecting (already have no connection)
+2024-06-03 17:42:05,297 - telethon.network.mtprotosender - INFO - Not disconnecting (already have no connection)
+2024-06-03 17:45:22,305 - __main__ - INFO - starting...
+2024-06-03 17:45:22,306 - __main__ - INFO - config loaded
+2024-06-03 17:45:22,314 - __main__ - INFO - telegram connected
+2024-06-03 17:45:22,314 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.51:443/TcpFull...
+2024-06-03 17:45:22,375 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.51:443/TcpFull complete!
+2024-06-03 17:45:22,916 - __main__ - INFO - telegram logged in
+2024-06-03 17:45:22,916 - __main__ - INFO - waiting for messages...
+2024-06-03 17:45:36,979 - __main__ - INFO - new message: ., 20, 📍1 км
+2024-06-03 17:45:36,980 - __main__ - INFO - message is profile
+2024-06-03 17:45:36,980 - __main__ - INFO - sending message to AI
+2024-06-03 17:45:36,980 - __main__ - INFO - getting respond from AI
+2024-06-03 17:45:37,528 - __main__ - CRITICAL - Invalid CAI token
+2024-06-03 17:45:53,610 - telethon.network.mtprotosender - INFO - Disconnecting from 149.154.167.51:443/TcpFull...
+2024-06-03 17:45:53,611 - telethon.network.mtprotosender - INFO - Disconnection from 149.154.167.51:443/TcpFull complete!
+2024-06-03 17:45:53,616 - telethon.network.mtprotosender - INFO - Not disconnecting (already have no connection)
+2024-06-03 17:45:53,621 - telethon.network.mtprotosender - INFO - Not disconnecting (already have no connection)
+2024-06-03 17:45:53,641 - asyncio - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-14' coro=<UpdateMethods._dispatch_update() done, defined at C:\Users\tirazh\AppData\Local\Programs\Python\Python312\Lib\site-packages\telethon\client\updates.py:521> exception=SystemExit(0)>
+Traceback (most recent call last):
+  File "C:\Users\tirazh\AppData\Local\Programs\Python\Python312\Lib\site-packages\characterai\aiocai\methods\chat2.py", line 447, in __aenter__
+    self.ws = await websockets.connect(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tirazh\AppData\Local\Programs\Python\Python312\Lib\site-packages\websockets\legacy\client.py", line 647, in __await_impl_timeout__
+    return await self.__await_impl__()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tirazh\AppData\Local\Programs\Python\Python312\Lib\site-packages\websockets\legacy\client.py", line 654, in __await_impl__
+    await protocol.handshake(
+  File "C:\Users\tirazh\AppData\Local\Programs\Python\Python312\Lib\site-packages\websockets\legacy\client.py", line 325, in handshake
+    raise InvalidStatusCode(status_code, response_headers)
+websockets.exceptions.InvalidStatusCode: server rejected WebSocket connection: HTTP 403
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\tirazh\PycharmProjects\Davinchik-AI-Tool\main.py", line 125, in _send_message
+    async with await cai_client.connect() as chat:
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tirazh\AppData\Local\Programs\Python\Python312\Lib\site-packages\characterai\aiocai\methods\chat2.py", line 440, in __call__
+    return await self.__aenter__(self.token)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tirazh\AppData\Local\Programs\Python\Python312\Lib\site-packages\characterai\aiocai\methods\chat2.py", line 455, in __aenter__
+    raise ServerError('Wrong token')
+characterai.errors.ServerError: Wrong token
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\tirazh\PycharmProjects\Davinchik-AI-Tool\main.py", line 284, in <module>
+    client.run_until_disconnected()
+  File "C:\Users\tirazh\AppData\Local\Programs\Python\Python312\Lib\site-packages\telethon\client\updates.py", line 96, in run_until_disconnected
+    return self.loop.run_until_complete(self._run_until_disconnected())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tirazh\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 672, in run_until_complete
+    self.run_forever()
+  File "C:\Users\tirazh\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 639, in run_forever
+    self._run_once()
+  File "C:\Users\tirazh\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 1985, in _run_once
+    handle._run()
+  File "C:\Users\tirazh\AppData\Local\Programs\Python\Python312\Lib\asyncio\events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\tirazh\AppData\Local\Programs\Python\Python312\Lib\site-packages\telethon\client\updates.py", line 570, in _dispatch_update
+    await callback(event)
+  File "C:\Users\tirazh\PycharmProjects\Davinchik-AI-Tool\main.py", line 278, in first
+    response = await message  # ask CAI
+               ^^^^^^^^^^^^^
+  File "C:\Users\tirazh\PycharmProjects\Davinchik-AI-Tool\main.py", line 141, in send_message
+    return await self._send_message()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tirazh\PycharmProjects\Davinchik-AI-Tool\main.py", line 138, in _send_message
+    sys.exit(0)
+SystemExit: 0
+2024-06-03 17:46:16,690 - __main__ - INFO - starting...
+2024-06-03 17:46:16,692 - __main__ - INFO - config loaded
+2024-06-03 17:46:16,700 - __main__ - INFO - telegram connected
+2024-06-03 17:46:16,701 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.51:443/TcpFull...
+2024-06-03 17:46:16,761 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.51:443/TcpFull complete!
+2024-06-03 17:46:17,114 - __main__ - INFO - telegram logged in
+2024-06-03 17:46:17,115 - __main__ - INFO - waiting for messages...
+2024-06-03 17:46:19,696 - __main__ - INFO - new message: нана, 20, 📍800м
+2024-06-03 17:46:19,697 - __main__ - INFO - message is profile
+2024-06-03 17:46:19,697 - __main__ - INFO - sending message to AI
+2024-06-03 17:46:19,697 - __main__ - INFO - getting respond from AI
+2024-06-03 17:46:29,557 - __main__ - INFO - validating response, state: True
+2024-06-03 17:46:29,557 - __main__ - INFO - bad format, trying again
+2024-06-03 17:46:38,746 - __main__ - INFO - validating response, state: True
+2024-06-03 17:46:38,746 - __main__ - INFO - mark as no
+2024-06-03 17:46:38,746 - __main__ - INFO - regen
+2024-06-03 17:46:38,746 - __main__ - INFO - waiting for a key press
+2024-06-03 17:46:45,845 - __main__ - INFO - no key pressed, proceeding
+2024-06-03 17:46:45,845 - __main__ - INFO - sending a judgement
+2024-06-03 17:46:45,845 - __main__ - INFO - validating response, state: False
+2024-06-03 17:46:45,845 - __main__ - INFO - mark as no
+2024-06-03 17:46:46,123 - __main__ - INFO - regen
+2024-06-03 17:46:46,123 - __main__ - INFO - waiting for a key press
+2024-06-03 17:46:46,498 - __main__ - INFO - new message: Маша, 22, 📍500м – как Divo
+2024-06-03 17:46:46,498 - __main__ - INFO - message is profile
+2024-06-03 17:46:46,498 - __main__ - INFO - sending message to AI
+2024-06-03 17:46:46,498 - __main__ - INFO - getting respond from AI
+2024-06-03 17:46:53,123 - __main__ - INFO - no key pressed, proceeding
+2024-06-03 17:46:53,123 - __main__ - INFO - sending a judgement
+2024-06-03 17:46:53,123 - __main__ - INFO - validating response, state: False
+2024-06-03 17:46:53,123 - __main__ - INFO - mark as no
+2024-06-03 17:46:53,711 - __main__ - INFO - new message: анастейша, 20, 📍600м
+2024-06-03 17:46:53,711 - __main__ - INFO - message is profile
+2024-06-03 17:46:53,711 - __main__ - INFO - sending message to AI
+2024-06-03 17:46:53,712 - __main__ - INFO - getting respond from AI
+2024-06-03 17:47:02,130 - __main__ - INFO - validating response, state: True
+2024-06-03 17:47:02,130 - __main__ - INFO - mark as no
+2024-06-03 17:47:02,130 - __main__ - INFO - regen
+2024-06-03 17:47:02,130 - __main__ - INFO - waiting for a key press
+2024-06-03 17:47:09,133 - __main__ - INFO - no key pressed, proceeding
+2024-06-03 17:47:09,133 - __main__ - INFO - sending a judgement
+2024-06-03 17:47:09,133 - __main__ - INFO - validating response, state: False
+2024-06-03 17:47:09,133 - __main__ - INFO - mark as no
+2024-06-03 17:47:09,618 - __main__ - INFO - new message: данька, 19, 📍700м
+2024-06-03 17:47:09,618 - __main__ - INFO - message is profile
+2024-06-03 17:47:09,619 - __main__ - INFO - sending message to AI
+2024-06-03 17:47:09,619 - __main__ - INFO - getting respond from AI
+2024-06-03 17:47:18,263 - __main__ - INFO - validating response, state: True
+2024-06-03 17:47:18,263 - __main__ - INFO - bad format, trying again
+2024-06-03 17:47:38,880 - __main__ - INFO - validating response, state: True
+2024-06-03 17:47:38,880 - __main__ - INFO - bad format, trying again
+2024-06-03 17:47:52,301 - __main__ - INFO - validating response, state: True
+2024-06-03 17:47:52,301 - __main__ - INFO - mark as no
+2024-06-03 17:47:52,301 - __main__ - INFO - regen
+2024-06-03 17:47:52,301 - __main__ - INFO - waiting for a key press
+2024-06-03 17:47:59,324 - __main__ - INFO - no key pressed, proceeding
+2024-06-03 17:47:59,324 - __main__ - INFO - sending a judgement
+2024-06-03 17:47:59,324 - __main__ - INFO - validating response, state: False
+2024-06-03 17:47:59,324 - __main__ - INFO - mark as no
+2024-06-03 17:47:59,605 - __main__ - INFO - regen
+2024-06-03 17:47:59,605 - __main__ - INFO - waiting for a key press
+2024-06-03 17:47:59,840 - __main__ - INFO - new message: Софья, 20, 📍2 км – (17) 
+Inst: Pavlovas64
+2024-06-03 17:47:59,840 - __main__ - INFO - message is profile
+2024-06-03 17:47:59,840 - __main__ - INFO - sending message to AI
+2024-06-03 17:47:59,840 - __main__ - INFO - getting respond from AI
+2024-06-03 17:48:06,614 - __main__ - INFO - no key pressed, proceeding
+2024-06-03 17:48:06,614 - __main__ - INFO - sending a judgement
+2024-06-03 17:48:06,614 - __main__ - INFO - validating response, state: False
+2024-06-03 17:48:06,614 - __main__ - INFO - mark as no
+2024-06-03 17:48:06,701 - __main__ - INFO - regen
+2024-06-03 17:48:06,701 - __main__ - INFO - waiting for a key press
+2024-06-03 17:48:06,977 - __main__ - INFO - new message: настюнчик, 22, 📍2 км – Люблю котиков и пиццу🥰
+2024-06-03 17:48:06,977 - __main__ - INFO - message is profile
+2024-06-03 17:48:06,977 - __main__ - INFO - sending message to AI
+2024-06-03 17:48:06,977 - __main__ - INFO - getting respond from AI
