@@ -15,17 +15,15 @@ git_bullshit_url = (
     "https://raw.githubusercontent.com/EgorOleynikov/DavinchikAIValidator/master/bullshit.ini"
 )
 
-cai_chat_id = '9f944367-34d7-4116-a92f-fc5fc47cd1c7'
-
 
 def setup_logger():
     # Configure the logging
     logging.basicConfig(
-        level=logging.INFO,  # Set the logging level
+        level=logging.DEBUG,  # Set the logging level
         format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
         handlers=[
             logging.FileHandler("runtime.log", encoding="utf-8"),  # Log to a file
-            # logging.StreamHandler()  # Log to the console
+            #  logging.StreamHandler()  # Log to the console
         ]
     )
 
@@ -64,6 +62,7 @@ try:
     password = config['Telegram API']['password']
     cai_bot_id = config['Character AI API']['cai_bot_id']
     cai_token = config['Character AI API']['cai_token']
+    cai_chat_id = config['Character AI API']['cai_chat_id']
     timeout = int(config['Settings']['timeout'])
     #
     logger.info("config loaded")
@@ -124,7 +123,7 @@ class CAIMessage:
         try:
             async with await cai_client.connect() as chat:
                 response = await chat.send_message(
-                    char=cai_bot_id, chat_id=cai_chat_id, text=self.message_text
+                    char=cai_bot_id, chat_id=cai_chat_id if cai_chat_id != '' else None, text=self.message_text
                 )
                 self.message_id = response.turn_key.turn_id
                 self.response = response
@@ -162,7 +161,7 @@ try:
                 logger.info("not a profile, checking out bullshit.ini...")
                 for item in bullshit:
                     if item[0] in message_text:
-                        await client.send_message(event.sender_id, bullshit[item][1])
+                        await client.send_message(event.sender_id, item[1])
 
                 logger.warning("no match found in bullshit.ini")
 
@@ -281,7 +280,36 @@ try:
                 await regen()
 
 
+    async def main():
+        #  CAI connection valid
+        try:
+            async with await cai_client.connect() as chat:
+                global cai_chat_id
+                cai_last_chat_id = ''
+                cai_new_chat_id = ''
+                if cai_chat_id == 'None':
+                    cai_last_chat = await cai_client.get_chat(cai_bot_id)
+                    cai_last_chat_id = cai_last_chat.chat_id
+                    if len(cai_last_chat_id) == 0:
+                        me = await cai_client.get_me()
+                        new, answer = await chat.new_chat(cai_bot_id, me.id)
+                        cai_new_chat_id = new.chat_id
+
+                    cai_chat_id = cai_last_chat_id if cai_last_chat_id != '' else cai_new_chat_id if cai_new_chat_id != '' else cai_chat_id
+                    config.set('Character AI API', 'cai_chat_id', cai_chat_id)
+                    with open('config.ini', 'w') as configfile:
+                        config.write(configfile)
+
+        except errors.ServerError as e:
+            logger.critical("Invalid CAI settings")
+            print(e)
+            print("Invalid CAI settings")
+            input("press to close...")
+            sys.exit(0)
+
+
     with client:
+        client.loop.run_until_complete(main())
         client.run_until_disconnected()
 
 except asyncio.CancelledError:
